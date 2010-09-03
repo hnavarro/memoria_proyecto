@@ -1,0 +1,14 @@
+This is TeX, Version 3.141592 (Web2C 7.5.6) (format=tex 2010.7.5)  30 AUG 2010 18:42
+**Baremaci^^c3^^b3n.tex
+(./Baremaci^^c3^^b3n.tex
+! Undefined control sequence.
+l.10 \documentclass
+                   [runningheads,a4paper,spanish]{llncs}
+? 
+! Interruption.
+<to be read again> 
+                   [
+l.10 \documentclass[
+                    runningheads,a4paper,spanish]{llncs}
+? X
+No pages of output.
