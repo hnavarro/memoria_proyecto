@@ -87,7 +87,7 @@ Cuando las tablas ocupan ms de un pgina se debe utilizar un tipo especial de tab
 	
 	\multicolumn{4}{c}%
 	{{\bfseries \tablename\ \thetable{} -- continua en la pgina anterior}} \\
-	\hline \multicolumn{1}{|c|}{\textbf{Posicin Real}} & \multicolumn{1}{c|}{\textbf{Posici�n estimada}} & \multicolumn{1}{c|}{\textbf{Coef. Correlacin}} & \multicolumn{1}{c|}{\textbf{Acierto/Fallo}} \\ \hline 
+	\hline \multicolumn{1}{|c|}{\textbf{Posicin Real}} & \multicolumn{1}{c|}{\textbf{Posicin estimada}} & \multicolumn{1}{c|}{\textbf{Coef. Correlacin}} & \multicolumn{1}{c|}{\textbf{Acierto/Fallo}} \\ \hline 
 	\endhead
 	
 	\hline \multicolumn{4}{|r|}{{Continua en la pgina siguiente}} \\ \hline
