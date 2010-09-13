@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{}
 \providecommand{\url}[1]{#1}
 \csname url@rmstyle\endcsname
 \providecommand{\newblock}{\relax}
@@ -17,10 +17,5 @@
 \language=\csname l@#1\endcsname
 \fi
 #2}}
-
-\bibitem{references:sotelo07}
-M.~A. Sotelo, M.~Oca{\~n}a, L.~M. Bergasa, R.~Flores, M.~Marr\'{o}n, and M.~A.
-  Garc\'{\i}a, ``Low level controller for a pomdp based on wifi observations,''
-  \emph{Robot. Auton. Syst.}, vol.~55, no.~2, pp. 132--145, 2007.
 
 \end{thebibliography}

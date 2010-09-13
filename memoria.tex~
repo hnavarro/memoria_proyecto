@@ -1,186 +1,67 @@
 \section{Introducci\'on}
-Esta seccin representa una introduccin al Trabajo Fin de Carrera desarrollado.
-a) Introducción en la que se indique el planteamiento del trabajo y los
-objetivos a conseguir.
-b) Base teórica en la que se expongan los conceptos teóricos utilizados para
-la realización del trabajo, así como los cálculos realizados.
-c) Descripción experimental, cuando sea necesario, descripción del diseño,
-resultados, etc.
-d) Conclusiones y futuro trabajo.
+El trabajo expuesto en este documento tiene como fin la implantación de un museo virtual en el Observatorio de Madrid. La parte más importante en este tipo de proyectos (y, por extensión, de todos) es la recogida de requisitos y el análisis (en este caso, elección principalmente).
+Para poder entender mejor lo que se solicita por parte del cliente es necesario conocer el concepto de "museo virtual" al que tratamos de acercarnos. Se trataría de una plataforma accesible físicamente desde puestos instalados en una sala de exposiciones dentro del propio observatorio, accesible en línea desde Internet y que comprenda una base de datos posiblemente reutilizable en el futuro. Con estas pinceladas he deducido que la solución existente (no hay que olvidar que esto es ingeniería) más cercana a lo que se nos pide pasaría, en mi opinión, por un gestor de contenidos o CMS (Content Management System).
+Dada la amplísima oferta que hay de estos productos en el mercado, creo conveniente hacer una selección a partir de criterios, unos surgidos y otros sugeridos, analizados mano a mano con el cliente.
+A partir de ahí, se escogerá el CMS candidato con mejores cualidades en cuanto a facilidad de uso, bajo mantenimiento y características incluidas por defecto. Las características no comprendidas en esta selección (pero necesarias igualmente) serán incorporadas junto con las diferentes modificaciones previstas para darle forma final a la plataforma. Posteriormente, se integrará y se pondrá en servicio con los plazos que el cliente disponga para ello.
 
+\section{Base teórica}
+Al tratarse de un proyecto tan práctico, la base teórica del mismo no tiene un gran misterio. Se trata de realizar el clásico enfoque de presentar distintas aplicaciones al cliente cumpliendo unos requerimientos mínimos y adpatanto e integrando la solución escogida para que encaje con el sistema solicitado.
+
+En esta ocasión, presentaremos varios subapartados según las distintas fases del proyecto.
 
 \subsection{Estado del Arte}
-En el estado del arte se enumeran los trabajos ms relevantes de otros grupos de investigacin. A continuacin se muestra un ejemplo del uso de vietas que nos proporciona ''itemize'':
+\par Para elaborar este proyecto pensé que lo más sensato era, una vez acotado el problema, tratar de echar un vistazo a cómo estaban las cosas en la actualidad en otros museos. Considero importante saber en qué estado se encuentran tanto el círculo de los CMS, wikis, museos y catálogos informatizados.
+En este periplo, he topado con varias fuentes de información desconocidas para mí, algunas ideas sacadas de museos visitados en persona y una exhaustiva (aunque difícil de discernir) cantidad de datos sobre gestores de contenido.
+
+\subsubsection{¿Qué puede ser un museo virtual?}
+\par Al hablar de museos virtuales, a uno se le pueden venir a la mente distintos conceptos sobre lo que representan esas palabras:
 
 \begin{itemize}
-\item En el trabajo ..... 
-\item En el siguiente trabajo.....
+\item Visita virtual al museo (modo "Second Life").
+\item Galería de imágenes.
+\item Sitio web del museo (meramente informativo).
+\item Ampliación de lo expuesto en el museo.
 \end{itemize}
 
-Existen mltiples formas de insertar figuras en Latex. A continuacin, se muestra un ejemplo del uso de ''figure''. Como se puede ver en la Figura \ref{fig1} tambin se pueden poner referencias a las figuras por medio de ''ref'' y la etiqueta ''label'' de la figura en particular.
+En el primer caso, nos referimos a esa idea de recrear a través de gráficos en 3D la experiencia de una visita real al museo. Esta solución es muy poco usada debido a lo costoso de la misma. Además de modelar infográficamente la arquitectura del museo y construir una aplicación que utilice un potente motor gráfico para sostenerla, hay que tener en cuenta el gran tráfico generado para que esto funcione adecuadamente. En mi opinión, dado que difícilmente se puede reemplazar la experiencia de visitar el museo en persona, creo que no compensa tanto despliegue de medios ya que no contribuye (al menos en el caso expuesto) sensiblemente al objetivo marcado.
 
-\begin{figure}[h] %el especificador [h] indica que ponga la figura aqui si es posible
-\centering
-\includegraphics[width=4.7in]{Figure1.eps}
-% where an .eps filename suffix will be assumed under latex, 
-% and a .pdf suffix will be assumed for pdflatex
-\caption{Departmento de Electr\'onica}
-\label{fig1}
-\end{figure}
+El segundo caso, una mera galería de imágenes, aunque pobre, podría vale como museo virtual para un museo de arte en según qué circunstancias. Obviamente, y aunque la presentación de la información en este formato sea algo a tener en cuenta, si limitáramos nuestro museo virtual a este tipo de sitio, estaríamos, creo yo, limitando muchísimo la información ofrecida, cosa que no cuadra con el objetivo de complementar el museo.
 
+El tercer caso lo he incluído como posibilidad de que alguien lo identificase al hablar de "museos virtuales", dado que crear una página con información corporativa, de horarios y accesos es sólo una parte de lo que pretendería este proyecto.
 
+El cuarto caso es el que nos ocupa, siendo el cometido del mismo complementar la exposición física, permitiendo a los visitantes (y no visitantes) conseguir un trasfondo y una explicación más completa de los objetos y su contexto para contribuir a la divulgación de un conocimiento relacionado con lo expuesto. Obviamente incluirá parte de galería de imágenes en cuanto a interfaz, información de típico sitio web como caso anecdótico de contenido y componentes que mejoren la interactividad sin sacrificar el desempeño y el coste. 
 
-\subsection{Objetivos}
+\subsubsection{Museos}
 
-Los objetivos principales de este Trabajo Fin de Carrera son (ejemplo utilizando ''enumerate''):
+\par Aprendiendo de museos conocidos, podemos poner ejemplos prácticos de los que sacar ideas o matices que el cliente pueda identificar como deseables. Está claro que sería imposible abarcar todos o siquiera la mayoría de los museos del mundo, ni siquiera los más importantes (¿quién decide esa lista?), pero sin embargo sí se pueden incluir ideas que hayamos rescatado de otras implementaciones satisfactorias.
+Algunos ejemplos son:
 
-\begin{enumerate}
-\item Primer objetivo ..... 
-\item Segundo objetivo.....
-  \begin{enumerate}
-  \item Objetivo 2.1....
-  \item Objetivo 2.2....
-  \end{enumerate}
-\item Tercer objetivo....
-\end{enumerate}
+\paragraph{Tate Modern (Londres, Reino Unido)}
+\par Pude comprobar en directo algunas de las ideas puestas en práctica por esta entidad gracias a un viaje reciente. Allí pude ver buenas ideas como el acercamiento de los contenidos de las salas al gran público (en especial, a niños) a base de actividades interactivas que introducían con naturalidad y entretenimiento conceptos difíciles de asimilar de otra manera. Sin duda es una buena idea, aunque no se encuadra en este proyecto, podría ser considerada para futuros trabajos. 
+\par Más concretamente, en materia de museos virtuales, vi la adopción de terminales de mano que complementan la experiencia del visitante físico. Estamos acostumbrados a ver las típicas guías locutadas en diversos idiomas que nos amplían el contenido de las exposiciones introduciendo un número del índice de grabaciones. Suelen ser aparatos con usos muy restringidos (especiales para museos) con lo que eso supone para el coste final para el museo. En cambio, en este caso, se trataba de dispositivos móviles que están en el mercado, en nuestro caso, una especie de PDA de marca Toshiba o Dell (según renovaciones). Son dispositivos básicos que permiten mostrar contenidos web y multimedia sin muchas complicaciones. Esto es: pantalla en color, interfaz intuitiva, salida de auriculares y conectividad inalámbrica. Este último punto permite renovar sin coste temporal importante (y de manera transparente al visitante) los contenidos presentados. El hecho de que sea un dispositivo común abarataría los costes, premitiendo, incluso, trabajar con tecnología no necesariamente de última generación, dada la baja exigencia de los contenidos a presentar. Parece evidente que será más fácil conseguir un buen precio por una buena cantidad de dispositivos a punto de ser retirados del mercado o símplemente de stock sobrante.
+Debajo de todo esto subyace la idea de utilizar unos estándares mínimos, aunque sean estándares de facto. Esto nos permitiría (como en el caso del Tate Modern) reemplazar los dispositivos por otros nuevos sin hacer cambios significativos en la plataforma y haciendo que coexistiesen ambos modelos. Y lo que es, quizá, más interesante, dar la opción a usuarios que posean dispositivos con capacidades similares a los ofrecidos de conectarse al museo virtual por su cuenta y en directo, ahorrando bastante en costes.
 
-\section{Desarrollo}
-
-En esta seccin se incluir el desarrollo del trabajo.
-
-Tambin resulta til poder introducir ecuaciones que se encuentran tanto en lnea con el texto $\sigma=0.75$, como en un prrafo aparte (ver ecuacin \ref{eq1}). Al igual que ocurre con las figuras, tambin se pueden referenciar las ecuaciones. 
+\paragraph{MoMA (New York, EEUU)}
+\par Este apartado, desgraciadamente, se refiere a las ideas y modelos observados directamente en su página web. Nos encontramos con ideas, sobre todo en cuanto a presentación visual de contenidos. Digamos que la idea de presentar los contenidos en una matriz de imágenes con pies identificativos que, al pulsar sobre ellas, nos lleven a la información específica de ese objeto podría ser cercana a lo buscado. También sería una idea a tener en cuenta la categorización de las obras por área temática, época o tipo de objeto, aunque no lo firmamos como algo seguro en nuestra plataforma. Por último, reseñar que ellos parece que hacen (o al menos tienen la posibilidad de hacer) uso de la vista "por perspectivas". Esto sería como tener una lista desplegable en la pantalla que nos permitiera fácilmente cambiar entre los distintos puntos de vista (como si de idiomas se tratara) pudiendo adaptar la plataforma a una presentación para , por ejemplo, niños, estudiantes o expertos en el tema. El sistema finalmente escogido para implementar esa "granularidad" de contenidos se tomó de otro sitio web que veremos más adelante.
 
 
-\begin{equation}
-  p[q_t=\sigma_t|q_{t-1}=\sigma_{t-1}]\label{eq1}
-\end{equation}
+\subsubsection{Enciclopedias}
+
+\par Como parte de la gestión del conocimiento, además de las webs de los propios museos, he indagado en otras webs que se dedican a funciones parecidas (no olvidemos que el museo al que se refiere este trabajo dista de ser un museo de arte) a lo que queremos conseguir en cuanto a organización del conocimiento.
+
+\paragraph{Wikipedia}
+\par Digamos que este sería el paradigma de enciclopedia dinámica y colaborativa hoy en día. Es más o menos familiar para cualquier persona que use con asiduidad internet (sobre todo para buscar información) y aunque sus fuentes, consistencia y fiabilidad puedan ser cuestionables, su manera de disponer la información no puede tomarse en absoluto como mala. De aquí podríamos tomar en consideración el aspecto colaborativo del medio, pero en reuniones con el cliente se convino que al ser una institución de referencia, los contenidos (aunque aportados por diferentes personas) debían ser acotados a unos poco usuarios (generalmente trabajadores) y moderados en última instancia por la figura de un editor que revisaría y daría el visto bueno a los mismos.
+La disposición de portal inicial ofrecida por este sitio es una idea que podría funcionar en nuestro caso, incluyendo esos pequeños "ganchos" que cambian diaria o aleatoriamente para que determinados artículos puedan ser descubiertos por un navegante no asiduo. Además, mantiene una división temática necesaria para el sitio y tiene un sistema de control de versiones válido para documentos escritos, así como la relación semántica de entradas y la inclusión de contenido multimedia fácilmente.
+Referido al punto anterior, hay que señalar que, en un principio, se ha optado por la manera de Wikipedia de ampliar la profundidad de un artículo: en vez de diseñar distintas capas para distintos individuos, enlazar los artículos que profundizan sobre un tema para que sea el usuario el que decida cuándo parar.
+
+
+\paragraph{Indianopedia, Frikipedia, *pedia}
+\par Esta entrada engloba varios sitios por una razón: existe un fenómeno creciente que consiste en que cada "ecosistema" de conocimiento puede generar su propio repositorio de información. Esto contribuye a diversificar las fuentes evitando fraudes y manipulaciones, a la vez que descentraliza y permite pluralidad de visiones. Igual que existen el diccionario de la RAE, María Moliner, Espasa Calpe, etc., el concepto de la propia enciclopedia, en nuestro caso, puede servir para contener los artículos a los que no llegan otras enciclopedias más generales o de los que tenemos un conocimiento certero y fuentes propias.
 
 
 
-\section{Resultados}
-En este apartado se introducirn los resultados ms relevantes del trabajo.
 
-A continuacin, se muestra un ejemplo de tabla simple (ver tabla \ref{table1}).
-
-\begin{table}
-  % increase table row spacing, adjust to taste
-  \renewcommand{\arraystretch}{1.3}
-  \caption{Comparativa}
-  \label{table1}
-  \begin{center}
-    % Some packages, such as MDW tools, offer better commands for making tables
-    % than the plain LaTeX2e tabular which is used here.
-    \begin{tabular}{|c|c|c|}
-      \hline
-      Method & Training Time & Man-Work (\%)\\
-      \hline
-      Propagation model & $<$ 30 sec & 5\\
-      \hline
-      Manual & 9 h 30 min & 24\\
-      \hline
-      Automatic & 2 h & 10 8\\
-      \hline
-    \end{tabular}
-  \end{center}
-\end{table}
-
-Cuando las tablas ocupan ms de un pgina se debe utilizar un tipo especial de tablas denominado ''longtbale''. A continuacin, se muestra un ejemplo del mismo (ver tabla \ref{table2}).
-
-\begin{center}
-	\begin{longtable}{|c|c|c|c|}
-	\caption[Resultados de la Correlacion cruzada]{Resultados de la Correlacin cruzada} \label{table2} \\
-	
-	\hline \multicolumn{1}{|c|}{\textbf{Posicin Real}} & \multicolumn{1}{c|}{\textbf{Posicin estimada}} & \multicolumn{1}{c|}{\textbf{Coef. Correlacin}} & \multicolumn{1}{c|}{\textbf{Acierto/Fallo}} \\ \hline 
-	\endfirsthead
-	
-	\multicolumn{4}{c}%
-	{{\bfseries \tablename\ \thetable{} -- continua en la pgina anterior}} \\
-	\hline \multicolumn{1}{|c|}{\textbf{Posicin Real}} & \multicolumn{1}{c|}{\textbf{Posicin estimada}} & \multicolumn{1}{c|}{\textbf{Coef. Correlacin}} & \multicolumn{1}{c|}{\textbf{Acierto/Fallo}} \\ \hline 
-	\endhead
-	
-	\hline \multicolumn{4}{|r|}{{Continua en la pgina siguiente}} \\ \hline
-	\endfoot
-	\hline \hline
-	\endlastfoot
-	
-	\hline	2P0	&	2P0	&	0,004954	&	A	\\
-	\hline	2P1	&	2P4	&	0,005752	&	F	\\
-	\hline	2P2	&	2P2	&	0,005461	&	A	\\
-	\hline	2P3	&	2P0	&	0,004634	&	F	\\
-	\hline	2P5	&	2P4	&	0,005991	&	F	\\
-	\hline	2P6	&	2P16	&	0,004410	&	F	\\
-	\hline	2P7	&	3P9	&	0,008038	&	F	\\
-	\hline	2P8	&	3P9	&	0,003753	&	F	\\
-	\hline	2P9	&	2P7	&	0,004908	&	F	\\
-	\hline	2P10	&	2P10	&	0,007273	&	A	\\
-	\hline	2P14	&	2P16	&	0,006485	&	F	\\
-	\hline	2P15	&	2P15	&	0,004932	&	A	\\
-	\hline	2P16	&	2P16	&	0,006237	&	A	\\
-	\hline	2P17	&	2P15	&	0,005110	&	F	\\
-	\hline	2P18	&	3P18	&	0,006235	&	F	\\
-	\hline	2P19	&	3P18	&	0,004827	&	F	\\
-	\hline	2P20	&	2P20	&	0,006877	&	A	\\
-	\hline	2P22	&	3P18	&	0,003048	&	F	\\
-	\hline	2P24	&	2P24	&	0,006833	&	A	\\
-	\hline	2P25	&	2P25	&	0,004875	&	A	\\
-	\hline	2P26	&	2P31	&	0,005511	&	F	\\
-	\hline	2P27	&	2P28	&	0,004590	&	F	\\
-	\hline	2P30	&	2P31	&	0,005576	&	F	\\
-	\hline	2P31	&	2P31	&	0,007213	&	A	\\
-	\hline	2P32	&	2P35	&	0,003340	&	F	\\
-	\hline	2P34	&	2P34	&	0,004128	&	A	\\
-	\hline	2P36	&	2P35	&	0,003329	&	F	\\
-	\hline	2P37	&	2P37	&	0,003468	&	A	\\
-	\hline	2P39	&	2P38	&	0,002577	&	F	\\
-	\hline	2P40	&	2P43	&	0,004303	&	F	\\
-	\hline	2P41	&	2P41	&	0,001573	&	A	\\
-	\hline	2P42	&	2P41	&	0,000846	&	F	\\
-	\hline	2P44	&	2P44	&	0,002732	&	A	\\
-	\hline	2P45	&	23P45	&	0,001958	&	F	\\
-	\hline	2P47	&	2P34	&	0,002869	&	F	\\
-	\hline	2P48	&	2P43	&	0,004569	&	F	\\
-	\hline	2P49	&	3P51	&	0,001374	&	F	\\
-	\hline	2P50	&	2P34	&	0,002274	&	F	\\
-	\hline	2P51	&	2P63	&	0,003931	&	F	\\
-	\hline	2P52	&	2P55	&	0,003537	&	F	\\
-	\hline	2P53	&	3P56	&	0,003126	&	F	\\
-	\hline	2P54	&	2P67	&	0,005560	&	F	\\
-	\hline	2P56	&	2P55	&	0,002817	&	F	\\
-	\hline	2P57	&	2P67	&	0,006168	&	F	\\
-	\hline	2P58	&	2P58	&	0,005278	&	A	\\
-	\hline	2P60	&	3P66	&	0,004966	&	F	\\
-	\hline	2P61	&	3P61	&	0,004748	&	A	\\
-	\hline	2P64	&	2P67	&	0,005342	&	F	\\
-	\hline	2P66	&	2P4	&	0,004172	&	F	\\
-	\hline	2P67	&	2P67	&	0,005706	&	A	\\
-	\hline	3P0	&	3P0	&	0,003674	&	A	\\
-	\hline	3P61	&	2P61	&	0,003263	&	F	\\
-	\hline	3P64	&	2P67	&	0,003484	&	F	\\
-	\hline	3P65	&	2P67	&	0,002975	&	F	\\
-	\hline	3P66	&	2P58	&	0,005029	&	F	\\
-	\hline	3P67	&	3P67	&	0,003714	&	A	\\
-	\end{longtable}
-	\end{center}
+\section{Descripción del diseño}
+\section{Conclusiones y trabajo futuro}
 
 
-
-En algunas ocasiones, también resulta útil emplear el entorno ''subfigure'' para añadir múltiples imágenes dentro de la misma figura. A continuación, se muestra un ejemplo del uso en la figura \ref{fig2}. También se pueden referenciar las sub-figuras de forma individual, por ejemplo la sub-figura \ref{fig2b}.
-
-\begin{figure}[h]
-\centerline{\subfigure[Mean entropy]{\includegraphics[width=3in]{Figure2}
-% where an .eps filename suffix will be assumed under latex, 
-% and a .pdf suffix will be assumed for pdflatex
-\label{fig2a}}
-\hfil
-\subfigure[Error Percentage]{\includegraphics[width=2.7in]{Figure3}
-% where an .eps filename suffix will be assumed under latex, 
-% and a .pdf suffix will be assumed for pdflatex
-\label{fig2b}}}
-\caption{Optimal trames number in the training data set}
-\label{fig2}
-\end{figure}
-
-\section{Conclusiones y Trabajos Futuros}
-En este apartado se resumen las conclusiones obtenidas y se proponen futuras líneas de investigación que se deriven del trabajo.
-
-Para añadir una referencia a un autor, se puede utilizar el paquete ''cite''. En el trabajo \cite{references:sotelo07}, se muestra un trabajo...

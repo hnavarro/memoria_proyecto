@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=latex 2010.7.5)  3 SEP 2010 16:47
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=latex 2010.7.5)  13 SEP 2010 15:19
 entering extended mode
  %&-line parsing enabled.
 **final
@@ -737,23 +737,9 @@ Cap\'{\i }tulo 2.
 ]
 \openout2 = `memoria.aux'.
 
- (./memoria.tex
-File: ./eps/Figure1.eps Graphic file (type eps)
- <./eps/Figure1.eps> [19
+ (./memoria.tex [19
 
-]
-Underfull \vbox (badness 10000) detected at line 118
- []
-
-[20]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [21]
-File: ./eps/Figure2.eps Graphic file (type eps)
-
-<./eps/Figure2.eps>
-File: ./eps/Figure3.eps Graphic file (type eps)
- <./eps/Figure3.eps>) [22]
+] [20] [21]) [22]
 Cap\'{\i }tulo 3.
 [23
 
@@ -829,7 +815,11 @@ Cap\'{\i }tulo 8.
 
 ] [42
 
-] (./final.bbl) [43
+] (./final.bbl
+
+LaTeX Warning: Empty `thebibliography' environment on input line 21.
+
+) [43
 
 ] [44
 
@@ -838,12 +828,12 @@ No file final.ind.
 (./final.aux (./resumen.aux) (./memoria.aux) (./planos.aux) (./pliego.aux)
 (./presupuesto.aux) (./manual.aux) (./soporte.aux)) ) 
 Here is how much of TeX's memory you used:
- 6518 strings out of 95038
- 85502 string characters out of 1182348
- 173043 words of memory out of 1500000
- 9503 multiletter control sequences out of 10000+50000
- 31793 words of font info for 46 fonts, out of 1200000 for 2000
+ 6505 strings out of 95038
+ 85427 string characters out of 1182348
+ 163204 words of memory out of 1500000
+ 9493 multiletter control sequences out of 10000+50000
+ 31796 words of font info for 46 fonts, out of 1200000 for 2000
  54 hyphenation exceptions out of 8191
- 36i,10n,45p,364b,535s stack positions out of 5000i,500n,6000p,200000b,5000s
+ 36i,10n,45p,1379b,408s stack positions out of 5000i,500n,6000p,200000b,5000s
 
-Output written on final.dvi (44 pages, 59912 bytes).
+Output written on final.dvi (44 pages, 58300 bytes).
