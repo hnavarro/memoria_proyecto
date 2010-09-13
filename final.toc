@@ -2,26 +2,36 @@
 \contentsline {chapter}{\numberline {1}Resumen}{13}{chapter.1}
 \contentsline {section}{\numberline {1.1}Resumen}{15}{section.1.1}
 \contentsline {chapter}{\numberline {2}Memoria}{17}{chapter.2}
-\contentsline {section}{\numberline {2.1}Introducci\'on}{19}{section.2.1}
+\contentsline {section}{\numberline {2.1}Introducci\IeC {\'o}n}{19}{section.2.1}
 \contentsline {section}{\numberline {2.2}Base te\IeC {\'o}rica}{19}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}Estado del Arte}{19}{subsection.2.2.1}
 \contentsline {subsubsection}{\numberline {2.2.1.1}\IeC {\textquestiondown }Qu\IeC {\'e} puede ser un museo virtual?}{19}{subsubsection.2.2.1.1}
 \contentsline {subsubsection}{\numberline {2.2.1.2}Museos}{20}{subsubsection.2.2.1.2}
 \contentsline {paragraph}{\numberline {2.2.1.2.1}Tate Modern (Londres, Reino Unido)}{20}{paragraph.2.2.1.2.1}
 \contentsline {paragraph}{\numberline {2.2.1.2.2}MoMA (New York, EEUU)}{21}{paragraph.2.2.1.2.2}
+\contentsline {paragraph}{\numberline {2.2.1.2.3}Actual museo del OAN}{21}{paragraph.2.2.1.2.3}
 \contentsline {subsubsection}{\numberline {2.2.1.3}Enciclopedias}{21}{subsubsection.2.2.1.3}
-\contentsline {paragraph}{\numberline {2.2.1.3.1}Wikipedia}{21}{paragraph.2.2.1.3.1}
+\contentsline {paragraph}{\numberline {2.2.1.3.1}Wikipedia}{22}{paragraph.2.2.1.3.1}
 \contentsline {paragraph}{\numberline {2.2.1.3.2}Indianopedia, Frikipedia, *pedia}{22}{paragraph.2.2.1.3.2}
+\contentsline {subsubsection}{\numberline {2.2.1.4}Sistemas gestores de contenidos vs Wikis}{22}{subsubsection.2.2.1.4}
 \contentsline {section}{\numberline {2.3}Descripci\IeC {\'o}n del dise\IeC {\~n}o}{22}{section.2.3}
-\contentsline {section}{\numberline {2.4}Conclusiones y trabajo futuro}{22}{section.2.4}
-\contentsline {chapter}{\numberline {3}Planos}{23}{chapter.3}
-\contentsline {section}{\numberline {3.1}Esquem\IeC {\'a}ticos}{25}{section.3.1}
-\contentsline {chapter}{\numberline {4}Pliego de condiciones}{27}{chapter.4}
-\contentsline {section}{\numberline {4.1}Requisitos de Hardware}{29}{section.4.1}
-\contentsline {section}{\numberline {4.2}Requisitos de Software}{29}{section.4.2}
-\contentsline {chapter}{\numberline {5}Presupuesto}{31}{chapter.5}
-\contentsline {section}{\numberline {5.1}Presupuesto}{33}{section.5.1}
-\contentsline {chapter}{\numberline {6}Manual de Usuario}{35}{chapter.6}
-\contentsline {section}{\numberline {6.1}Manual}{37}{section.6.1}
-\contentsline {chapter}{\numberline {7}Soporte inform\IeC {\'a}tico}{39}{chapter.7}
-\contentsline {chapter}{\numberline {8}Bibliograf\IeC {\'\i }a}{41}{chapter.8}
+\contentsline {subsection}{\numberline {2.3.1}Baremaci\IeC {\'o}n de alternativas}{22}{subsection.2.3.1}
+\contentsline {subsubsection}{\numberline {2.3.1.1}Relaci\IeC {\'o}n de caracter\IeC {\'\i }sticas}{23}{subsubsection.2.3.1.1}
+\contentsline {subsubsection}{\numberline {2.3.1.2}Comentarios}{23}{subsubsection.2.3.1.2}
+\contentsline {subsection}{\numberline {2.3.2}Comparativa}{24}{subsection.2.3.2}
+\contentsline {subsubsection}{\numberline {2.3.2.1}Premisas iniciales}{24}{subsubsection.2.3.2.1}
+\contentsline {subsubsection}{\numberline {2.3.2.2}Candidatos pre-seleccionados}{24}{subsubsection.2.3.2.2}
+\contentsline {subsubsection}{\numberline {2.3.2.3}Comparativa con CMSMatrix}{25}{subsubsection.2.3.2.3}
+\contentsline {paragraph}{\numberline {2.3.2.3.1}System Requeriments (Requisitos de sistema)}{25}{paragraph.2.3.2.3.1}
+\contentsline {section}{\numberline {2.4}Conclusiones y trabajo futuro}{25}{section.2.4}
+\contentsline {chapter}{\numberline {3}Planos}{27}{chapter.3}
+\contentsline {section}{\numberline {3.1}Esquem\IeC {\'a}ticos}{29}{section.3.1}
+\contentsline {chapter}{\numberline {4}Pliego de condiciones}{31}{chapter.4}
+\contentsline {section}{\numberline {4.1}Requisitos de Hardware}{33}{section.4.1}
+\contentsline {section}{\numberline {4.2}Requisitos de Software}{33}{section.4.2}
+\contentsline {chapter}{\numberline {5}Presupuesto}{35}{chapter.5}
+\contentsline {section}{\numberline {5.1}Presupuesto}{37}{section.5.1}
+\contentsline {chapter}{\numberline {6}Manual de Usuario}{39}{chapter.6}
+\contentsline {section}{\numberline {6.1}Manual}{41}{section.6.1}
+\contentsline {chapter}{\numberline {7}Soporte inform\IeC {\'a}tico}{43}{chapter.7}
+\contentsline {chapter}{\numberline {8}Bibliograf\IeC {\'\i }a}{45}{chapter.8}
