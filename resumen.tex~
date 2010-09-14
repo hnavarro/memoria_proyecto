@@ -1,7 +1,0 @@
-\section{Resumen}
-
-\par El objetivo principal de este proyecto es la implantación de una solución software que desempeñe funciones de museo virtual para el Real Observatorio de Madrid. Además, comprenderá una plataforma de gestión de contenidos operable por personal no informático.
-Para ello, la solución propuesta es la búsqueda comparada, elección e integración de una plataforma de gestión de contenidos (CMS), añadiendo, si se da el caso, las funcionalidades no incluidas en el paquete escogido pero sí en los resquisitos recogidos de la empresa.
-Se hace especial hincapié en la reducción del mantenimiento posterior, la accesibilidad móvil, la facilidad de uso para personal no técnico y la posibilidad de modificar y/o añadir funcionalidades en un futuro.
-
-\par Palabras clave: cms, museo virtual, móvil, wiki
