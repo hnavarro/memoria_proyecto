@@ -23,15 +23,21 @@
 \contentsline {subsubsection}{\numberline {2.3.2.2}Candidatos pre-seleccionados}{24}{subsubsection.2.3.2.2}
 \contentsline {subsubsection}{\numberline {2.3.2.3}Comparativa con CMSMatrix}{25}{subsubsection.2.3.2.3}
 \contentsline {paragraph}{\numberline {2.3.2.3.1}System Requeriments (Requisitos de sistema)}{25}{paragraph.2.3.2.3.1}
-\contentsline {section}{\numberline {2.4}Conclusiones y trabajo futuro}{25}{section.2.4}
-\contentsline {chapter}{\numberline {3}Planos}{27}{chapter.3}
-\contentsline {section}{\numberline {3.1}Esquem\IeC {\'a}ticos}{29}{section.3.1}
-\contentsline {chapter}{\numberline {4}Pliego de condiciones}{31}{chapter.4}
-\contentsline {section}{\numberline {4.1}Requisitos de Hardware}{33}{section.4.1}
-\contentsline {section}{\numberline {4.2}Requisitos de Software}{33}{section.4.2}
-\contentsline {chapter}{\numberline {5}Presupuesto}{35}{chapter.5}
-\contentsline {section}{\numberline {5.1}Presupuesto}{37}{section.5.1}
-\contentsline {chapter}{\numberline {6}Manual de Usuario}{39}{chapter.6}
-\contentsline {section}{\numberline {6.1}Manual}{41}{section.6.1}
-\contentsline {chapter}{\numberline {7}Soporte inform\IeC {\'a}tico}{43}{chapter.7}
-\contentsline {chapter}{\numberline {8}Bibliograf\IeC {\'\i }a}{45}{chapter.8}
+\contentsline {paragraph}{\numberline {2.3.2.3.2}Security (Seguridad)}{26}{paragraph.2.3.2.3.2}
+\contentsline {paragraph}{\numberline {2.3.2.3.3}Support (Asistencia)}{26}{paragraph.2.3.2.3.3}
+\contentsline {paragraph}{\numberline {2.3.2.3.4}Ease of Use (Facilidad de uso)}{26}{paragraph.2.3.2.3.4}
+\contentsline {paragraph}{\numberline {2.3.2.3.5}Performance (Rendimiento)}{26}{paragraph.2.3.2.3.5}
+\contentsline {paragraph}{\numberline {2.3.2.3.6}Management (Administraci\IeC {\'o}n)}{26}{paragraph.2.3.2.3.6}
+\contentsline {paragraph}{\numberline {2.3.2.3.7}interoperability (Interoperatividad)}{28}{paragraph.2.3.2.3.7}
+\contentsline {section}{\numberline {2.4}Conclusiones y trabajo futuro}{31}{section.2.4}
+\contentsline {chapter}{\numberline {3}Planos}{33}{chapter.3}
+\contentsline {section}{\numberline {3.1}Esquem\IeC {\'a}ticos}{35}{section.3.1}
+\contentsline {chapter}{\numberline {4}Pliego de condiciones}{37}{chapter.4}
+\contentsline {section}{\numberline {4.1}Requisitos de Hardware}{39}{section.4.1}
+\contentsline {section}{\numberline {4.2}Requisitos de Software}{39}{section.4.2}
+\contentsline {chapter}{\numberline {5}Presupuesto}{41}{chapter.5}
+\contentsline {section}{\numberline {5.1}Presupuesto}{43}{section.5.1}
+\contentsline {chapter}{\numberline {6}Manual de Usuario}{45}{chapter.6}
+\contentsline {section}{\numberline {6.1}Manual}{47}{section.6.1}
+\contentsline {chapter}{\numberline {7}Soporte inform\IeC {\'a}tico}{49}{chapter.7}
+\contentsline {chapter}{\numberline {8}Bibliograf\IeC {\'\i }a}{51}{chapter.8}

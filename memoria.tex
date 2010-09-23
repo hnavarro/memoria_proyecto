@@ -1,6 +1,6 @@
 \section{Introducción}
 El trabajo expuesto en este documento tiene como fin la implantación de un museo virtual en el Observatorio de Madrid. La parte más importante en este tipo de proyectos (y, por extensión, de todos) es la recogida de requisitos y el análisis (en este caso, elección principalmente).
-Para poder entender mejor lo que se solicita por parte del cliente es necesario conocer el concepto de "museo virtual" al que tratamos de acercarnos. Se trataría de una plataforma accesible físicamente desde puestos instalados en una sala de exposiciones dentro del propio observatorio, accesible en línea desde Internet y que comprenda una base de datos posiblemente reutilizable en el futuro. Con estas pinceladas he deducido que la solución existente (no hay que olvidar que esto es ingeniería) más cercana a lo que se nos pide pasaría, en mi opinión, por un gestor de contenidos o CMS (Content Management System).
+Para poder entender mejor lo que se solicita por parte del cliente es necesario conocer el concepto de ``museo virtual'' al que tratamos de acercarnos. Se trataría de una plataforma accesible físicamente desde puestos instalados en una sala de exposiciones dentro del propio observatorio, accesible en línea desde Internet y que comprenda una base de datos posiblemente reutilizable en el futuro. Con estas pinceladas he deducido que la solución existente (no hay que olvidar que esto es ingeniería) más cercana a lo que se nos pide pasaría, en mi opinión, por un gestor de contenidos o CMS (Content Management System).
 Dada la amplísima oferta que hay de estos productos en el mercado, creo conveniente hacer una selección a partir de criterios, unos surgidos y otros sugeridos, analizados mano a mano con el cliente.
 A partir de ahí, se escogerá el CMS candidato con mejores cualidades en cuanto a facilidad de uso, bajo mantenimiento y características incluidas por defecto. Las características no comprendidas en esta selección (pero necesarias igualmente) serán incorporadas junto con las diferentes modificaciones previstas para darle forma final a la plataforma. Posteriormente, se integrará y se pondrá en servicio con los plazos que el cliente disponga para ello.
 
@@ -17,7 +17,7 @@ En este periplo, he topado con varias fuentes de información desconocidas para 
 \par Al hablar de museos virtuales, a uno se le pueden venir a la mente distintos conceptos sobre lo que representan esas palabras:
 
 \begin{itemize}
-\item Visita virtual al museo (modo "Second Life").
+\item Visita virtual al museo (modo ``Second Life").
 \item Galería de imágenes.
 \item Sitio web del museo (meramente informativo).
 \item Catálogo de objetos.
@@ -28,7 +28,7 @@ En este periplo, he topado con varias fuentes de información desconocidas para 
 
 \par El segundo caso, una mera galería de imágenes, aunque pobre, podría vale como museo virtual para un museo de arte en según qué circunstancias. Obviamente, y aunque la presentación de la información en este formato sea algo a tener en cuenta, si limitáramos nuestro museo virtual a este tipo de sitio, estaríamos, creo yo, limitando muchísimo la información ofrecida, cosa que no cuadra con el objetivo de complementar el museo.
 
-\par El tercer caso lo he incluído como posibilidad de que alguien lo identificase al hablar de "museos virtuales", dado que crear una página con información corporativa, de horarios y accesos es sólo una parte de lo que pretendería este proyecto.
+\par El tercer caso lo he incluído como posibilidad de que alguien lo identificase al hablar de ``museos virtuales", dado que crear una página con información corporativa, de horarios y accesos es sólo una parte de lo que pretendería este proyecto.
 
 \par El cuarto caso será aquel en el que básicamente tenemos una somera base de datos con una sencilla interfaz de búsqueda y acceso a la colección, sin tratar de explicar o poner en contexto los objetos que tenemos delante.
 
@@ -45,7 +45,7 @@ Algunos ejemplos son:
 Debajo de todo esto subyace la idea de utilizar unos estándares mínimos, aunque sean estándares de facto. Esto nos permitiría (como en el caso del Tate Modern) reemplazar los dispositivos por otros nuevos sin hacer cambios significativos en la plataforma y haciendo que coexistiesen ambos modelos. Y lo que es, quizá, más interesante, dar la opción a usuarios que posean dispositivos con capacidades similares a los ofrecidos de conectarse al museo virtual por su cuenta y en directo, ahorrando bastante en costes.
 
 \paragraph{MoMA (New York, EEUU)}
-\par Este apartado, desgraciadamente, se refiere a las ideas y modelos observados directamente en su página web. Nos encontramos con ideas, sobre todo en cuanto a presentación visual de contenidos. Digamos que la idea de presentar los contenidos en una matriz de imágenes con pies identificativos que, al pulsar sobre ellas, nos lleven a la información específica de ese objeto podría ser cercana a lo buscado. También sería una idea a tener en cuenta la categorización de las obras por área temática, época o tipo de objeto, aunque no lo firmamos como algo seguro en nuestra plataforma. Por último, reseñar que ellos parece que hacen (o al menos tienen la posibilidad de hacer) uso de la vista "por perspectivas". Esto sería como tener una lista desplegable en la pantalla que nos permitiera fácilmente cambiar entre los distintos puntos de vista (como si de idiomas se tratara) pudiendo adaptar la plataforma a una presentación para , por ejemplo, niños, estudiantes o expertos en el tema. El sistema finalmente escogido para implementar esa "granularidad" de contenidos se tomó de otro sitio web que veremos más adelante.
+\par Este apartado, desgraciadamente, se refiere a las ideas y modelos observados directamente en su página web. Nos encontramos con ideas, sobre todo en cuanto a presentación visual de contenidos. Digamos que la idea de presentar los contenidos en una matriz de imágenes con pies identificativos que, al pulsar sobre ellas, nos lleven a la información específica de ese objeto podría ser cercana a lo buscado. También sería una idea a tener en cuenta la categorización de las obras por área temática, época o tipo de objeto, aunque no lo firmamos como algo seguro en nuestra plataforma. Por último, reseñar que ellos parece que hacen (o al menos tienen la posibilidad de hacer) uso de la vista ``por perspectivas". Esto sería como tener una lista desplegable en la pantalla que nos permitiera fácilmente cambiar entre los distintos puntos de vista (como si de idiomas se tratara) pudiendo adaptar la plataforma a una presentación para , por ejemplo, niños, estudiantes o expertos en el tema. El sistema finalmente escogido para implementar esa ``granularidad'' de contenidos se tomó de otro sitio web que veremos más adelante.
 
 
 \paragraph{Actual museo del OAN}
@@ -57,12 +57,12 @@ Debajo de todo esto subyace la idea de utilizar unos estándares mínimos, aunqu
 
 \paragraph{Wikipedia}
 \par Digamos que este sería el paradigma de enciclopedia dinámica y colaborativa hoy en día. Es más o menos familiar para cualquier persona que use con asiduidad internet (sobre todo para buscar información) y aunque sus fuentes, consistencia y fiabilidad puedan ser cuestionables, su manera de disponer la información no puede tomarse en absoluto como mala. De aquí podríamos tomar en consideración el aspecto colaborativo del medio, pero en reuniones con el cliente se convino que al ser una institución de referencia, los contenidos (aunque aportados por diferentes personas) debían ser acotados a unos poco usuarios (generalmente trabajadores) y moderados en última instancia por la figura de un editor que revisaría y daría el visto bueno a los mismos.
-La disposición de portal inicial ofrecida por este sitio es una idea que podría funcionar en nuestro caso, incluyendo esos pequeños "ganchos" que cambian diaria o aleatoriamente para que determinados artículos puedan ser descubiertos por un navegante no asiduo. Además, mantiene una división temática necesaria para el sitio y tiene un sistema de control de versiones válido para documentos escritos, así como la relación semántica de entradas y la inclusión de contenido multimedia fácilmente.
+La disposición de portal inicial ofrecida por este sitio es una idea que podría funcionar en nuestro caso, incluyendo esos pequeños ``ganchos'' que cambian diaria o aleatoriamente para que determinados artículos puedan ser descubiertos por un navegante no asiduo. Además, mantiene una división temática necesaria para el sitio y tiene un sistema de control de versiones válido para documentos escritos, así como la relación semántica de entradas y la inclusión de contenido multimedia fácilmente.
 Referido al punto anterior, hay que señalar que, en un principio, se ha optado por la manera de Wikipedia de ampliar la profundidad de un artículo: en vez de diseñar distintas capas para distintos individuos, enlazar los artículos que profundizan sobre un tema para que sea el usuario el que decida cuándo parar.
 
 
 \paragraph{Indianopedia, Frikipedia, *pedia}
-\par Esta entrada engloba varios sitios por una razón: existe un fenómeno creciente que consiste en que cada "ecosistema" de conocimiento puede generar su propio repositorio de información. Esto contribuye a diversificar las fuentes evitando fraudes y manipulaciones, a la vez que descentraliza y permite pluralidad de visiones. Igual que existen el diccionario de la RAE, María Moliner, Espasa Calpe, etc., el concepto de la propia enciclopedia, en nuestro caso, puede servir para contener los artículos a los que no llegan otras enciclopedias más generales o de los que tenemos un conocimiento certero y fuentes propias.
+\par Esta entrada engloba varios sitios por una razón: existe un fenómeno creciente que consiste en que cada ``ecosistema'' de conocimiento puede generar su propio repositorio de información. Esto contribuye a diversificar las fuentes evitando fraudes y manipulaciones, a la vez que descentraliza y permite pluralidad de visiones. Igual que existen el diccionario de la RAE, María Moliner, Espasa Calpe, etc., el concepto de la propia enciclopedia, en nuestro caso, puede servir para contener los artículos a los que no llegan otras enciclopedias más generales o de los que tenemos un conocimiento certero y fuentes propias.
 
 \subsubsection{Sistemas gestores de contenidos vs Wikis}
 \par Llegados a este punto parece evidente el camino que estamos sugiriendo. Para crear nuestra plataforma y que tenga algunos factores básicos como diferentes presentaciones al usuario (al menos internet y móviles), incluya una base de datos, interfaz amigable para creadores de contenido no informáticos y demás funciones de administrador facilitadas al máximo.
@@ -104,9 +104,9 @@ Blog & 0 \\
 
 \subsubsection{Comentarios}
 
-\par La cuestión sobre las perspectivas diferenciadas se ha decidido plantear a la manera de Wikipedia, es decir, a base de enlaces con contenido más exhaustivo en vez de un selector de perspectiva que nos dejase "ponernos las gafas" de "estudiante", "visitante" o "investigador" con un botón, al menos, en esta fase del proyecto.
+\par La cuestión sobre las perspectivas diferenciadas se ha decidido plantear a la manera de Wikipedia, es decir, a base de enlaces con contenido más exhaustivo en vez de un selector de perspectiva que nos dejase ``ponernos las gafas'' de ``estudiante", ``visitante'' o ``investigador'' con un botón, al menos, en esta fase del proyecto.
 
-\par Aun no habiendo resuelto temas importantes como si la figura del "responsable de mantenimiento" de la aplicación existirá y quién se encargaría de ella, en la misma reunión se esbozó la idea de que existiría una fase inicial de carga con un principio y un final y una fase de mantenimiento en la que se harán cambios pero a menor ritmo. Todas ellas irán recubiertas de la figura del supervisor, que se encargará de aprobar o rechazar los cambios u añadidos propuestos por los generadores de contenido antes de que éstos se reflejen en la producción final.
+\par Aun no habiendo resuelto temas importantes como si la figura del ``responsable de mantenimiento'' de la aplicación existirá y quién se encargaría de ella, en la misma reunión se esbozó la idea de que existiría una fase inicial de carga con un principio y un final y una fase de mantenimiento en la que se harán cambios pero a menor ritmo. Todas ellas irán recubiertas de la figura del supervisor, que se encargará de aprobar o rechazar los cambios u añadidos propuestos por los generadores de contenido antes de que éstos se reflejen en la producción final.
 
 \par En contrapartida a las ideas de blog y buzón de sugerencias, se propondrá (con mayor o menor grado de insistencia) al usuario realizar una encuesta evaluación con su propio espacio para sugerencias.
 
@@ -171,7 +171,115 @@ Blog & 0 \\
 \label{fig:cmsmat1}
 \end{figure}
 
-%\begin{sidewaysfigure}
+\par En este caso, debemos fijarnos en la parte "License" principalmente, comprobando que todos menos Liferay Portal ostentan una licencia libre. Posteriormente he podido comprobar que la licencia de Liferay Portal cambió de licencia MIT a LGPL a partir de la versión 6, así que, a falta de argumentación en contra sobre los pormenores de cada licencia, todos entrarían dentro del requisito principal.
+% http://www.liferay.com/web/bryan.cheung/blog/-/blogs/4656695/maximized
+
+\par Hay que comentar que una de las guías sugeridas por la empresa era que, de ser posible, la plataforma fuese familiar con lo que ya se conoce en la casa por parte de los trabajadores fijos. En este caso, las cosas irían si no ya por la plataforma en sí, por el lenguaje de programación el que están programados, siendo estos Java, PHP, Phyton y C Sharp los que ocupan nuestra comparativa.
+
+\paragraph{Security (Seguridad)}
+
+\par Según el gráfico de debajo, los datos que más nos interesan son "Content Approval" (aprobar contenidos antes de publicación), "Granular Privileges" (posibilidad de tener distintos privilegios para cada usuario o grupo de usuarios), "Versioning" (control de versiones).
+
+\par La única opción con inconvenientes en este campo sería Joomla!, que según cmsmatrix no permite la asignación de privilegios personalizada, señalando que MODx en supervisión de contenidos y control de versiones necesitaría un añadido gratuito, al igual que Joomla! para este último caso.
+
+\begin{figure}
+\begin{narrow}{-0.2\linewidth}{-0.2\linewidth}
+\centering
+\includegraphics[width=\linewidth]{cmsmat2}
+\caption{System Requeriments desde CMSMatrix.org}
+\end{narrow}
+\label{fig:cmsmat1}
+\end{figure}
+
+\paragraph{Support (Asistencia)}
+
+\par Esta es una de las partes menos importantes de la comparativa, pues es incierto el futuro en cuestión de mantenimiento de la plataforma. En este caso nos estaríamos fijando más en "Commercial Support" (asistencia de pago), "Developer Community" (comunidad de desarrolladores) y "Public Forum" (foros públicos). Destacar únicamente que WordPress no dispone de ese servicio, aunque el servicio gratuito sí que exista.
+
+\begin{figure}
+\begin{narrow}{-0.2\linewidth}{-0.2\linewidth}
+\centering
+\includegraphics[width=\linewidth]{cmsmat3}
+\caption{System Requeriments desde CMSMatrix.org}
+\end{narrow}
+\label{fig:cmsmat1}
+\end{figure}
+
+\paragraph{Ease of Use (Facilidad de uso)}
+
+\par Este es uno de los puntos más importantes de la comparativa. Si observamos:
+
+\begin{figure}
+\begin{narrow}{-0.2\linewidth}{-0.2\linewidth}
+\centering
+\includegraphics[width=\linewidth]{cmsmat4}
+\caption{System Requeriments desde CMSMatrix.org}
+\end{narrow}
+\label{fig:cmsmat1}
+\end{figure}
+
+\par Encontraremos que, a destacar, podemos seleccionar como las más relevantes las opciones de "Drag-N-Drop Content" (arrastrar y soltar contenido), "Image Resizing" (redimensionado de imágenes), "Mass Upload" (subida de archivos masiva) y "WYSIWYG Editor" (editor visual).
+\par De la primera característica, tenemos Joomla! que no la soporta, MODx con una implementación limitada y "Drupal" con un añadido para esa función. De la segunda, tendríamos que tanto "mojoPortal" como "WordPress" presentan esta función limitada y "Drupal" necesita, otra vez, añadidos. En cuanto a la subida de ficheros masiva, mojoPortal sería incapaz mientras que Drupal y WordPress necesitarían un add-on. El editor visual está presente en todas, aunque se nos avisa que Drupal necesita de un añadido también. Lo que nos hace pensar que Drupal está construido de forma modular ya que muchas de sus características se consiguen a través de módulos suplementarios. Esto puede tener consecuencias positivas en cuanto a agilidad, tamaño y complejidad y negativas en cuanto que el proceso inicial de puesta en marcha puede (aún no lo sabemos) ser más complicado que otros.
+
+
+
+\paragraph{Performance (Rendimiento)}
+
+\par Este apartado no contiene aspectos demasiado relevantes para el proyecto que tenemos entre manos, pues no se espera que la carga de trabajo del servidor sea elevada como para preocuparse por estos detalles, aunque llegado el momento del desempate, podría declinar la balanza entre una opción y otra. Siendo tanto "WordPress" como "Joomla!" los más perjudicados.
+
+\begin{figure}
+\begin{narrow}{-0.2\linewidth}{-0.2\linewidth}
+\centering
+\includegraphics[width=\linewidth]{cmsmat5}
+\caption{System Requeriments desde CMSMatrix.org}
+\end{narrow}
+\label{fig:cmsmat1}
+\end{figure}
+
+
+\paragraph{Management (Administración)}
+
+\par La figura presenta aspectos importantes para el administrador de la plataforma como: "Online Administration" (gestión en línea), "Themes/Skins" (temas gráficos), "Web-based Style/Template Management" (gestión de estilos y plantillas vía web) y "Web-based Translation Management" (gestión de traducciones vía web).
+
+\begin{figure}
+\begin{narrow}{-0.2\linewidth}{-0.2\linewidth}
+\centering
+\includegraphics[width=\linewidth]{cmsmat6}
+\caption{System Requeriments desde CMSMatrix.org}
+\end{narrow}
+\label{fig:cmsmat1}
+\end{figure}
+
+\par Las características que he citado primera y cuarta son, a mi juicio, fundamentales, ya que permiten la gestión de la plataforma virtualmente desde cualquier dispositivo que pueda mostrar páginas web. Las fallas más significativas son las de "MODx" y "mojoPortal", que gracias a la falta de gestor de traducciones vía web quedarían, por ahora, descalificadas por completo. Hay que destacar que "WordPress" tiene limitaciones en esto y acumularía ya unas cuantas pegas que no lo hacen muy aconsejable.
+
+
+\paragraph{interoperability (Interoperatividad)}
+
+\par Toda las características mostradas en la tabla siguiente tienen una importancia técnica alta, aunque su repercusión en el resultado visual final no sea grande. Quiero, en este apartado, analizarlas una por una para que se sepa de qué trata cada una.
+
+\par Content Syndication (RSS) (sindicación de contenidos): Se trata de un sistema que permite a los usuarios estar al tanto de las nuevas publicaciones de una plataforma. Como en nuestro caso el contenido será mayoritariamente estático no es algo relevante.
+
+\par FTP Support (soporte para transferencia de ficheros por FTP): FTP es un protocolo especialmente diseñado para la transferencia de ficheros, siendo, aunque ahora menos utilizado, un valor más. Su importancia es media.
+
+\par UTF-8 Support (soporte para codificación UTF-8): Esta codifiación es la que pretende ser universal para la inmensa mayoría de idiomas. Utilizarla es un paso adelante para la interoperatividad de aplicaciones, pero no es altamente relevante para el proyecto.
+
+\par WAI Compliant (cumple con WAI): Web Accessibility Initiative (Iniciativa para la Accesibilidad Web) es una serie de reglas que buscan la accesibilidad de los contenidos para usuarios impedidos. Propone unos mínimos y puede ser interesante implementarlo, aunque no vital.
+
+\par WebDAV Support (soporte para WebDAV): "Edición y versionado distribuidos sobre la web" es, en esencia, un protocolo que nos permite cambiar a distancia los contenidos de un servidor con cualquier aplicación que lo implemente (sin necesidad de una herramienta propia). No es imprescindible ni es el único modo.
+
+\par XHTML Compliant (cumple con XHTML): XHTML es una especificación que trata de dar coherencia y acercar el lenguaje HTML a los estándares XML. Busca la ausencia de errores (se puede validar con facilidad) y la fiel reproducción de un contenido en distintos navegadores sin demasiadas diferencias. Es decir, busca establecer un estándar. Yo lo consideraría un mínimo exigible para cualquier plataforma web aunque en el futuro se de la posibilidad de cambiar a otros estándares como HTML5 (que aún no están implantados masivamente).
+
+
+\begin{figure}
+\begin{narrow}{-0.2\linewidth}{-0.2\linewidth}
+\centering
+\includegraphics[width=\linewidth]{cmsmat5}
+\caption{System Requeriments desde CMSMatrix.org}
+\end{narrow}
+\label{fig:cmsmat1}
+\end{figure}
+
+\par Dicho todo esto, considero que Joomla! también debería ser apartado de los candidatos dada la falla en cuanto a XHTML. Los costes extra de dotCMS para algunas características me hacen pensar que la filosofía de ese proyecto no es tan cercana a nuestros objetivos como podría parecer, así que también los desaconsejaría.
+
 %  \centering
 %   \includegraphics[width=\textheight]{proyecto2}
 %\caption{Diagrama de Gantt del proyecto}
