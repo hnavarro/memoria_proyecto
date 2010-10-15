@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=latex 2010.7.5)  23 SEP 2010 21:57
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=latex 2010.7.5)  15 OCT 2010 18:05
 entering extended mode
  %&-line parsing enabled.
 **final
@@ -638,7 +638,27 @@ Package: afterpage 1995/10/27 v1.08 After-Page Package (DPC)
 \AP@partial=\box64
 \AP@footins=\box65
 ) (./final.aux
-(./resumen.aux) (./memoria.aux))
+(./resumen.aux) (./memoria.aux
+
+LaTeX Warning: Label `fig:cmsmat1' multiply defined.
+
+
+LaTeX Warning: Label `fig:cmsmat1' multiply defined.
+
+
+LaTeX Warning: Label `fig:cmsmat1' multiply defined.
+
+
+LaTeX Warning: Label `fig:cmsmat1' multiply defined.
+
+
+LaTeX Warning: Label `fig:cmsmat1' multiply defined.
+
+
+LaTeX Warning: Label `fig:cmsmat1' multiply defined.
+
+) (./planos.aux) (./pliego.aux) (./presupuesto.aux) (./manual.aux)
+(./soporte.aux))
 \openout1 = `final.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
@@ -656,8 +676,7 @@ LaTeX Font Info:    ... okay on input line 45.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 45.
 LaTeX Font Info:    ... okay on input line 45.
 Package hyperref Info: Link coloring OFF on input line 45.
-
-(/usr/share/texmf-texlive/tex/latex/hyperref/nameref.sty
+ (/usr/share/texmf-texlive/tex/latex/hyperref/nameref.sty
 Package: nameref 2006/12/27 v2.28 Cross-referencing by name of section
 
 (/usr/share/texmf-texlive/tex/latex/oberdiek/refcount.sty
@@ -685,27 +704,27 @@ File: ./eps/logo_uah.eps Graphic file (type eps)
 
 ] [6
 
-] (./final.toc)
+] (./final.toc
+[7
+
+])
 \tf@toc=\write6
 \openout6 = `final.toc'.
 
 
-[7
-
-]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.37299pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[8
-
-] (./final.lof)
+[8] (./final.lof)
 \tf@lof=\write7
 \openout7 = `final.lof'.
 
- [9] [10
+ [9
+
+] [10
 
 ] (./final.lot)
 \tf@lot=\write8
@@ -758,12 +777,11 @@ File: ./eps/cmsmat6.eps Graphic file (type eps)
  <./eps/cmsmat6.eps> [26] [27] [28]
 [29] [30]
 File: ./eps/cmsmat5.eps Graphic file (type eps)
- <./eps/cmsmat5.eps>) [31] [32
-
-
-]
+ <./eps/cmsmat5.eps> [31]) [32]
 Cap\'{\i }tulo 3.
 [33
+
+
 
 ] [34
 
@@ -848,16 +866,16 @@ No file final.ind.
 (./final.aux (./resumen.aux) (./memoria.aux) (./planos.aux) (./pliego.aux)
 (./presupuesto.aux) (./manual.aux) (./soporte.aux))
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 6511 strings out of 95038
- 85651 string characters out of 1182348
- 161231 words of memory out of 1500000
- 9502 multiletter control sequences out of 10000+50000
+ 6552 strings out of 95038
+ 86255 string characters out of 1182348
+ 166677 words of memory out of 1500000
+ 9533 multiletter control sequences out of 10000+50000
  33299 words of font info for 47 fonts, out of 1200000 for 2000
  54 hyphenation exceptions out of 8191
- 36i,10n,45p,1379b,434s stack positions out of 5000i,500n,6000p,200000b,5000s
+ 36i,10n,45p,1379b,557s stack positions out of 5000i,500n,6000p,200000b,5000s
 
-Output written on final.dvi (54 pages, 76920 bytes).
+Output written on final.dvi (54 pages, 108240 bytes).
