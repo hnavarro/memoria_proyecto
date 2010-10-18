@@ -302,10 +302,73 @@ Se trata de un software maduro y completo.
 Está programado en PHP, al igual que el anterior.
 
 \paragraph{Plone}
-\par Probablemente este CMS sea el más innovador de los presentados. Muy potente, está programado en Python y construído encima del frameworl Zope, independiéntemente del servidor que vaya a correr por debajo (que en general será Apache).
+\par Probablemente este CMS sea el más innovador de los presentados. Muy potente, está programado en Python y construído encima del framework Zope, independiéntemente del servidor que vaya a correr por debajo (que en general será Apache).
 Al igual que el resto, no presenta deficiencias importantes, si bien, como Drupal, está pensado de manera modular, con añadidos para según qué funciones.
 Si hay que poner una pega (y no es trivial), es su curva de aprendizaje, dado que llena los huecos dejados por Drupal en cuanto a potencia pero también en cuanto a dificultad de uso haciéndolo una opción no recomendable para no-informáticos, quizá.
 
+\subsection{Modelo de datos}
+\par Hemos dejado bien claro que el propósito de este trabajo no es desarrollar de cero un CMS si no escoger y adaptar uno ya existente a las necesidades que se nos han presentado. Antes de tomar una decisión (que es independiente del autor y tomará tiempo), es conveniente señalar que sí que debería existir una parte de "diseño original" que correspondería al modelado de algunas informaciones. 
+
+
+\subsubsection{Catálogo}
+\par Respondiendo a los requisitos enunciados por miembros de la empresa, he elaborado un diseño de modelo de datos que podría utilizarse para abstraer los contenidos de un catálogo de objetos expuestos (subconjunto de ítems informativos del total del museo virtual) y no expuestos.
+Para ello, me he ayudado de un catálogo editado en papel por el propio Ministerio de Fomento titulado "Instrumentos históricos del Instituto Geográfico Nacional". Debido a su creación artesanal cada instrumento no sigue la debida canonización que nos piden las bases de datos, y es por eso que he tratado de ordenarlo en un modelo de datos como el que se muestra:
+
+\paragraph{OBJETO}
+\begin{itemize}
+\item id/ref: número entero
+\item nombre: caracteres(30)
+\item firmado: (inventor, lugar\_origen, fecha\_origen) (se eliminaría del original)
+\item inventor: relación(n:n)
+\item lugar\_origen: relación(n:n)
+\item fecha\_origen: fecha
+\item dimensiones: caracteres(12)
+\item características técnicas: texto
+\item materiales: caracteres(20)
+\item depósito\_habitual: relación(1:n)
+\item observaciones: texto
+\item área: relación(1:1)
+\item tipo de objeto: relación(1:n)
+\item foto: caracteres(50)
+\item depósito actual: caracteres(50)
+\end{itemize}
+
+\paragraph{ÁREA}
+\begin{itemize}
+\item 
+\item id: numerico
+\item nom\_area: caracteres(20)
+{Astronomía esférica, Geodesia geométrica, Topografía planisférica y Fotogrametría terrestre.
+Topografía altimétrica, Gabinete, Meteorología, Geofísica}
+\end{itemize}
+
+\paragraph{TIPO\_OBJETO}
+\begin{itemize}
+\item id: numerico
+\item nom\_tipo: caracteres(40)
+\item id\_area: relacion(n:1)
+\end{itemize}
+
+\paragraph{ARTÍCULOS}
+\begin{itemize}
+\item id: numerico
+\item titulo: caracteres(25)
+\item contenido: texto
+\end{itemize}
+
+\paragraph{AREA\_ARTÍCULO}
+\begin{itemize}
+\item id\_area: relación(1:n)
+\item id\_articulo: relacion(n:1)
+\end{itemize}
+
+\paragraph{INVENTOR}
+\begin{itemize}
+\item id\_inventor: numerico
+\item nom\_inventor: caracteres(25)
+\end{itemize}
+
+\par Este modelo será reutilizado (si se aprueba) para crear una interfaz sencilla de entrada de datos para el personal interno.
 %  \centering
 %   \includegraphics[width=\textheight]{proyecto2}
 %\caption{Diagrama de Gantt del proyecto}
