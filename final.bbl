@@ -1,4 +1,4 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{1}
 \providecommand{\url}[1]{#1}
 \csname url@rmstyle\endcsname
 \providecommand{\newblock}{\relax}
@@ -17,5 +17,8 @@
 \language=\csname l@#1\endcsname
 \fi
 #2}}
+
+\bibitem{references:liferaylicense}
+Liferay adopting the lgpl license - blog - liferay.com.
 
 \end{thebibliography}

@@ -1,3 +1,5 @@
+\include{preamble}
+
 \section{Introducción}
 El trabajo expuesto en este documento tiene como fin la implantación de un museo virtual en el Observatorio de Madrid. La parte más importante en este tipo de proyectos (y, por extensión, de todos) es la recogida de requisitos y el análisis (en este caso, elección principalmente).
 Para poder entender mejor lo que se solicita por parte del cliente es necesario conocer el concepto de ``museo virtual'' al que tratamos de acercarnos. Se trataría de una plataforma accesible físicamente desde puestos instalados en una sala de exposiciones dentro del propio observatorio, accesible en línea desde Internet y que comprenda una base de datos posiblemente reutilizable en el futuro. Con estas pinceladas he deducido que la solución existente (no hay que olvidar que esto es ingeniería) más cercana a lo que se nos pide pasaría, en mi opinión, por un gestor de contenidos o CMS (Content Management System).
@@ -171,8 +173,7 @@ Blog & 0 \\
 \label{fig:cmsmat1}
 \end{figure}
 
-\par En este caso, debemos fijarnos en la parte "License" principalmente, comprobando que todos menos Liferay Portal ostentan una licencia libre. Posteriormente he podido comprobar que la licencia de Liferay Portal cambió de licencia MIT a LGPL a partir de la versión 6, así que, a falta de argumentación en contra sobre los pormenores de cada licencia, todos entrarían dentro del requisito principal.
-% http://www.liferay.com/web/bryan.cheung/blog/-/blogs/4656695/maximized
+\par En este caso, debemos fijarnos en la parte "License" principalmente, comprobando que todos menos Liferay Portal ostentan una licencia libre. Posteriormente he podido comprobar que la licencia de Liferay Portal cambió de licencia MIT a LGPL a partir de la versión 6\cite{references:liferaylicense}, así que, a falta de argumentación en contra sobre los pormenores de cada licencia, todos entrarían dentro del requisito principal.
 
 \par Hay que comentar que una de las guías sugeridas por la empresa era que, de ser posible, la plataforma fuese familiar con lo que ya se conoce en la casa por parte de los trabajadores fijos. En este caso, las cosas irían si no ya por la plataforma en sí, por el lenguaje de programación el que están programados, siendo estos Java, PHP, Phyton y C Sharp los que ocupan nuestra comparativa.
 
@@ -286,7 +287,7 @@ Blog & 0 \\
 \par Como particularidades reseñables, podemos decir que, en cuanto a servidor web, Plone y Drupal están muy bien integrados con Apache, mientras que Liferay Portal se integra con otros servidores más orientados a Java (Tomcat, Glassfish, etc.) y Moodle que se integra con cualquier plataforma que tenga soporte para PHP.
 
 \paragraph{Liferay Portal (Community Edition)}
-\par Esta herramienta no presenta inconvenientes importantes ahora que su código es libre ref{liferaylicense}, pues antes no era así. Más a su favor, tiene una empresa como IBM detrás lo que supone que su código viene siendo mantenido y desarrollado por profesionales. Es una solución seria, empresarial y con una curva de aprendizaje media. Se usa en sitios como los de CISCO, Honda, T-Mobile, Harvard Bussiness School, China Mobile, etc.
+\par Esta herramienta no presenta inconvenientes importantes ahora que su código es libre \cite{references:liferaylicense}, pues antes no era así. Más a su favor, tiene una empresa como IBM detrás lo que supone que su código viene siendo mantenido y desarrollado por profesionales. Es una solución seria, empresarial y con una curva de aprendizaje media. Se usa en sitios como los de CISCO, Honda, T-Mobile, Harvard Bussiness School, China Mobile, etc.
 La rumorología parece indicar que sería la solución que el Instituto Geográfico Nacional estaría adoptando para su gestión de contenidos hipertextuales, con lo que, de ser cierto, ganaría puntos como solución definitiva, dado que habría personal cualificado para mantener la aplicación si fuese necesario.
 Además de todo lo anterior, posee soporte comercial consolidado y está bastante probado.
 \par Todo lo anterior la convierte en la opción más sólida a mi modo de ver.
@@ -335,7 +336,6 @@ Para ello, me he ayudado de un catálogo editado en papel por el propio Minister
 
 \paragraph{ÁREA}
 \begin{itemize}
-\item 
 \item id: numerico
 \item nom\_area: caracteres(20)
 {Astronomía esférica, Geodesia geométrica, Topografía planisférica y Fotogrametría terrestre.

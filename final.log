@@ -1,7 +1,7 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=latex 2010.7.5)  18 OCT 2010 19:57
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=latex 2010.7.5)  22 OCT 2010 18:13
 entering extended mode
  %&-line parsing enabled.
-**final
+**final.tex
 (./final.tex
 LaTeX2e <2005/12/01>
 Babel <v3.8h> and hyphenation patterns for english, usenglishmax, dumylang, noh
@@ -657,7 +657,8 @@ LaTeX Warning: Label `fig:cmsmat1' multiply defined.
 
 LaTeX Warning: Label `fig:cmsmat1' multiply defined.
 
-))
+) (./planos.aux) (./pliego.aux) (./presupuesto.aux) (./manual.aux)
+(./soporte.aux))
 \openout1 = `final.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
@@ -703,27 +704,27 @@ File: ./eps/logo_uah.eps Graphic file (type eps)
 
 ] [6
 
-] (./final.toc)
+] (./final.toc
+[7
+
+])
 \tf@toc=\write6
 \openout6 = `final.toc'.
 
 
-[7
-
-]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.37299pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[8
-
-] (./final.lof)
+[8] (./final.lof)
 \tf@lof=\write7
 \openout7 = `final.lof'.
 
- [9] [10
+ [9
+
+] [10
 
 ] (./final.lot)
 \tf@lot=\write8
@@ -852,11 +853,7 @@ Cap\'{\i }tulo 8.
 
 ] [54
 
-] (./final.bbl
-
-LaTeX Warning: Empty `thebibliography' environment on input line 21.
-
-) [55
+] (./final.bbl) [55
 
 ] [56
 
@@ -869,12 +866,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 6529 strings out of 95038
- 86020 string characters out of 1182348
- 163079 words of memory out of 1500000
- 9520 multiletter control sequences out of 10000+50000
+ 6563 strings out of 95038
+ 86479 string characters out of 1182348
+ 167465 words of memory out of 1500000
+ 9544 multiletter control sequences out of 10000+50000
  33299 words of font info for 47 fonts, out of 1200000 for 2000
  54 hyphenation exceptions out of 8191
- 36i,10n,45p,1379b,442s stack positions out of 5000i,500n,6000p,200000b,5000s
+ 36i,10n,45p,1383b,555s stack positions out of 5000i,500n,6000p,200000b,5000s
 
-Output written on final.dvi (56 pages, 89472 bytes).
+Output written on final.dvi (56 pages, 118948 bytes).
