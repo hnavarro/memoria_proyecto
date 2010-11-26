@@ -1,7 +1,7 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=latex 2010.7.5)  22 OCT 2010 18:13
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=latex 2010.7.5)  3 NOV 2010 13:06
 entering extended mode
  %&-line parsing enabled.
-**final.tex
+**final
 (./final.tex
 LaTeX2e <2005/12/01>
 Babel <v3.8h> and hyphenation patterns for english, usenglishmax, dumylang, noh
@@ -777,101 +777,120 @@ File: ./eps/cmsmat6.eps Graphic file (type eps)
  <./eps/cmsmat6.eps> [26] [27] [28]
 [29] [30]
 File: ./eps/cmsmat5.eps Graphic file (type eps)
- <./eps/cmsmat5.eps> [31] [32] [33]) [34]
+ <./eps/cmsmat5.eps> [31] [32]
+
+LaTeX Warning: Citation `refrences:alfrescocmsmat' on page 33 undefined on inpu
+t line 328.
+
+
+LaTeX Warning: Citation `references:alfrescocomp' on page 33 undefined on input
+ line 328.
+
+[33] [34]) [35] [36
+
+
+]
 Cap\'{\i }tulo 3.
-[35
+[37
 
-
-
-] [36
+] [38
 
 ]
 \openout2 = `planos.aux'.
 
- (./planos.tex) [37
+ (./planos.tex) [39
 
-] [38
+] [40
 
 
 ]
 Cap\'{\i }tulo 4.
-[39
+[41
 
-] [40
+] [42
 
 ]
 \openout2 = `pliego.aux'.
 
- (./pliego.tex) [41
+ (./pliego.tex) [43
 
-] [42
+] [44
 
 
 ]
 Cap\'{\i }tulo 5.
-[43
+[45
 
-] [44
+] [46
 
 ]
 \openout2 = `presupuesto.aux'.
 
- (./presupuesto.tex) [45
+ (./presupuesto.tex) [47
 
-] [46
+] [48
 
 
 ]
 Cap\'{\i }tulo 6.
-[47
+[49
 
-] [48
+] [50
 
 ]
 \openout2 = `manual.aux'.
 
- (./manual.tex) [49
+ (./manual.tex) [51
 
-] [50
+] [52
 
 
 ]
 Cap\'{\i }tulo 7.
-[51
+[53
 
-] [52
+] [54
 
 ]
 \openout2 = `soporte.aux'.
 
  (./soporte.tex)
 Cap\'{\i }tulo 8.
-[53
+[55
 
 
 
-
-] [54
-
-] (./final.bbl) [55
 
 ] [56
+
+] (./final.bbl
+Underfull \hbox (badness 1057) in paragraph at lines 29--32
+[]\T1/aer/m/n/10.95 Documentum - wi-ki-pe-dia, the free ency-clo-pe-dia. [On-li
+-ne]. Avai-la-ble:
+ []
+
+) [57
+
+] [58
 
 ]
 No file final.ind.
 (./final.aux (./resumen.aux) (./memoria.aux) (./planos.aux) (./pliego.aux)
 (./presupuesto.aux) (./manual.aux) (./soporte.aux))
 
+LaTeX Warning: There were undefined references.
+
+
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 6563 strings out of 95038
- 86479 string characters out of 1182348
- 167465 words of memory out of 1500000
- 9544 multiletter control sequences out of 10000+50000
- 33299 words of font info for 47 fonts, out of 1200000 for 2000
+ 6571 strings out of 95038
+ 86620 string characters out of 1182348
+ 167699 words of memory out of 1500000
+ 9547 multiletter control sequences out of 10000+50000
+ 36158 words of font info for 53 fonts, out of 1200000 for 2000
  54 hyphenation exceptions out of 8191
- 36i,10n,45p,1383b,555s stack positions out of 5000i,500n,6000p,200000b,5000s
+ 36i,10n,45p,1379b,555s stack positions out of 5000i,500n,6000p,200000b,5000s
 
-Output written on final.dvi (56 pages, 118948 bytes).
+Output written on final.dvi (58 pages, 129976 bytes).

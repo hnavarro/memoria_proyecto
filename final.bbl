@@ -19,6 +19,33 @@
 #2}}
 
 \bibitem{references:liferaylicense}
-Liferay adopting the lgpl license - blog - liferay.com.
+\BIBentryALTinterwordspacing
+Liferay adopting the lgpl license - blog - liferay.com. [Online]. Available:
+  \url{http://www.liferay.com/web/bryan.cheung/blog/-/blogs/4656695/maximized}
+\BIBentrySTDinterwordspacing
+
+\bibitem{references:documentum}
+\BIBentryALTinterwordspacing
+Documentum - wikipedia, the free encyclopedia. [Online]. Available:
+  \url{http://en.wikipedia.org/wiki/Documentum}
+\BIBentrySTDinterwordspacing
+
+\bibitem{references:bussinessobjects}
+\BIBentryALTinterwordspacing
+Bussiness objects (company) - wikipedia, the free encyclopedia. [Online].
+  Available: \url{http://en.wikipedia.org/wiki/Business_Objects_(company)}
+\BIBentrySTDinterwordspacing
+
+\bibitem{references:alfrescoabout}
+\BIBentryALTinterwordspacing
+Sobre alfresco - la alternativa para la gestión de contenidos empresariales en
+  código libre. [Online]. Available: \url{http://www.alfresco.com/es/about/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{references:ecmaiim}
+\BIBentryALTinterwordspacing
+Aiim - what is ecm? what is enterprise content management. [Online]. Available:
+  \url{http://www.aiim.org/What-is-ECM-Enterprise-Content-Management.aspx}
+\BIBentrySTDinterwordspacing
 
 \end{thebibliography}

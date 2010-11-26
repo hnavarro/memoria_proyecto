@@ -11,55 +11,52 @@ The style file: ./IEEEtran.bst
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: ./IEEEabrv.bib
 Database file #2: ./references.bib
-I was expecting a `,' or a `}'---line 167 of file ./references.bib
- :   
- :   url  = "http://www.liferay.com/web/bryan.cheung/blog/-/blogs/4656695/maximized"
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "refrences:alfrescocmsmat"
+Warning--I didn't find a database entry for "references:alfrescocomp"
 -- IEEEtran.bst version 1.11 (2003/04/02) by Michael Shell.
 -- http://www.ctan.org/tex-archive/macros/latex/contrib/supported/IEEEtran/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
 
 Done.
-You've used 1 entry,
+You've used 5 entries,
             3975 wiz_defined-function locations,
-            1149 strings with 14012 characters,
-and the built_in function-call counts, 305 in all, are:
-= -- 8
-> -- 1
+            1164 strings with 14669 characters,
+and the built_in function-call counts, 1344 in all, are:
+= -- 70
+> -- 5
 < -- 0
-+ -- 1
++ -- 5
 - -- 0
-* -- 15
-:= -- 55
-add.period$ -- 1
-call.type$ -- 1
-change.case$ -- 1
+* -- 40
+:= -- 237
+add.period$ -- 5
+call.type$ -- 5
+change.case$ -- 5
 chr.to.int$ -- 0
-cite$ -- 1
-duplicate$ -- 24
-empty$ -- 32
+cite$ -- 5
+duplicate$ -- 120
+empty$ -- 156
 format.name$ -- 0
-if$ -- 51
+if$ -- 273
 int.to.chr$ -- 0
-int.to.str$ -- 1
-missing$ -- 6
-newline$ -- 23
+int.to.str$ -- 5
+missing$ -- 30
+newline$ -- 45
 num.names$ -- 0
-pop$ -- 20
+pop$ -- 120
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 21
+skip$ -- 95
 stack$ -- 0
 substring$ -- 0
-swap$ -- 9
+swap$ -- 50
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 5
 type$ -- 0
 warning$ -- 0
 while$ -- 0
-width$ -- 2
-write$ -- 24
-(There was 1 error message)
+width$ -- 6
+write$ -- 59
+(There were 2 warnings)
