@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 \providecommand{\url}[1]{#1}
 \csname url@rmstyle\endcsname
 \providecommand{\newblock}{\relax}
@@ -46,6 +46,64 @@ Sobre alfresco - la alternativa para la gestión de contenidos empresariales en
 \BIBentryALTinterwordspacing
 Aiim - what is ecm? what is enterprise content management. [Online]. Available:
   \url{http://www.aiim.org/What-is-ECM-Enterprise-Content-Management.aspx}
+\BIBentrySTDinterwordspacing
+
+\bibitem{references:drupalhome}
+\BIBentryALTinterwordspacing
+Drupal - open source cms | drupal.org. [Online]. Available:
+  \url{http://drupal.org/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{ByronBerryHaugEatonWalkerRobbins200812}
+A.~Byron, A.~Berry, N.~Haug, J.~Eaton, J.~Walker, and J.~Robbins, \emph{Using
+  Drupal}, 1st~ed.\hskip 1em plus 0.5em minus 0.4em\relax O'Reilly Media, 12
+  2008.
+
+\bibitem{references:lullabot}
+\BIBentryALTinterwordspacing
+Lullabot | drupal videos, training, consulting and guidance. [Online].
+  Available: \url{http://www.lullabot.com/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{ByronBerryHaugEatonWalkerRobbins200909}
+A.~Byron, A.~Berry, N.~Haug, J.~Eaton, J.~Walker, and J.~Robbins,
+  \emph{Drupal}, 1st~ed.\hskip 1em plus 0.5em minus 0.4em\relax Anaya
+  Multimedia / O'Reilly, 09 2009.
+
+\bibitem{references:turnkey}
+\BIBentryALTinterwordspacing
+Turnkey linux virtual appliance library | virtual appliances for virtual
+  machines, cloud computing and bare metal. [Online]. Available:
+  \url{http://www.turnkeylinux.org/drupal6}
+\BIBentrySTDinterwordspacing
+
+\bibitem{references:LAMP}
+\BIBentryALTinterwordspacing
+Lamp (software bundle) - wikipedia, the free encyclopedia. [Online]. Available:
+  \url{http://en.wikipedia.org/wiki/LAMP_(software_bundle)}
+\BIBentrySTDinterwordspacing
+
+\bibitem{references:turnkeydrupal}
+\BIBentryALTinterwordspacing
+Drupal 6 appliance - turnkey linux virtual appliance library. [Online].
+  Available: \url{http://www.turnkeylinux.org/drupal6}
+\BIBentrySTDinterwordspacing
+
+\bibitem{references:turnkeycore}
+\BIBentryALTinterwordspacing
+Turnkey core - turnkey linux virtual appliance library. [Online]. Available:
+  \url{http://www.turnkeylinux.org/core}
+\BIBentrySTDinterwordspacing
+
+\bibitem{references:shellinabox}
+\BIBentryALTinterwordspacing
+shellinabox - project hosting on google code. [Online]. Available:
+  \url{http://code.google.com/p/shellinabox/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{references:webmin}
+\BIBentryALTinterwordspacing
+Webmin. [Online]. Available: \url{http://www.webmin.com/}
 \BIBentrySTDinterwordspacing
 
 \end{thebibliography}

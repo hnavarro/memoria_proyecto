@@ -18,45 +18,45 @@ Warning--I didn't find a database entry for "references:alfrescocomp"
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
 
 Done.
-You've used 5 entries,
+You've used 15 entries,
             3975 wiz_defined-function locations,
-            1164 strings with 14669 characters,
-and the built_in function-call counts, 1344 in all, are:
-= -- 70
-> -- 5
-< -- 0
-+ -- 5
-- -- 0
-* -- 40
-:= -- 237
-add.period$ -- 5
-call.type$ -- 5
-change.case$ -- 5
-chr.to.int$ -- 0
-cite$ -- 5
-duplicate$ -- 120
-empty$ -- 156
-format.name$ -- 0
-if$ -- 273
+            1201 strings with 15809 characters,
+and the built_in function-call counts, 4502 in all, are:
+= -- 240
+> -- 67
+< -- 4
++ -- 37
+- -- 12
+* -- 140
+:= -- 729
+add.period$ -- 17
+call.type$ -- 15
+change.case$ -- 15
+chr.to.int$ -- 12
+cite$ -- 15
+duplicate$ -- 406
+empty$ -- 526
+format.name$ -- 14
+if$ -- 975
 int.to.chr$ -- 0
-int.to.str$ -- 5
-missing$ -- 30
-newline$ -- 45
-num.names$ -- 0
-pop$ -- 120
+int.to.str$ -- 15
+missing$ -- 100
+newline$ -- 91
+num.names$ -- 2
+pop$ -- 384
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 95
+skip$ -- 324
 stack$ -- 0
-substring$ -- 0
-swap$ -- 50
+substring$ -- 8
+swap$ -- 188
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 5
 type$ -- 0
 warning$ -- 0
-while$ -- 0
-width$ -- 6
-write$ -- 59
+while$ -- 4
+width$ -- 17
+write$ -- 137
 (There were 2 warnings)

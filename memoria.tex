@@ -326,7 +326,10 @@ Si hay que poner una pega (y no es trivial), es su curva de aprendizaje, dado qu
 \end{itemize}
 
 \par Como todo sitio corporativo, su lenguaje es marcadamente general por lo que conviene entrar un poco más en detalle. Para ello podemos utilizar el mismo recurso antes mencionado de CMSMatrix.org\cite{refrences:alfrescocmsmat}. En este caso, no tenemos muy clara cuál es la plataforma analizada, ya que Alfresco se presenta en distintos sabores\cite{references:alfrescocomp}: Cloud Trial (prueba online, no incluye gestión de contenidos web, Alfresco Enterprise (probada y certificada para plataformas tanto código abierto como propietarias, con soporte comercial completo) y Alfresco Community (para plataformas de código abierto, soportada por la comunidad).
-Para este pequeño análisis, describiremos el proceso de prueba de Alfresco Community (dado que, en principio, nuestro presupuesto es cero).
+
+\par Debido a la variabilidad de plazos y la diferencia apreciable de alcance en los proyectos del IGN y de este proyecto respectivamente, al final se decidió abandonar la línea de Alfresco sobre Liferay Portal y se optó por Drupal, que reunía los requisitos adecuados y tiene una gran comunidad de usuarios y desarrolladores detrás.
+
+Sin embargo, he creído conveniente adjuntar un anexo donde se indague un poco más sobre Alfresco y sus posibilidades.
 
 \subsection{Modelo de datos}
 \par Hemos dejado bien claro que el propósito de este trabajo no es desarrollar de cero un CMS si no escoger y adaptar uno ya existente a las necesidades que se nos han presentado. Antes de tomar una decisión (que es independiente del autor y tomará tiempo), es conveniente señalar que sí que debería existir una parte de ``diseño original" que correspondería al modelado de algunas informaciones. 
@@ -395,6 +398,48 @@ Topografía altimétrica, Gabinete, Meteorología, Geofísica}
 %\caption{Diagrama de Gantt del proyecto}
 %\label{fig:gantt2}
 %\end{sidewaysfigure}
+
+\subsection{Drupal}
+
+\par Como dije más arriba, Drupal será incialmente la plataforma seleccionada para comenzar con la integración y desarrollo del sistema. Se trata de un sistema complejo, del que prefiero describir algunos fundamentos básicos que ayunden a entenderlo todo.
+
+\par Existen multitud de recursos en Internet sobre Drupal, empezando por su sitio web principal \cite{references:drupalhome}, pero el recurso más útil que he encontrado es el libro editado por O'Reilly \cite{ByronBerryHaugEatonWalkerRobbins200812} y creado por el staff del sitio web Lullabot \cite{references:lullabot}. Aunque la versión traducida al español editada por Anaya \cite{ByronBerryHaugEatonWalkerRobbins200909} facilita el seguimiento general del libro, considero que en algunos aspectos es una traducción, cuanto menos, apresurada.
+
+\subsubsection{Entorno de (pre)desarrollo}
+\par Para la prueba inicial he utilizado un "software appliance", es decir, una imagen de disco dispuesta a ser arrancada por una máquina virtual (en este caso VirtualBox) y empezar a funcionar. esto facilita mucho las cosas a la hora de realizar configuraciones rápidas y dinámicas dejando para más adelante (cuando tengamos una arquitectura definida) la integración y configuración de un servidor real.
+
+La máquina elegida fue sacada de la web de TurnKey \cite{references:turnkey} en la que se pueden encontrar multitud de imágenes listas para hacer la función de servidor web con CMS nada más ser arrancadas. Suele tratarse de un montaje LAMP (Linux + Apache + MySQL + PHP) \cite{references:LAMP} En concreto se utilizó la que integraba la versión 6 de Drupal \cite{references:turnkeydrupal} con un entorno que se describe con los siguientes componentes básicos:
+
+\begin{itemize}
+\item TurnKey Core \cite{references:turnkeycore}, compuesto de:
+	\begin{itemize}
+	\item Ubuntu 8.04.3 LTS
+	\item Autoactualizable en el arranque
+	\item Shell en AJAX incorporada (shellinabox\cite{references:shellinabox})
+	\item Interfaz de administración web (Webmin\cite{references:webmin})
+	\item Apache, MySQL y PHP.
+	\end{itemize}
+\item Soporte para SSH por defecto.
+\item MTA integrado para el envío de correo local.
+\item Módulos de Webmin para PHP, Apache2 y MySQL.
+\item PHPMyAdmin como administrador de la base de datos.
+\item Módulos más conocidos de Drupal (CCK, Views, Lightbox2, ImageCache, CKEditor, etc.).
+\end{itemize}
+
+\par En este caso, a la configuración inicial se le hicieron varias modificaciones, como instalar la distribución en español (que era uno de los requisitos) e instalar un módulo FTP en Webmin. Para la primera cosa hubo que borrar la instalación que venía por defecto con el "appliance" y volver a instalar Drupal en español descargándolo desde su página\cite{references:drupalhispano}. Para la segunda, sin embargo, salvo modificar ligeramente permisos en el servidor via SSH, el propio Webmin es bastante intuitivo.
+
+\subsubsection{Understanding Drupal}
+
+\par Como en el libro original, una buena manera de comenzar nuestro periplo por este CMS es conocer sus fundamentos.
+\par Se vió más arriba que Drupal es un CMS gratuito y de código abierto con una amplia comunidad de usuarios y colaboradores, lo que lo convierte en una plataforma bastante actualizada, potente y en contacto con las necesidades demandadas por la mayoría de usuarios.
+
+\paragraph{General} En su concepción, Drupal no necesita un sistema operativo, servidor web o gestor de bases de datos concreto. Puede valer cualquiera capaz de correr una implementación de PHP y una base de datos compatible con SQL. Digamos que el "alma" de Drupal estaría contenida en la base de datos y se articularía gracias al "core" que hace uso del intérprete PHP. Además de los subsistemas que permiten el interpretado de temas gráficos, la gestión de sesiones de usuario y el filtrado para mantener la seguridad del sistema. Alrededor de este núcleo tendríamos los módulos (tanto incluídos por defecto como los que han sido asimilados gracias a la comunidad de desarrolladores) que extenderían la funcionalidad del sistema a lugares más específicos que van desde la creación de contenidos hasta la asistencia a tareas de administración pasando por todo tipo de funciones imaginables.
+Los contenidos de Drupal se basan en un concepto simple pero efectivo: los nodos. Todos los contenidos son organizados en nodos que pueden ser accedidos independientemente. Serían, por así decirlo, las unidades mínimas de contenido en Drupal. Todos ellos, además de los temas, configuraciones y usuarios se almacenan en la base de datos. A la hora de servir las páginas, el motor de Drupal en PHP trasladará esa información de la base de datos, produciendo una salida en XHTML con CSS (al menos, predeterminadamente) gracias a la interpretación de las plantillas que acompañan a los temas gráficos.
+
+\paragraph{Módulos}
+
+
+
 
 
 \section{Conclusiones y trabajo futuro}
