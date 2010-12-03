@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=latex 2010.7.5)  29 NOV 2010 21:57
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=latex 2010.7.5)  3 DEC 2010 19:19
 entering extended mode
  %&-line parsing enabled.
 **final
@@ -640,22 +640,7 @@ Package: afterpage 1995/10/27 v1.08 After-Page Package (DPC)
 ) (./final.aux
 (./resumen.aux) (./memoria.aux
 
-LaTeX Warning: Label `fig:cmsmat1' multiply defined.
-
-
-LaTeX Warning: Label `fig:cmsmat1' multiply defined.
-
-
-LaTeX Warning: Label `fig:cmsmat1' multiply defined.
-
-
-LaTeX Warning: Label `fig:cmsmat1' multiply defined.
-
-
-LaTeX Warning: Label `fig:cmsmat1' multiply defined.
-
-
-LaTeX Warning: Label `fig:cmsmat1' multiply defined.
+LaTeX Warning: Label `fig:moma' multiply defined.
 
 ) (./planos.aux) (./pliego.aux) (./presupuesto.aux) (./manual.aux)
 (./soporte.aux))
@@ -718,7 +703,12 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[8] (./final.lof)
+[8] (./final.lof
+
+LaTeX Warning: Citation `references:tatehandheld' on page 9 undefined on input 
+line 4.
+
+)
 \tf@lof=\write7
 \openout7 = `final.lof'.
 
@@ -757,13 +747,17 @@ Cap\'{\i }tulo 2.
 
  (./memoria.tex [19
 
-] [20] [21] [22]
-Underfull \vbox (badness 1460) has occurred while \output is active []
+] [20]
+File: ./eps/tatehandheld.eps Graphic file (type eps)
+ <./eps/tatehandheld.eps> [21]
+File: ./eps/capturamoma.eps Graphic file (type eps)
 
- [23]
-[24]
+<./eps/capturamoma.eps>
+File: ./eps/capturamvoan.eps Graphic file (type eps)
+ <./eps/capturamvoan.eps> [22] [23] [24] [25] [26]
 File: ./eps/cmsmat1.eps Graphic file (type eps)
- <./eps/cmsmat1.eps> [25]
+
+<./eps/cmsmat1.eps> [27]
 File: ./eps/cmsmat2.eps Graphic file (type eps)
  <./eps/cmsmat2.eps>
 File: ./eps/cmsmat3.eps Graphic file (type eps)
@@ -771,108 +765,122 @@ File: ./eps/cmsmat3.eps Graphic file (type eps)
 File: ./eps/cmsmat4.eps Graphic file (type eps)
 
 <./eps/cmsmat4.eps>
+Underfull \vbox (badness 6691) has occurred while \output is active []
+
+ [28]
 File: ./eps/cmsmat5.eps Graphic file (type eps)
- <./eps/cmsmat5.eps>
+
+<./eps/cmsmat5.eps>
 File: ./eps/cmsmat6.eps Graphic file (type eps)
- <./eps/cmsmat6.eps> [26] [27] [28]
-[29] [30]
-File: ./eps/cmsmat5.eps Graphic file (type eps)
- <./eps/cmsmat5.eps> [31] [32]
+ <./eps/cmsmat6.eps> [29] [30] [31]
+File: ./eps/cmsmat7.eps Graphic file (type eps)
+ <./eps/cmsmat7.eps>
+[32]
+File: ./eps/cmsmat8.eps Graphic file (type eps)
+ <./eps/cmsmat8.eps>
+File: ./eps/cmsmat9-1.eps Graphic file (type eps)
+ <./eps/cmsmat9-1.eps>
+File: ./eps/cmsmat9-2.eps Graphic file (type eps)
+ <./eps/cmsmat9-2.eps>
+File: ./eps/cmsmatA.eps Graphic file (type eps)
 
-LaTeX Warning: Citation `refrences:alfrescocmsmat' on page 33 undefined on inpu
-t line 328.
+<./eps/cmsmatA.eps> [33] [34] [35] [36]
+
+LaTeX Warning: Citation `refrences:alfrescocmsmat' on page 37 undefined on inpu
+t line 414.
 
 
-LaTeX Warning: Citation `references:alfrescocomp' on page 33 undefined on input
- line 328.
+LaTeX Warning: Citation `references:alfrescocomp' on page 37 undefined on input
+ line 414.
 
-[33] [34]
-LaTeX Font Info:    Try loading font information for OMS+aer on input line 415.
+[37] [38] [39]
+LaTeX Font Info:    Try loading font information for OMS+aer on input line 502.
 
  (/usr/share/texmf-texlive/tex/latex/ae/omsaer.fd
 File: omsaer.fd 1999/12/27
 )
 LaTeX Font Info:    Font shape `OMS/aer/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 415.
- [35]) [36]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 502.
+ [40] [41]
+[42] [43]) [44]
 Cap\'{\i }tulo 3.
-[37
-
-
-
-] [38
-
-]
-\openout2 = `planos.aux'.
-
- (./planos.tex) [39
-
-] [40
-
-
-]
-Cap\'{\i }tulo 4.
-[41
-
-] [42
-
-]
-\openout2 = `pliego.aux'.
-
- (./pliego.tex) [43
-
-] [44
-
-
-]
-Cap\'{\i }tulo 5.
 [45
+
+
 
 ] [46
 
 ]
-\openout2 = `presupuesto.aux'.
+\openout2 = `planos.aux'.
 
- (./presupuesto.tex) [47
+ (./planos.tex) [47
 
 ] [48
 
 
 ]
-Cap\'{\i }tulo 6.
+Cap\'{\i }tulo 4.
 [49
 
 ] [50
 
 ]
-\openout2 = `manual.aux'.
+\openout2 = `pliego.aux'.
 
- (./manual.tex) [51
+ (./pliego.tex) [51
 
 ] [52
 
 
 ]
-Cap\'{\i }tulo 7.
+Cap\'{\i }tulo 5.
 [53
 
 ] [54
+
+]
+\openout2 = `presupuesto.aux'.
+
+ (./presupuesto.tex) [55
+
+] [56
+
+
+]
+Cap\'{\i }tulo 6.
+[57
+
+] [58
+
+]
+\openout2 = `manual.aux'.
+
+ (./manual.tex) [59
+
+] [60
+
+
+]
+Cap\'{\i }tulo 7.
+[61
+
+] [62
 
 ]
 \openout2 = `soporte.aux'.
 
  (./soporte.tex)
 Cap\'{\i }tulo 8.
-[55
+[63
 
 
 
 
-] [56
+] [64
 
-] (./final.bbl) [57
+] (./final.bbl) [65
 
-] [58
+] [66
 
 ]
 No file final.ind.
@@ -886,12 +894,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 6609 strings out of 95038
- 87313 string characters out of 1182348
- 167824 words of memory out of 1500000
- 9582 multiletter control sequences out of 10000+50000
+ 6654 strings out of 95038
+ 88086 string characters out of 1182348
+ 169989 words of memory out of 1500000
+ 9619 multiletter control sequences out of 10000+50000
  36158 words of font info for 53 fonts, out of 1200000 for 2000
  54 hyphenation exceptions out of 8191
- 36i,10n,45p,1379b,555s stack positions out of 5000i,500n,6000p,200000b,5000s
+ 36i,11n,45p,1379b,555s stack positions out of 5000i,500n,6000p,200000b,5000s
 
-Output written on final.dvi (58 pages, 138828 bytes).
+Output written on final.dvi (66 pages, 176560 bytes).

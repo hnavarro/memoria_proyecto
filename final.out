@@ -27,7 +27,10 @@
 \BOOKMARK [4][-]{paragraph.2.3.2.3.4}{Ease of Use \(Facilidad de uso\)}{subsubsection.2.3.2.3}
 \BOOKMARK [4][-]{paragraph.2.3.2.3.5}{Performance \(Rendimiento\)}{subsubsection.2.3.2.3}
 \BOOKMARK [4][-]{paragraph.2.3.2.3.6}{Management \(Administraci\363n\)}{subsubsection.2.3.2.3}
-\BOOKMARK [4][-]{paragraph.2.3.2.3.7}{interoperability \(Interoperatividad\)}{subsubsection.2.3.2.3}
+\BOOKMARK [4][-]{paragraph.2.3.2.3.7}{Interoperability \(Interoperatividad\)}{subsubsection.2.3.2.3}
+\BOOKMARK [4][-]{paragraph.2.3.2.3.8}{Flexibility \(Flexibilidad\)}{subsubsection.2.3.2.3}
+\BOOKMARK [4][-]{paragraph.2.3.2.3.9}{Built-in Applications \(Aplicaciones embebidas\)}{subsubsection.2.3.2.3}
+\BOOKMARK [4][-]{paragraph.2.3.2.3.10}{Commerce \(Comercio electr\363nico\)}{subsubsection.2.3.2.3}
 \BOOKMARK [3][-]{subsubsection.2.3.2.4}{Propuesta preliminar}{subsection.2.3.2}
 \BOOKMARK [4][-]{paragraph.2.3.2.4.1}{Liferay Portal \(Community Edition\)}{subsubsection.2.3.2.4}
 \BOOKMARK [4][-]{paragraph.2.3.2.4.2}{Drupal}{subsubsection.2.3.2.4}
@@ -43,8 +46,19 @@
 \BOOKMARK [4][-]{paragraph.2.3.4.1.4}{ART\315CULOS}{subsubsection.2.3.4.1}
 \BOOKMARK [4][-]{paragraph.2.3.4.1.5}{AREA\137ART\315CULO}{subsubsection.2.3.4.1}
 \BOOKMARK [4][-]{paragraph.2.3.4.1.6}{INVENTOR}{subsubsection.2.3.4.1}
-\BOOKMARK [2][-]{subsection.2.3.5}{Drupal}{section.2.3}
-\BOOKMARK [1][-]{section.2.4}{Conclusiones y trabajo futuro}{chapter.2}
+\BOOKMARK [1][-]{section.2.4}{Drupal}{chapter.2}
+\BOOKMARK [2][-]{subsection.2.4.1}{Entorno de \(pre\)desarrollo}{section.2.4}
+\BOOKMARK [2][-]{subsection.2.4.2}{Understanding Drupal}{section.2.4}
+\BOOKMARK [3][-]{subsubsection.2.4.2.1}{General}{subsection.2.4.2}
+\BOOKMARK [3][-]{subsubsection.2.4.2.2}{M\363dulos}{subsection.2.4.2}
+\BOOKMARK [3][-]{subsubsection.2.4.2.3}{Usuarios}{subsection.2.4.2}
+\BOOKMARK [3][-]{subsubsection.2.4.2.4}{Nodos}{subsection.2.4.2}
+\BOOKMARK [3][-]{subsubsection.2.4.2.5}{Formas de organizar el contenido}{subsection.2.4.2}
+\BOOKMARK [4][-]{paragraph.2.4.2.5.1}{Bloques}{subsubsection.2.4.2.5}
+\BOOKMARK [4][-]{paragraph.2.4.2.5.2}{Men\372s}{subsubsection.2.4.2.5}
+\BOOKMARK [4][-]{paragraph.2.4.2.5.3}{Taxonom\355as}{subsubsection.2.4.2.5}
+\BOOKMARK [3][-]{subsubsection.2.4.2.6}{CCK}{subsection.2.4.2}
+\BOOKMARK [1][-]{section.2.5}{Conclusiones y trabajo futuro}{chapter.2}
 \BOOKMARK [0][-]{chapter.3}{Planos}{}
 \BOOKMARK [1][-]{section.3.1}{Esquem\341ticos}{chapter.3}
 \BOOKMARK [0][-]{chapter.4}{Pliego de condiciones}{}

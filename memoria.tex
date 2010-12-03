@@ -44,12 +44,42 @@ Algunos ejemplos son:
 \par Más concretamente, en materia de museos virtuales, vi la adopción de terminales de mano que complementan la experiencia del visitante físico. Estamos acostumbrados a ver las típicas guías locutadas en diversos idiomas que nos amplían el contenido de las exposiciones introduciendo un número del índice de grabaciones. Suelen ser aparatos con usos muy restringidos (especiales para museos) con lo que eso supone para el coste final para el museo. En cambio, en este caso, se trataba de dispositivos móviles que están en el mercado, en nuestro caso, una especie de PDA de marca Toshiba o Dell (según renovaciones). Son dispositivos básicos que permiten mostrar contenidos web y multimedia sin muchas complicaciones. Esto es: pantalla en color, interfaz intuitiva, salida de auriculares y conectividad inalámbrica. Este último punto permite renovar sin coste temporal importante (y de manera transparente al visitante) los contenidos presentados. El hecho de que sea un dispositivo común abarataría los costes, premitiendo, incluso, trabajar con tecnología no necesariamente de última generación, dada la baja exigencia de los contenidos a presentar. Parece evidente que será más fácil conseguir un buen precio por una buena cantidad de dispositivos a punto de ser retirados del mercado o símplemente de stock sobrante.
 Debajo de todo esto subyace la idea de utilizar unos estándares mínimos, aunque sean estándares de facto. Esto nos permitiría (como en el caso del Tate Modern) reemplazar los dispositivos por otros nuevos sin hacer cambios significativos en la plataforma y haciendo que coexistiesen ambos modelos. Y lo que es, quizá, más interesante, dar la opción a usuarios que posean dispositivos con capacidades similares a los ofrecidos de conectarse al museo virtual por su cuenta y en directo, ahorrando bastante en costes.
 
+\begin{figure}
+\begin{narrow}{-0.1\linewidth}{-0.1\linewidth}
+\centering
+\includegraphics{tatehandheld}
+\caption{Imagen de dispositivo de mano del Tate Modern\cite{references:tatehandheld}}
+\end{narrow}
+\label{fig:moma}
+\end{figure}
+
+
+
 \paragraph{MoMA (New York, EEUU)}
 \par Este apartado, desgraciadamente, se refiere a las ideas y modelos observados directamente en su página web. Nos encontramos con ideas, sobre todo en cuanto a presentación visual de contenidos. Digamos que la idea de presentar los contenidos en una matriz de imágenes con pies identificativos que, al pulsar sobre ellas, nos lleven a la información específica de ese objeto podría ser cercana a lo buscado. También sería una idea a tener en cuenta la categorización de las obras por área temática, época o tipo de objeto, aunque no lo firmamos como algo seguro en nuestra plataforma. Por último, reseñar que ellos parece que hacen (o al menos tienen la posibilidad de hacer) uso de la vista ``por perspectivas". Esto sería como tener una lista desplegable en la pantalla que nos permitiera fácilmente cambiar entre los distintos puntos de vista (como si de idiomas se tratara) pudiendo adaptar la plataforma a una presentación para , por ejemplo, niños, estudiantes o expertos en el tema. El sistema finalmente escogido para implementar esa ``granularidad'' de contenidos se tomó de otro sitio web que veremos más adelante.
+
+\begin{figure}
+\begin{narrow}{-0.1\linewidth}{-0.1\linewidth}
+\centering
+\includegraphics[width=\linewidth]{capturamoma}
+\caption{Captura de pantalla del sitio del MoMA}
+\end{narrow}
+\label{fig:moma}
+\end{figure}
+
 
 
 \paragraph{Actual museo del OAN}
 \par Existe una versión antigua del museo virtual del Observatorio Astronómico Nacional, cuya información será contenida presumiblemente cuando se complete el contenido de la plataforma objeto de este proyecto. Si entramos al sitio web que lo hospeda dentro del sitio del Instituto Geográfico Nacional (Ministerio de fomento) descubrimos una estructura de navegación con algunas deficiencias para movernos entre objetos, para dar un vistazo rápido y desde luego una descontextualización importante. Podríamos catalogarlo como uno de esos museos virtuales del caso cuarto, un catálogo de objetos. No se puede negar su utilidad pero son las funciones de las que carece las que hacen necesaria la creación del proyecto actual.
+
+\begin{figure}
+\begin{narrow}{-0.1\linewidth}{-0.1\linewidth}
+\centering
+\includegraphics[width=\linewidth]{capturamvoan}
+\caption{Captura de pantalla del museo virtual del OAN}
+\end{narrow}
+\label{fig:oan}
+\end{figure}
 
 \subsubsection{Enciclopedias}
 
@@ -116,7 +146,7 @@ Blog & 0 \\
 
 \subsection{Comparativa}
 
-\par Habiendo descartado o relativizado la importancia de algunos de los requerimientos iniciales para nuestro gestor de contenidos, vamos a tratar de hacer una propuesta inicial. Para ello, vamos a utilizar herramientas gratuitas en línea que presentan los datos como una matriz de características (CMSMatrix.org y CMSMatch.com).
+\par Habiendo descartado o relativizado la importancia de algunos de los requerimientos iniciales para nuestro gestor de contenidos, vamos a tratar de hacer una propuesta inicial. Para ello, vamos a utilizar herramientas gratuitas en línea que presentan los datos como una matriz de características (CMSMatrix.org y CMSMatch.com), aunque sólo se presentan en este documento las relativas a la primera, puesto que la segunda carecía de un montón de datos relevantes.
 
 \subsubsection{Premisas iniciales}
 \par Las premisas iniciales para los CMS (y las que más descartan) son:
@@ -152,7 +182,7 @@ Blog & 0 \\
 \par El primer problema que encontramos es que estos sistemas que hemos elegido para comparar los diferentes CMS no nos dejan saber qué idiomas tiene la interfaz de usuario, así que ha que hacer una pequeña investigación entrando en las páginas web de cada uno de los sitios. Tras esto, sabremos que, al menos en cuanto a la interfaz de administración, todas las plataformas preseleccionadas pueden ejecutarse en español.
 
 
-\par A continuación, pasamos a desgranar las dos comparativas hechas con las diferentes herramientas encontradas:
+\par A continuación, pasamos a desgranar las secciones más interesantes de la comparativa reseñada:
 
 \subsubsection{Comparativa con CMSMatrix}
 
@@ -163,7 +193,7 @@ Blog & 0 \\
 \par Vamos a ir analizando lo que se ve en la figura:
 
 \begin{figure}
-\begin{narrow}{-0.2\linewidth}{-0.2\linewidth}
+\begin{narrow}{-0.15\linewidth}{-0.15\linewidth}
 \centering
 \includegraphics[width=\linewidth]{cmsmat1}
 \caption{System Requeriments desde CMSMatrix.org}
@@ -182,12 +212,12 @@ Blog & 0 \\
 \par La única opción con inconvenientes en este campo sería Joomla!, que según cmsmatrix no permite la asignación de privilegios personalizada, señalando que MODx en supervisión de contenidos y control de versiones necesitaría un añadido gratuito, al igual que Joomla! para este último caso.
 
 \begin{figure}
-\begin{narrow}{-0.2\linewidth}{-0.2\linewidth}
+\begin{narrow}{-0.15\linewidth}{-0.15\linewidth}
 \centering
 \includegraphics[width=\linewidth]{cmsmat2}
-\caption{System Requeriments desde CMSMatrix.org}
+\caption{Security desde CMSMatrix.org}
 \end{narrow}
-\label{fig:cmsmat1}
+\label{fig:cmsmat2}
 \end{figure}
 
 \paragraph{Support (Asistencia)}
@@ -195,12 +225,12 @@ Blog & 0 \\
 \par Esta es una de las partes menos importantes de la comparativa, pues es incierto el futuro en cuestión de mantenimiento de la plataforma. En este caso nos estaríamos fijando más en ``Commercial Support" (asistencia de pago), ``Developer Community" (comunidad de desarrolladores) y ``Public Forum" (foros públicos). Destacar únicamente que WordPress no dispone de ese servicio, aunque el servicio gratuito sí que exista.
 
 \begin{figure}
-\begin{narrow}{-0.2\linewidth}{-0.2\linewidth}
+\begin{narrow}{-0.15\linewidth}{-0.15\linewidth}
 \centering
 \includegraphics[width=\linewidth]{cmsmat3}
-\caption{System Requeriments desde CMSMatrix.org}
+\caption{Support desde CMSMatrix.org}
 \end{narrow}
-\label{fig:cmsmat1}
+\label{fig:cmsmat3}
 \end{figure}
 
 \paragraph{Ease of Use (Facilidad de uso)}
@@ -208,12 +238,12 @@ Blog & 0 \\
 \par Este es uno de los puntos más importantes de la comparativa. Si observamos:
 
 \begin{figure}
-\begin{narrow}{-0.2\linewidth}{-0.2\linewidth}
+\begin{narrow}{-0.15\linewidth}{-0.15\linewidth}
 \centering
 \includegraphics[width=\linewidth]{cmsmat4}
-\caption{System Requeriments desde CMSMatrix.org}
+\caption{Ease of Use desde CMSMatrix.org}
 \end{narrow}
-\label{fig:cmsmat1}
+\label{fig:cmsmat4}
 \end{figure}
 
 \par Encontraremos que, a destacar, podemos seleccionar como las más relevantes las opciones de ``Drag-N-Drop Content" (arrastrar y soltar contenido), ``Image Resizing" (redimensionado de imágenes), ``Mass Upload" (subida de archivos masiva) y ``WYSIWYG Editor" (editor visual).
@@ -226,12 +256,12 @@ Blog & 0 \\
 \par Este apartado no contiene aspectos demasiado relevantes para el proyecto que tenemos entre manos, pues no se espera que la carga de trabajo del servidor sea elevada como para preocuparse por estos detalles, aunque llegado el momento del desempate, podría declinar la balanza entre una opción y otra. Siendo tanto ``WordPress" como ``Joomla!" los más perjudicados.
 
 \begin{figure}
-\begin{narrow}{-0.2\linewidth}{-0.2\linewidth}
+\begin{narrow}{-0.15\linewidth}{-0.15\linewidth}
 \centering
 \includegraphics[width=\linewidth]{cmsmat5}
-\caption{System Requeriments desde CMSMatrix.org}
+\caption{Performance desde CMSMatrix.org}
 \end{narrow}
-\label{fig:cmsmat1}
+\label{fig:cmsmat5}
 \end{figure}
 
 
@@ -240,19 +270,18 @@ Blog & 0 \\
 \par La figura presenta aspectos importantes para el administrador de la plataforma como: ``Online Administration" (gestión en línea), ``Themes/Skins" (temas gráficos), ``Web-based Style/Template Management" (gestión de estilos y plantillas vía web) y ``Web-based Translation Management" (gestión de traducciones vía web).
 
 \begin{figure}
-\begin{narrow}{-0.2\linewidth}{-0.2\linewidth}
+\begin{narrow}{-0.15\linewidth}{-0.15\linewidth}
 \centering
 \includegraphics[width=\linewidth]{cmsmat6}
-\caption{System Requeriments desde CMSMatrix.org}
+\caption{Management desde CMSMatrix.org}
 \end{narrow}
-\label{fig:cmsmat1}
+\label{fig:cmsmat6}
 \end{figure}
 
 \par Las características que he citado primera y cuarta son, a mi juicio, fundamentales, ya que permiten la gestión de la plataforma virtualmente desde cualquier dispositivo que pueda mostrar páginas web. Las fallas más significativas son las de ``MODx" y ``mojoPortal", que gracias a la falta de gestor de traducciones vía web quedarían, por ahora, descalificadas por completo. Hay que destacar que ``WordPress" tiene limitaciones en esto y acumularía ya unas cuantas pegas que no lo hacen muy aconsejable.
 
 
-\paragraph{interoperability (Interoperatividad)}
-
+\paragraph{Interoperability (Interoperatividad)}
 \par Toda las características mostradas en la tabla siguiente tienen una importancia técnica alta, aunque su repercusión en el resultado visual final no sea grande. Quiero, en este apartado, analizarlas una por una para que se sepa de qué trata cada una.
 
 \par Content Syndication (RSS) (sindicación de contenidos): Se trata de un sistema que permite a los usuarios estar al tanto de las nuevas publicaciones de una plataforma. Como en nuestro caso el contenido será mayoritariamente estático no es algo relevante.
@@ -269,13 +298,70 @@ Blog & 0 \\
 
 
 \begin{figure}
-\begin{narrow}{-0.2\linewidth}{-0.2\linewidth}
+\begin{narrow}{-0.15\linewidth}{-0.15\linewidth}
 \centering
-\includegraphics[width=\linewidth]{cmsmat5}
-\caption{System Requeriments desde CMSMatrix.org}
+\includegraphics[width=\linewidth]{cmsmat7}
+\caption{Interoperability desde CMSMatrix.org}
 \end{narrow}
-\label{fig:cmsmat1}
+\label{fig:cmsmat7}
 \end{figure}
+
+
+
+\paragraph{Flexibility (Flexibilidad)}
+
+
+\par De esta sección, lo que más nos va a interesar es la``Interface Localization" (interfaz en el idioma deseado), la capacidad de presentar e integrar contenido en distintas lenguas, representado por``Multilingual Content" y``Multilingual Content Integration". Tanto esta como las dos siguientes secciones, como se comprueba en el estilo austero, no son tan relevantes como las ya comentadas.
+
+\begin{figure}
+\begin{narrow}{-0.15\linewidth}{-0.15\linewidth}
+\centering
+\includegraphics[width=\linewidth]{cmsmat8}
+\caption{Flexibility desde CMSMatrix.org}
+\end{narrow}
+\label{fig:cmsmat8}
+\end{figure}
+
+
+\paragraph{Built-in Applications (Aplicaciones embebidas)}
+
+
+\par En esta sección se presentan todas esas funcionalidades extras que podrían (o no) interesarnos a la hora de diseñar nuestra plataforma. 
+
+\begin{figure}
+\begin{narrow}{-0.15\linewidth}{-0.15\linewidth}
+\centering
+\includegraphics[width=\linewidth]{cmsmat9-1}
+\caption{Built-in Applications (I) desde CMSMatrix.org}
+\end{narrow}
+\label{fig:cmsmat9}
+\end{figure}
+
+\par Entre las presentes, me parecen reseñables las que tienen que ver con calendarios y eventos, manejo de enlaces, encuestas, manejo de documentos y galería de imágenes, entre otras, aunque, en general, no son demasiado importantes porque no sería difícil recrearlas.
+
+\begin{figure}
+\begin{narrow}{-0.15\linewidth}{-0.15\linewidth}
+\centering
+\includegraphics[width=\linewidth]{cmsmat9-2}
+\caption{Built-in Applications (II) desde CMSMatrix.org}
+\end{narrow}
+\end{figure}
+
+\paragraph{Commerce (Comercio electrónico)}
+
+
+\par Esta última se incluye casi a modo testimonial, dado que la parte comercial tanto del museo como, más generalmente, de todo el IGN, se concentra en otro departamento, fuera del alcance de este proyecto. En ella podemos ver distintas funcionalidades orientadas a la parte más comercial de la actividad: tienda, carrito, pasarela, etc.
+
+\begin{figure}
+\begin{narrow}{-0.15\linewidth}{-0.15\linewidth}
+\centering
+\includegraphics[width=\linewidth]{cmsmatA}
+\caption{Commerce desde CMSMatrix.org}
+\end{narrow}
+\label{fig:cmsmatA}
+\end{figure}
+
+
 
 \par Dicho todo esto, considero que Joomla! también debería ser apartado de los candidatos dada la falla en cuanto a XHTML. Los costes extra de dotCMS para algunas características me hacen pensar que la filosofía de ese proyecto no es tan cercana a nuestros objetivos como podría parecer, así que también los desaconsejaría.
 
@@ -307,9 +393,9 @@ Si hay que poner una pega (y no es trivial), es su curva de aprendizaje, dado qu
 
 \subsection{Anexo a comparativa}
 \par Como resultado de la comunicación con el cliente, se hace una rápida referencia a una plataforma como candidata a ser la destinataria de la migración del CMS de todo el Instituto Geográfico Nacional. Normalmente, todo lo relacionado con la gestión de contenidos y, en general, todo el software generado suele ser subcontratado a otras empresas, dejando los desarrollos propios o artesanales casi exclusiva y paradójicamente al personal especializado (astrónomos, físicos, etc.).
-\par La propuesta es analizar brevemente el candidato "Alfresco" para ver si sería viable tenerlo en cuenta como candidato para nuestro desarrollo.
+\par La propuesta es analizar brevemente el candidato``Alfresco" para ver si sería viable tenerlo en cuenta como candidato para nuestro desarrollo.
 \subsubsection{Breve análisis de Alfresco}
-\par Para proceder con este análisis, la principal fuente de información será el sitio web de la compañía dedicado a hablar de la entidad. Alfresco es una empresa fundada por John Newton (Documentum\footnote{Empresa americana dedicada a la creación de un gestor de contenidos empresariales con el mismo nombre, hoy mantenido por EMC Corporation.\cite{references:documentum}}) y John Powell (Bussiness Objects\footnote{Empresa francesa dedicada a Bussiness Intelligence y desde 2007 parte de SAP AG\cite{references:bussinessobjects}}) e integrada por ingenieros de Documentum y Oracle en 2005 con capital de diferentes empresas de inversión como SAP Ventures, Accel Partners y Mayfield Fund. Se autodenominan la "alternativa de código abierto para la gestión de contenidos empresariales (ECM)\cite{references:alfrescoabout}.
+\par Para proceder con este análisis, la principal fuente de información será el sitio web de la compañía dedicado a hablar de la entidad. Alfresco es una empresa fundada por John Newton (Documentum\footnote{Empresa americana dedicada a la creación de un gestor de contenidos empresariales con el mismo nombre, hoy mantenido por EMC Corporation.\cite{references:documentum}}) y John Powell (Bussiness Objects\footnote{Empresa francesa dedicada a Bussiness Intelligence y desde 2007 parte de SAP AG\cite{references:bussinessobjects}}) e integrada por ingenieros de Documentum y Oracle en 2005 con capital de diferentes empresas de inversión como SAP Ventures, Accel Partners y Mayfield Fund. Se autodenominan la``alternativa de código abierto para la gestión de contenidos empresariales (ECM)\cite{references:alfrescoabout}.
 \par Aquí aparece un concepto desconocido hasta ahora en este documento: gestión de contenidos empresariales. Según la Asociación para la gestión de imágenes e información (AIIM en inglés), ECM se define como \cite{references:ecmaiim}: ``las estrategias, métodos y herramientas usadas para capturar, gestionar, almacenar, preservar y entregar contenido y documentos relacionados con procesos organizativos. Las estrategias y herramientas ECM permiten la administración de la información no estructurada de una organización donde quiera que ésta exista."\renewcommand{\thefootnote}{\fnsymbol{footnote}}\footnote[1]{Traducción propia.}\renewcommand{\thefootnote}{\arabic{footnote}}	
 
 \par Aunque quizá ya era de esperar, podemos ver que este tipo de plataforma abarca mucho más de lo que en principio necesitaríamos y está enfocado de manera diferente a lo que sería nuestro museo virtual. Si nos atenemos a la plataforma, rápidamente vemos que forma parte del modelo de negocio que algunas empreas han encontrado para explotar el código abierto: el soporte. No hay otra manera (salvo una evaluación de 30 días) de utilizar la plataforma Enterprise que la de contratar una suscripción con la empresa atendiendo a diversos paquetes de soporte integrado. Las características incluídas en todas las opciones son:
@@ -399,14 +485,14 @@ Topografía altimétrica, Gabinete, Meteorología, Geofísica}
 %\label{fig:gantt2}
 %\end{sidewaysfigure}
 
-\subsection{Drupal}
+\section{Drupal}
 
 \par Como dije más arriba, Drupal será incialmente la plataforma seleccionada para comenzar con la integración y desarrollo del sistema. Se trata de un sistema complejo, del que prefiero describir algunos fundamentos básicos que ayunden a entenderlo todo.
 
 \par Existen multitud de recursos en Internet sobre Drupal, empezando por su sitio web principal \cite{references:drupalhome}, pero el recurso más útil que he encontrado es el libro editado por O'Reilly \cite{ByronBerryHaugEatonWalkerRobbins200812} y creado por el staff del sitio web Lullabot \cite{references:lullabot}. Aunque la versión traducida al español editada por Anaya \cite{ByronBerryHaugEatonWalkerRobbins200909} facilita el seguimiento general del libro, considero que en algunos aspectos es una traducción, cuanto menos, apresurada.
 
-\subsubsection{Entorno de (pre)desarrollo}
-\par Para la prueba inicial he utilizado un "software appliance", es decir, una imagen de disco dispuesta a ser arrancada por una máquina virtual (en este caso VirtualBox) y empezar a funcionar. esto facilita mucho las cosas a la hora de realizar configuraciones rápidas y dinámicas dejando para más adelante (cuando tengamos una arquitectura definida) la integración y configuración de un servidor real.
+\subsection{Entorno de (pre)desarrollo}
+\par Para la prueba inicial he utilizado un``software appliance", es decir, una imagen de disco dispuesta a ser arrancada por una máquina virtual (en este caso VirtualBox) y empezar a funcionar. esto facilita mucho las cosas a la hora de realizar configuraciones rápidas y dinámicas dejando para más adelante (cuando tengamos una arquitectura definida) la integración y configuración de un servidor real.
 
 La máquina elegida fue sacada de la web de TurnKey \cite{references:turnkey} en la que se pueden encontrar multitud de imágenes listas para hacer la función de servidor web con CMS nada más ser arrancadas. Suele tratarse de un montaje LAMP (Linux + Apache + MySQL + PHP) \cite{references:LAMP} En concreto se utilizó la que integraba la versión 6 de Drupal \cite{references:turnkeydrupal} con un entorno que se describe con los siguientes componentes básicos:
 
@@ -426,17 +512,72 @@ La máquina elegida fue sacada de la web de TurnKey \cite{references:turnkey} en
 \item Módulos más conocidos de Drupal (CCK, Views, Lightbox2, ImageCache, CKEditor, etc.).
 \end{itemize}
 
-\par En este caso, a la configuración inicial se le hicieron varias modificaciones, como instalar la distribución en español (que era uno de los requisitos) e instalar un módulo FTP en Webmin. Para la primera cosa hubo que borrar la instalación que venía por defecto con el "appliance" y volver a instalar Drupal en español descargándolo desde su página\cite{references:drupalhispano}. Para la segunda, sin embargo, salvo modificar ligeramente permisos en el servidor via SSH, el propio Webmin es bastante intuitivo.
+\par En este caso, a la configuración inicial se le hicieron varias modificaciones, como instalar la distribución en español (que era uno de los requisitos) e instalar un módulo FTP en Webmin. Para la primera cosa hubo que borrar la instalación que venía por defecto con el``appliance" y volver a instalar Drupal en español descargándolo desde su página\cite{references:drupalhispano}. Para la segunda, sin embargo, salvo modificar ligeramente permisos en el servidor via SSH, el propio Webmin es bastante intuitivo.
 
-\subsubsection{Understanding Drupal}
+\subsection{Understanding Drupal}
 
 \par Como en el libro original, una buena manera de comenzar nuestro periplo por este CMS es conocer sus fundamentos.
 \par Se vió más arriba que Drupal es un CMS gratuito y de código abierto con una amplia comunidad de usuarios y colaboradores, lo que lo convierte en una plataforma bastante actualizada, potente y en contacto con las necesidades demandadas por la mayoría de usuarios.
 
-\paragraph{General} En su concepción, Drupal no necesita un sistema operativo, servidor web o gestor de bases de datos concreto. Puede valer cualquiera capaz de correr una implementación de PHP y una base de datos compatible con SQL. Digamos que el "alma" de Drupal estaría contenida en la base de datos y se articularía gracias al "core" que hace uso del intérprete PHP. Además de los subsistemas que permiten el interpretado de temas gráficos, la gestión de sesiones de usuario y el filtrado para mantener la seguridad del sistema. Alrededor de este núcleo tendríamos los módulos (tanto incluídos por defecto como los que han sido asimilados gracias a la comunidad de desarrolladores) que extenderían la funcionalidad del sistema a lugares más específicos que van desde la creación de contenidos hasta la asistencia a tareas de administración pasando por todo tipo de funciones imaginables.
+\subsubsection{General} 
+
+\par En su concepción, Drupal no necesita un sistema operativo, servidor web o gestor de bases de datos concreto. Puede valer cualquiera capaz de correr una implementación de PHP y una base de datos compatible con SQL. Digamos que el``alma" de Drupal estaría contenida en la base de datos y se articularía gracias al``core" que hace uso del intérprete PHP. Además de los subsistemas que permiten el interpretado de temas gráficos, la gestión de sesiones de usuario y el filtrado para mantener la seguridad del sistema. Alrededor de este núcleo tendríamos los módulos (tanto incluídos por defecto como los que han sido asimilados gracias a la comunidad de desarrolladores) que extenderían la funcionalidad del sistema a lugares más específicos que van desde la creación de contenidos hasta la asistencia a tareas de administración pasando por todo tipo de funciones imaginables.
 Los contenidos de Drupal se basan en un concepto simple pero efectivo: los nodos. Todos los contenidos son organizados en nodos que pueden ser accedidos independientemente. Serían, por así decirlo, las unidades mínimas de contenido en Drupal. Todos ellos, además de los temas, configuraciones y usuarios se almacenan en la base de datos. A la hora de servir las páginas, el motor de Drupal en PHP trasladará esa información de la base de datos, produciendo una salida en XHTML con CSS (al menos, predeterminadamente) gracias a la interpretación de las plantillas que acompañan a los temas gráficos.
 
-\paragraph{Módulos}
+\subsubsection{Módulos} 
+
+\par Los módulos, tanto los que se incluyen oficialmente junto al``core", como los que son aportados y mantenidos por la comunidad desarrolladores, son los que aportan la funcionalidad más cercana al usuario. Articulan lo que de otra manera sería una simple plataforma de edición de páginas web con una base de datos como soporte fundamental.
+En esencia, son archivos que contienen código php que proporciona un conjunto de funcionalidades y se integran en Drupal. Estas funcionalidades, salvo en las excepciones de módulos necesarios para el funcionamiento``nuclear" de Drupal, pueden ser activados o desactivados en cualquier momento, claro está, atendiendo a las interdependencias entre unos módulos y otros.
+\par Prácticamente todas las funcionalidades, desde la gestión de usuarios y credenciales (módulo User) o los formularios de contacto con el responsable de la página (módulo Contact) hasta la creación de Galerías de imágenes o taxónomías para ordenar el contenido semánticamente, son aportadas por estos componentes.
+La verdadera potencia de los módulos reside en la interconexión de los mismos y el ajuste minucioso de las numerosas opciones de configuración que aporta cada uno de ellos. Nunca podrá conseguirse un sistema a pleno rendimiento si las opciones se dejan por defecto (aunque esta generalidad aplica a todo sistema informático de cierto nivel). Esta potencia que se nos ofrece en un principio, puede, dado la gran cantidad de alternativas disponibles, sin embargo, convertirse en un dolor de cabeza para dar con el módulo adecuado a nuestras necesidades (dado que hay varios que pueden aportar similares funcionalidades).
+
+\subsubsection{Usuarios} 
+
+\par Una de los cuerpos más importantes de un sistema informático es la gestión de usuarios. Su mayor baza es la de personalizar el entorno según las credenciales de la persona (o máquina) que accede. En el caso de Drupal, por defecto, encontramos un sistema de usuarios con multitud de opciones. Por defecto, se crea el``User 1", que sería algo así como el usuario``root" en sistemas UNIX, es decir, un superusuario con derechos plenos sobre todo el sistema.
+Si bien la clásica organización en usuarios podría ser una solución, en el caso de Drupal, se añade el concepto de``rol. Un rol, siguiendo con la analogía de UNIX, sería algo similar a un grupo de usuarios. De esta manera, se permite separar el espacio individual posible de cada usuario (que en nuestro caso no tendría demasiada utilidad, salvo la meramente identificativa a la hora de hacer cambios y puede que la capacidad de tener entradas como borradores) de su asignación de permisos.
+Los permisos son asignados a un rol determinado, y ese rol determinado puede ser asignado a varios usuarios, permitiendo, en todo caso, que todo usuario (incluso los anónimos) estén bajo control a la hora de decidir el acceso, creación, modificación y borrado de datos, así como los contenidos presentados en cada caso.
+
+\subsubsection{Nodos} 
+
+\par Este punto podría decirse que es la piedra angular de Drupal. Si en un CMS lo importante son los contenidos, en Drupal, si queremos hablar de contenidos, tenemos que remitirnos a los nodos. Como dijimos anteriormente, los nodos son la unidad mínima de publicación de contenidos en Drupal. No es raro, al visitar un sitio al azar (dada la extendida implantación de Drupal en los sitios web) que topemos con urls que contengan, entre barras, la palabra``node", aunque esto sea, según algunos gurús, algo a evitar por los desarrolladores, ya sea mediante alias que escondan esas urls o mediante plantillas que engloben los nodos como un componente más.
+Y ahí radica una de las característica más poderosas de los nodos y es que pueden ser tomados como partes de estructuras más grandes, permitiendo cosas como que una foto, su título, y si se quiere, un comentario, puedan ser en sí mismas un nodo, y a su vez, este nodo, formar parte como referencia en otro nodo. 
+Todo esto aporta una fortaleza importante a la hora de indexar contenidos, proyectar búsquedas o presentar las entradas de diferentes maneras y atendiendo a unos y otros criterios, ya que todos los contenidos parten de una estructura común y son, hasta cierto punto, compatibles entre sí.
+
+\par Los nodos, en su estructura más básica, están compuestos por:
+\begin{itemize}
+\item Autor
+\item Fecha de creación
+\item Título del nodo
+\item Contenido principal
+\end{itemize}
+
+\par A partir de ahí pueden darse diferenciaciones o mutaciones que permitan distinguir entre distintos tipos de contenido. Como por ejemplo la diferencia existente entre Página (Page) y Artículo (Story), que prepara la página para ser un contenido esencialmente estático e informativo (incluso institucional) y el artículo para ser algo más dinámico, corriente y genérico.``Page" y``Story" son los dos medios básicos que son incluidos por defecto en Drupal, dejando Page para páginas tipo``¿Quiénes somos?" o``Política de privacidad", que no requieren interactividad, ni cambios y que están preparadas para ocultar por defecto la fecha y el autor del contenido. Sin embargo,``Story" contaría con la intención (al menos en su creación) de formar parte de lo que llamaríamos la portada del sitio, como una``noticia" más o una``novedad" más, que tiene un contexto temporal y un autor más relevantes.
+
+\par Combinando las dos funcionalidades pasasdas podremos asignar las capacidades de los usuarios (a través de sus roles asignados) individualmente para cada tipo de contenido. Dejando, puede ser, un contenido institucional a un editor y un contenido más dinámico a un redactor (o cualquier otra combinación que se nos ocurra).
+
+\subsubsection{Formas de organizar el contenido}
+
+\par Dejando de lado la parte más semántica e íntegra del sistema, las cuestiones organizativas son las que afloran. En este caso, hay distintas aproximaciones posibles que nos permiten presentar y complementar los contenidos descritos más arriba.
+
+\paragraph{Bloques}
+
+\par Pasando a la parte más visible (la v dentro del modelo MVC) aunque con ramificaciones en las otras dos, nos encontramos con esta estructura. Los bloques constituyen las unidades más pequeñas para mostrar información. Digamos que son pequeños trozos de código que aportan una funcionalidad que se plasmará visiblemente en la pantalla. Cosas como el número de usuarios conectados, los últimos comentarios en entradas o los artículos más populares son los ejemplos más conocidos de este tipo de objetos, que seguro que son conocidas a la mayoría de usuarios medios por haber visto cosas similares en otros sitios de la red.
+
+\par Se enmarcan en regiones distribuidas por la estructura gráfica de la página (como encabezado, pie, laterales o cuerpo principal). Serían, pues, los diferentes componentes que podríamos organizar (o quitar) de nuestra página para que mostrase la información que consideramos necesaria. Juegan un papel fundamental a la hora de trabajar con plantillas, que veremos en el apartado de Temas.
+
+
+\paragraph{Menús}
+
+\par No hay mucho que explicar sobre los menús en Drupal salvo que son, como casi todo, altamente personalizables. Serían colecciones de enlaces que normalmente están situados en regiones reconocibles de nuestro sitio web y nos permiten movernos por el sitio sin perdernos y sin dar muchos rodeos. Dependiendo de cómo están construidos pueden incluso darnos una idea de dónde estamos. Por defecto se crea un menú principal que se mostraría en todo momento y un secundario que se mostraría a partir de la opción seleccionada en el menú principal. Su uso, como desde hace mucho tiempo, es muy intuitivo.
+
+\paragraph{Taxonomías}
+
+\par Aunque hablaremos más adelante de esto, hay que reseñar que el módulo``Taxonomy" nos proporciona una funcionalidad que en nuestro caso vendrá a sustituir por ahora lo que en principio se iba a construir a base de ontologías y redes semánticas. Es una implementación muy simple pero en nuestro caso resulta que cumple con nuestras necesidades. Permitiría clasificar los contenidos (incluso haciendo distinciones entre distintos tipos de contenido) según clasificaciones que nosotros previamente hayamos creado, a las que el programa llamará``vocabularios". Es decir, que en función de la clasificación (o clasificaciones, dado que se pueden aplicar varias a la vez) que le otorguemos a un contenido en concreto, podrá ser posteriormente relacionado en una jerarquía que ordenará los contenidos por su área semántica. Por inmediatez del ejemplo, podremos catalogar los instrumentos de nuestro museo por área de conocimiento a la que pertenecen (astronomía, geofísica, geodesia, ...) y a la vez enmarcarlos en una época temporal, por los materiales de su construcción (pudiendo estar a la vez en varios grupos) o por cualquier otra escala que se nos ocurra.
+\par Esta funcionalidad, combinada con la anterior de los menús, puede ser muy interesante a la hora de ayudar al usuario a navegar con sentido por el sistema.
+
+\subsubsection{CCK}
+\par 
+
 
 
 

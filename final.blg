@@ -11,6 +11,7 @@ The style file: ./IEEEtran.bst
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: ./IEEEabrv.bib
 Database file #2: ./references.bib
+Warning--I didn't find a database entry for "references:tatehandheld"
 Warning--I didn't find a database entry for "refrences:alfrescocmsmat"
 Warning--I didn't find a database entry for "references:alfrescocomp"
 -- IEEEtran.bst version 1.11 (2003/04/02) by Michael Shell.
@@ -18,45 +19,45 @@ Warning--I didn't find a database entry for "references:alfrescocomp"
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
 
 Done.
-You've used 15 entries,
+You've used 16 entries,
             3975 wiz_defined-function locations,
-            1201 strings with 15809 characters,
-and the built_in function-call counts, 4502 in all, are:
-= -- 240
-> -- 67
+            1205 strings with 15925 characters,
+and the built_in function-call counts, 4752 in all, are:
+= -- 254
+> -- 68
 < -- 4
-+ -- 37
++ -- 38
 - -- 12
-* -- 140
-:= -- 729
-add.period$ -- 17
-call.type$ -- 15
-change.case$ -- 15
+* -- 145
+:= -- 771
+add.period$ -- 18
+call.type$ -- 16
+change.case$ -- 16
 chr.to.int$ -- 12
-cite$ -- 15
-duplicate$ -- 406
-empty$ -- 526
+cite$ -- 16
+duplicate$ -- 430
+empty$ -- 557
 format.name$ -- 14
-if$ -- 975
+if$ -- 1029
 int.to.chr$ -- 0
-int.to.str$ -- 15
-missing$ -- 100
-newline$ -- 91
+int.to.str$ -- 16
+missing$ -- 106
+newline$ -- 96
 num.names$ -- 2
-pop$ -- 384
+pop$ -- 408
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 324
+skip$ -- 343
 stack$ -- 0
 substring$ -- 8
-swap$ -- 188
+swap$ -- 198
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 5
 type$ -- 0
 warning$ -- 0
 while$ -- 4
-width$ -- 17
-write$ -- 137
-(There were 2 warnings)
+width$ -- 18
+write$ -- 145
+(There were 3 warnings)
