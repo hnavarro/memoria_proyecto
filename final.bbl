@@ -18,6 +18,12 @@
 \fi
 #2}}
 
+\bibitem{references:tatehandheld}
+\BIBentryALTinterwordspacing
+G.~Wilson. (2004) Multimedia tour programme at tate modern. [Online].
+  Available: \url{http://www.archimuse.com/mw2004/papers/wilson/wilson.html}
+\BIBentrySTDinterwordspacing
+
 \bibitem{references:liferaylicense}
 \BIBentryALTinterwordspacing
 Liferay adopting the lgpl license - blog - liferay.com. [Online]. Available:
@@ -46,6 +52,12 @@ Sobre alfresco - la alternativa para la gestión de contenidos empresariales en
 \BIBentryALTinterwordspacing
 Aiim - what is ecm? what is enterprise content management. [Online]. Available:
   \url{http://www.aiim.org/What-is-ECM-Enterprise-Content-Management.aspx}
+\BIBentrySTDinterwordspacing
+
+\bibitem{references:alfrescocomp}
+\BIBentryALTinterwordspacing
+Alfresco - cmsmatrix.org - the content management comparison tool. [Online].
+  Available: \url{http://cmsmatrix.org/matrix/cms-matrix/alfresco}
 \BIBentrySTDinterwordspacing
 
 \bibitem{references:drupalhome}
