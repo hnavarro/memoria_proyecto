@@ -1,8 +1,8 @@
 all:
-	latex final
+	pdflatex final
 	bibtex final
-	latex final
-	latex final
-	dvipdf final
-	xpdf final.pdf
-
+	pdflatex final
+	pdflatex final
+#	dvipdf final
+#	xpdf final.pdf
+#	xdvi final.dvi

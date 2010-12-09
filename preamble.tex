@@ -20,7 +20,10 @@
 \usepackage{supertabular}
 \usepackage{hhline}
 \usepackage{array}
-\usepackage{cite}      % Written by Donald Arseneau
+\usepackage{cite}       
+\usepackage{wrapfig}
+% \usepackage{epstopdf}
+			% Written by Donald Arseneau
                         % V1.6 and later of IEEEtran pre-defines the format
                         % of the cite.sty package \cite{} output to follow
                         % that of IEEE. Loading the cite package will
@@ -36,6 +39,10 @@
                         % off. cite.sty is already installed on most LaTeX
                         % systems. The latest version can be obtained at:
                         % http://www.ctan.org/tex-archive/macros/latex/contrib/supported/cite/
+
+%ruta de las imagenes
+\graphicspath{{./img}}
+
 \usepackage{hyperref}
 
 \newcommand{\eg}{e.g.,\xspace}
@@ -43,7 +50,6 @@
 \newcommand{\etc}{etc.\@\xspace}
 
 
-\graphicspath{{img/}}
 
 \renewcommand{\theenumi}{\arabic{enumi}}
 \renewcommand{\theenumii}{\alph{enumii}}
@@ -95,9 +101,6 @@
   \renewcommand \thechapter{\arabic{chapter}}
 }
 \makeatother
-
-\newcommand{\NC}{NeuronChip\xspace}
-\newcommand{\nc}{\NC}
 
 %para generar el indice
 \makeindex

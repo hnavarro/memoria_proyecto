@@ -17,45 +17,45 @@ Warning--I didn't find a database entry for "refrences:alfrescocmsmat"
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
 
 Done.
-You've used 18 entries,
+You've used 19 entries,
             3975 wiz_defined-function locations,
-            1212 strings with 16171 characters,
-and the built_in function-call counts, 5344 in all, are:
-= -- 295
-> -- 73
+            1215 strings with 16259 characters,
+and the built_in function-call counts, 5594 in all, are:
+= -- 309
+> -- 74
 < -- 4
-+ -- 41
++ -- 42
 - -- 13
-* -- 159
-:= -- 880
-add.period$ -- 21
-call.type$ -- 18
-change.case$ -- 18
+* -- 164
+:= -- 922
+add.period$ -- 22
+call.type$ -- 19
+change.case$ -- 19
 chr.to.int$ -- 12
-cite$ -- 18
-duplicate$ -- 481
-empty$ -- 622
+cite$ -- 19
+duplicate$ -- 505
+empty$ -- 653
 format.name$ -- 15
-if$ -- 1155
+if$ -- 1209
 int.to.chr$ -- 0
-int.to.str$ -- 18
-missing$ -- 119
-newline$ -- 106
+int.to.str$ -- 19
+missing$ -- 125
+newline$ -- 111
 num.names$ -- 3
-pop$ -- 454
+pop$ -- 478
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 390
+skip$ -- 409
 stack$ -- 0
 substring$ -- 8
-swap$ -- 225
+swap$ -- 235
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 5
 type$ -- 0
 warning$ -- 0
 while$ -- 5
-width$ -- 20
-write$ -- 163
+width$ -- 21
+write$ -- 171
 (There was 1 warning)
