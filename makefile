@@ -1,4 +1,4 @@
-all:
+pdf:
 	pdflatex final
 	bibtex final
 	pdflatex final
@@ -6,3 +6,12 @@ all:
 #	dvipdf final
 #	xpdf final.pdf
 #	xdvi final.dvi
+
+dvi:
+	latex final
+	bibtex final
+	latex final
+	latex final
+#	dvipdf final
+#	xpdf final.pdf
+	xdvi final.dvi

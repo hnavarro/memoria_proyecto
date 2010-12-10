@@ -20,41 +20,46 @@
 \usepackage{supertabular}
 \usepackage{hhline}
 \usepackage{array}
-\usepackage{cite}       
+\usepackage{cite}
 \usepackage{wrapfig}
+\usepackage{listings}
+\usepackage{longtable}
+\usepackage{afterpage}
 % \usepackage{epstopdf}
-			% Written by Donald Arseneau
-                        % V1.6 and later of IEEEtran pre-defines the format
-                        % of the cite.sty package \cite{} output to follow
-                        % that of IEEE. Loading the cite package will
-                        % result in citation numbers being automatically
-                        % sorted and properly "ranged". i.e.,
-                        % [1], [9], [2], [7], [5], [6]
-                        % (without using cite.sty)
-                        % will become:
-                        % [1], [2], [5]--[7], [9] (using cite.sty)
-                        % cite.sty's \cite will automatically add leading
-                        % space, if needed. Use cite.sty's noadjust option
-                        % (cite.sty V3.8 and later) if you want to turn this
-                        % off. cite.sty is already installed on most LaTeX
-                        % systems. The latest version can be obtained at:
-                        % http://www.ctan.org/tex-archive/macros/latex/contrib/supported/cite/
-
-%ruta de las imagenes
-\graphicspath{{./img}}
-
 \usepackage{hyperref}
 
-\newcommand{\eg}{e.g.,\xspace}
-\newcommand{\ie}{i.e.,\xspace}
-\newcommand{\etc}{etc.\@\xspace}
+
+% Clase del documento.
+%\documentclass[runningheads,a4paper,spanish]{llncs}
+
+% Paquetes
+%\usepackage{url}
+%\usepackage{graphicx}
+%\usepackage{rotating}
+%\usepackage{calc}
 
 
+%se utiliza para numerar las \subsubsection
+\setcounter{secnumdepth}{5}
 
-\renewcommand{\theenumi}{\arabic{enumi}}
-\renewcommand{\theenumii}{\alph{enumii}}
-\renewcommand{\theenumiii}{\roman{enumiii}}
+%para hacer que las \subsubsection aparezcan en el indice
+\setcounter{tocdepth}{5}
 
+% Ruta de las imagenes
+\graphicspath{{eps/}{img/}}
+
+
+% Definición de entornos nuevos
+
+\newenvironment{narrow}[2]{%
+\begin{list}{}{%
+\setlength{\topsep}{0pt}%
+\setlength{\leftmargin}{#1}%
+\setlength{\rightmargin}{#2}%
+\setlength{\listparindent}{\parindent}%
+\setlength{\itemindent}{\parindent}%
+\setlength{\parsep}{\parskip}}%
+\item[]}{\end{list}}
 
 \newenvironment{Lista}
 {\begin{list}{}{\setlength{\leftmargin}{0pt}%
@@ -65,9 +70,13 @@
 }
 {\end{list}}
 
+
+% Definición de comandos nuevos
+\newcommand{\eg}{e.g.,\xspace}
+\newcommand{\ie}{i.e.,\xspace}
+\newcommand{\etc}{etc.\@\xspace}
 %\newcommand{\I}{\index}
 \newcommand{\n}{\textbf}
-\renewcommand{\c}{\emph}
 \newcommand{\s}{\small}
 \newcommand{\fig}[5][htbp]{
   \begin{figure}[#1]
@@ -78,7 +87,20 @@
   \end{figure}
  }
 
- \newcommand{\clearemptydoublepage}{\newpage{\pagestyle{empty}\cleardoublepage}}
+\newcommand{\clearemptydoublepage}{\newpage{\pagestyle{empty}\cleardoublepage}}
+
+
+% Redefinición de comandos
+\renewcommand{\theenumi}{\arabic{enumi}}
+\renewcommand{\theenumii}{\alph{enumii}}
+\renewcommand{\theenumiii}{\roman{enumiii}}
+\renewcommand{\tablename}{Tabla}
+\renewcommand{\listtablename}{Índice de tablas}
+\renewcommand{\c}{\emph}
+
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection. #1}}
+
 %\voffset=-25pt
 %\textheight=630pt
 %\textwidth=430pt
@@ -90,8 +112,7 @@
 \oddsidemargin=0pt
 \evensidemargin=0pt
 \pagestyle{fancy}
-\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
-\renewcommand{\sectionmark}[1]{\markright{\thesection. #1}}
+
 \lhead[\fancyplain{}{\bfseries\thepage}]{\fancyplain{}{\bfseries\rightmark}}
 \rhead[\fancyplain{}{\bfseries\leftmark}]{\fancyplain{}{\bfseries\thepage}}
 \cfoot{}
@@ -104,8 +125,3 @@
 
 %para generar el indice
 \makeindex
-
-%%% Local Variables: 
-%%% mode: latex
-%%% TeX-master: "preamble"
-%%% End: 

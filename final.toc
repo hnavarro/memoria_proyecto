@@ -1,0 +1,81 @@
+\select@language {spanish}
+\contentsline {chapter}{\numberline {1}Resumen}{13}{chapter.1}
+\contentsline {section}{\numberline {1.1}Resumen}{15}{section.1.1}
+\contentsline {chapter}{\numberline {2}Memoria}{17}{chapter.2}
+\contentsline {section}{\numberline {2.1}Introducci\IeC {\'o}n}{19}{section.2.1}
+\contentsline {section}{\numberline {2.2}Base te\IeC {\'o}rica}{19}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Estado del Arte}{19}{subsection.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.1.1}\IeC {\textquestiondown }Qu\IeC {\'e} puede ser un museo virtual?}{19}{subsubsection.2.2.1.1}
+\contentsline {subsubsection}{\numberline {2.2.1.2}Museos}{20}{subsubsection.2.2.1.2}
+\contentsline {paragraph}{\numberline {2.2.1.2.1}Tate Modern (Londres, Reino Unido)}{20}{paragraph.2.2.1.2.1}
+\contentsline {paragraph}{\numberline {2.2.1.2.2}MoMA (New York, EEUU)}{21}{paragraph.2.2.1.2.2}
+\contentsline {paragraph}{\numberline {2.2.1.2.3}Actual museo del OAN}{22}{paragraph.2.2.1.2.3}
+\contentsline {subsubsection}{\numberline {2.2.1.3}Enciclopedias}{22}{subsubsection.2.2.1.3}
+\contentsline {paragraph}{\numberline {2.2.1.3.1}Wikipedia}{22}{paragraph.2.2.1.3.1}
+\contentsline {paragraph}{\numberline {2.2.1.3.2}Indianopedia, Frikipedia, *pedia}{24}{paragraph.2.2.1.3.2}
+\contentsline {subsubsection}{\numberline {2.2.1.4}Sistemas gestores de contenidos vs Wikis}{24}{subsubsection.2.2.1.4}
+\contentsline {section}{\numberline {2.3}Descripci\IeC {\'o}n del dise\IeC {\~n}o}{24}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Baremaci\IeC {\'o}n de alternativas}{24}{subsection.2.3.1}
+\contentsline {subsubsection}{\numberline {2.3.1.1}Relaci\IeC {\'o}n de caracter\IeC {\'\i }sticas}{25}{subsubsection.2.3.1.1}
+\contentsline {subsubsection}{\numberline {2.3.1.2}Comentarios}{25}{subsubsection.2.3.1.2}
+\contentsline {subsection}{\numberline {2.3.2}Comparativa}{25}{subsection.2.3.2}
+\contentsline {subsubsection}{\numberline {2.3.2.1}Premisas iniciales}{26}{subsubsection.2.3.2.1}
+\contentsline {subsubsection}{\numberline {2.3.2.2}Candidatos pre-seleccionados}{26}{subsubsection.2.3.2.2}
+\contentsline {subsubsection}{\numberline {2.3.2.3}Comparativa con CMSMatrix}{27}{subsubsection.2.3.2.3}
+\contentsline {paragraph}{\numberline {2.3.2.3.1}System Requeriments (Requisitos de sistema)}{27}{paragraph.2.3.2.3.1}
+\contentsline {paragraph}{\numberline {2.3.2.3.2}Security (Seguridad)}{27}{paragraph.2.3.2.3.2}
+\contentsline {paragraph}{\numberline {2.3.2.3.3}Support (Asistencia)}{28}{paragraph.2.3.2.3.3}
+\contentsline {paragraph}{\numberline {2.3.2.3.4}Ease of Use (Facilidad de uso)}{28}{paragraph.2.3.2.3.4}
+\contentsline {paragraph}{\numberline {2.3.2.3.5}Performance (Rendimiento)}{30}{paragraph.2.3.2.3.5}
+\contentsline {paragraph}{\numberline {2.3.2.3.6}Management (Administraci\IeC {\'o}n)}{30}{paragraph.2.3.2.3.6}
+\contentsline {paragraph}{\numberline {2.3.2.3.7}Interoperability (Interoperatividad)}{30}{paragraph.2.3.2.3.7}
+\contentsline {paragraph}{\numberline {2.3.2.3.8}Flexibility (Flexibilidad)}{32}{paragraph.2.3.2.3.8}
+\contentsline {paragraph}{\numberline {2.3.2.3.9}Built-in Applications (Aplicaciones embebidas)}{32}{paragraph.2.3.2.3.9}
+\contentsline {paragraph}{\numberline {2.3.2.3.10}Commerce (Comercio electr\IeC {\'o}nico)}{32}{paragraph.2.3.2.3.10}
+\contentsline {subsubsection}{\numberline {2.3.2.4}Propuesta preliminar}{35}{subsubsection.2.3.2.4}
+\contentsline {paragraph}{\numberline {2.3.2.4.1}Liferay Portal (Community Edition)}{35}{paragraph.2.3.2.4.1}
+\contentsline {paragraph}{\numberline {2.3.2.4.2}Drupal}{35}{paragraph.2.3.2.4.2}
+\contentsline {paragraph}{\numberline {2.3.2.4.3}Moodle}{36}{paragraph.2.3.2.4.3}
+\contentsline {paragraph}{\numberline {2.3.2.4.4}Plone}{36}{paragraph.2.3.2.4.4}
+\contentsline {subsection}{\numberline {2.3.3}Anexo a comparativa}{36}{subsection.2.3.3}
+\contentsline {subsubsection}{\numberline {2.3.3.1}Breve an\IeC {\'a}lisis de Alfresco}{36}{subsubsection.2.3.3.1}
+\contentsline {subsection}{\numberline {2.3.4}Modelo de datos}{37}{subsection.2.3.4}
+\contentsline {subsubsection}{\numberline {2.3.4.1}Cat\IeC {\'a}logo}{37}{subsubsection.2.3.4.1}
+\contentsline {paragraph}{\numberline {2.3.4.1.1}OBJETO}{38}{paragraph.2.3.4.1.1}
+\contentsline {paragraph}{\numberline {2.3.4.1.2}\IeC {\'A}REA}{38}{paragraph.2.3.4.1.2}
+\contentsline {paragraph}{\numberline {2.3.4.1.3}TIPO\_OBJETO}{38}{paragraph.2.3.4.1.3}
+\contentsline {paragraph}{\numberline {2.3.4.1.4}ART\IeC {\'I}CULOS}{38}{paragraph.2.3.4.1.4}
+\contentsline {paragraph}{\numberline {2.3.4.1.5}AREA\_ART\IeC {\'I}CULO}{39}{paragraph.2.3.4.1.5}
+\contentsline {paragraph}{\numberline {2.3.4.1.6}INVENTOR}{39}{paragraph.2.3.4.1.6}
+\contentsline {section}{\numberline {2.4}Drupal}{39}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Entorno de (pre)desarrollo}{39}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Understanding Drupal}{40}{subsection.2.4.2}
+\contentsline {subsubsection}{\numberline {2.4.2.1}General}{40}{subsubsection.2.4.2.1}
+\contentsline {subsubsection}{\numberline {2.4.2.2}M\IeC {\'o}dulos}{40}{subsubsection.2.4.2.2}
+\contentsline {subsubsection}{\numberline {2.4.2.3}Usuarios}{41}{subsubsection.2.4.2.3}
+\contentsline {subsubsection}{\numberline {2.4.2.4}Nodos}{41}{subsubsection.2.4.2.4}
+\contentsline {subsubsection}{\numberline {2.4.2.5}Formas de organizar el contenido}{42}{subsubsection.2.4.2.5}
+\contentsline {paragraph}{\numberline {2.4.2.5.1}Bloques}{42}{paragraph.2.4.2.5.1}
+\contentsline {paragraph}{\numberline {2.4.2.5.2}Men\IeC {\'u}s}{42}{paragraph.2.4.2.5.2}
+\contentsline {paragraph}{\numberline {2.4.2.5.3}Taxonom\IeC {\'\i }as}{43}{paragraph.2.4.2.5.3}
+\contentsline {paragraph}{\numberline {2.4.2.5.4}CCK (Content Construction Kit)}{43}{paragraph.2.4.2.5.4}
+\contentsline {paragraph}{\numberline {2.4.2.5.5}Views}{43}{paragraph.2.4.2.5.5}
+\contentsline {subsubsection}{\numberline {2.4.2.6}Temas}{43}{subsubsection.2.4.2.6}
+\contentsline {paragraph}{\numberline {2.4.2.6.1}Archivos .info}{44}{paragraph.2.4.2.6.1}
+\contentsline {paragraph}{\numberline {2.4.2.6.2}Regiones}{44}{paragraph.2.4.2.6.2}
+\contentsline {paragraph}{\numberline {2.4.2.6.3}Caracter\IeC {\'\i }sticas}{44}{paragraph.2.4.2.6.3}
+\contentsline {paragraph}{\numberline {2.4.2.6.4}CSS y JavaScript}{46}{paragraph.2.4.2.6.4}
+\contentsline {paragraph}{\numberline {2.4.2.6.5}Archivos de plantilla}{46}{paragraph.2.4.2.6.5}
+\contentsline {paragraph}{\numberline {2.4.2.6.6}template.php}{46}{paragraph.2.4.2.6.6}
+\contentsline {section}{\numberline {2.5}Conclusiones y trabajo futuro}{46}{section.2.5}
+\contentsline {chapter}{\numberline {3}Planos}{47}{chapter.3}
+\contentsline {section}{\numberline {3.1}Esquem\IeC {\'a}ticos}{49}{section.3.1}
+\contentsline {chapter}{\numberline {4}Pliego de condiciones}{51}{chapter.4}
+\contentsline {section}{\numberline {4.1}Requisitos de Hardware}{53}{section.4.1}
+\contentsline {section}{\numberline {4.2}Requisitos de Software}{53}{section.4.2}
+\contentsline {chapter}{\numberline {5}Presupuesto}{55}{chapter.5}
+\contentsline {section}{\numberline {5.1}Presupuesto}{57}{section.5.1}
+\contentsline {chapter}{\numberline {6}Manual de Usuario}{59}{chapter.6}
+\contentsline {section}{\numberline {6.1}Manual}{61}{section.6.1}
+\contentsline {chapter}{\numberline {7}Soporte inform\IeC {\'a}tico}{63}{chapter.7}
+\contentsline {chapter}{\numberline {8}Bibliograf\IeC {\'\i }a}{65}{chapter.8}
