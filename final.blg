@@ -4,60 +4,60 @@ A level-1 auxiliary file: portada.aux
 A level-1 auxiliary file: agradecimientos.aux
 A level-1 auxiliary file: resumen.aux
 A level-1 auxiliary file: memoria.aux
-A level-1 auxiliary file: planos.aux
 A level-1 auxiliary file: pliego.aux
-A level-1 auxiliary file: presupuesto.aux
 A level-1 auxiliary file: manual.aux
-A level-1 auxiliary file: soporte.aux
 The style file: ./IEEEtran.bst
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Database file #1: ./IEEEabrv.bib
-Database file #2: ./references.bib
-Warning--I didn't find a database entry for "refrences:alfrescocmsmat"
+Database file #1: ./references.bib
+Repeated entry---line 385 of file ./references.bib
+ : @electronic{references:tatehandheld
+ :                                    ,
+I'm skipping whatever remains of this entry
 -- IEEEtran.bst version 1.11 (2003/04/02) by Michael Shell.
 -- http://www.ctan.org/tex-archive/macros/latex/contrib/supported/IEEEtran/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+** IEEEtran BST control entry "references:BSTcontrol" detected.
 
 Done.
-You've used 19 entries,
+You've used 30 entries,
             3975 wiz_defined-function locations,
-            1217 strings with 16289 characters,
-and the built_in function-call counts, 5594 in all, are:
-= -- 309
-> -- 74
-< -- 4
-+ -- 42
-- -- 13
-* -- 164
-:= -- 922
-add.period$ -- 22
-call.type$ -- 19
-change.case$ -- 19
-chr.to.int$ -- 12
-cite$ -- 19
-duplicate$ -- 505
-empty$ -- 653
-format.name$ -- 15
-if$ -- 1209
+            904 strings with 10821 characters,
+and the built_in function-call counts, 8522 in all, are:
+= -- 484
+> -- 109
+< -- 7
++ -- 64
+- -- 20
+* -- 234
+:= -- 1423
+add.period$ -- 35
+call.type$ -- 30
+change.case$ -- 34
+chr.to.int$ -- 27
+cite$ -- 30
+duplicate$ -- 777
+empty$ -- 983
+format.name$ -- 19
+if$ -- 1834
 int.to.chr$ -- 0
-int.to.str$ -- 19
-missing$ -- 125
-newline$ -- 111
-num.names$ -- 3
-pop$ -- 478
+int.to.str$ -- 30
+missing$ -- 188
+newline$ -- 162
+num.names$ -- 5
+pop$ -- 724
 preamble$ -- 1
 purify$ -- 0
-quote$ -- 2
-skip$ -- 409
+quote$ -- 4
+skip$ -- 624
 stack$ -- 0
-substring$ -- 8
-swap$ -- 235
-text.length$ -- 0
+substring$ -- 11
+swap$ -- 355
+text.length$ -- 2
 text.prefix$ -- 0
-top$ -- 5
+top$ -- 6
 type$ -- 0
 warning$ -- 0
-while$ -- 5
-width$ -- 21
-write$ -- 171
-(There was 1 warning)
+while$ -- 12
+width$ -- 32
+write$ -- 256
+(There was 1 error message)

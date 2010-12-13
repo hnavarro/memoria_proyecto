@@ -1,7 +1,7 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=latex 2010.7.5)  10 DEC 2010 16:27
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2010.7.5)  13 DEC 2010 22:00
 entering extended mode
  %&-line parsing enabled.
-**final
+**final.tex
 (./final.tex
 LaTeX2e <2005/12/01>
 Babel <v3.8h> and hyphenation patterns for english, usenglishmax, dumylang, noh
@@ -251,9 +251,6 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-(/usr/share/texmf-texlive/tex/latex/psnfss/palatino.sty
-Package: palatino 2005/04/12 PSNFSS-v9.2a (SPQR) 
-)
 (/usr/share/texmf-texlive/tex/latex/ae/ae.sty
 Package: ae 2001/02/12 1.3 Almost European Computer Modern
 
@@ -269,6 +266,9 @@ LaTeX Font Info:    Try loading font information for T1+aer on input line 100.
 (/usr/share/texmf-texlive/tex/latex/ae/t1aer.fd
 File: t1aer.fd 1997/11/16 Font definitions for T1/aer.
 )))
+(/usr/share/texmf-texlive/tex/latex/ae/aecompl.sty
+Package: aecompl 1998/07/23 0.9 T1 Complements for AE fonts (D. Roegel)
+)
 (/usr/share/texmf-texlive/tex/generic/babel/babel.sty
 Package: babel 2005/11/23 v3.8h The Babel package
 
@@ -287,76 +287,132 @@ Package babel Info: Making " an active character on input line 540.
 Package babel Info: Making < an active character on input line 641.
 Package babel Info: Making > an active character on input line 642.
 ))
-(/usr/share/texmf-texlive/tex/latex/tools/xspace.sty
-Package: xspace 2006/05/08 v1.12 Space after command names (DPC,MH)
-)
-(/usr/share/texmf-texlive/tex/latex/graphics/epsfig.sty
-Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
-
-(/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
-Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+(/usr/share/texmf-texlive/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2007/02/07 v6.75r Hypertext links for LaTeX
 
 (/usr/share/texmf-texlive/tex/latex/graphics/keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks17
 )
-(/usr/share/texmf-texlive/tex/latex/graphics/graphics.sty
-Package: graphics 2006/02/20 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+\@linkdim=\dimen104
+\Hy@linkcounter=\count90
+\Hy@pagecounter=\count91
 
-(/usr/share/texmf-texlive/tex/latex/graphics/trig.sty
-Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+(/usr/share/texmf-texlive/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2007/02/07 v6.75r Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
 )
-(/etc/texmf/tex/latex/config/graphics.cfg
-File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+(/etc/texmf/tex/latex/config/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package graphics Info: Driver file: dvips.def on input line 90.
+(/usr/share/texmf-texlive/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2006/08/22 v2.4 Connects package keyval with LaTeX options (
+HO)
+)
+Package hyperref Info: Option `final' set `true' on input line 2238.
+Package hyperref Info: Hyper figures OFF on input line 2288.
+Package hyperref Info: Link nesting OFF on input line 2293.
+Package hyperref Info: Hyper index ON on input line 2296.
+Package hyperref Info: Plain pages OFF on input line 2303.
+Package hyperref Info: Backreferencing OFF on input line 2308.
 
-(/usr/share/texmf-texlive/tex/latex/graphics/dvips.def
-File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+Implicit mode ON; LaTeX internals redefined
+Package hyperref Info: Bookmarks ON on input line 2444.
+(/usr/share/texmf-texlive/tex/latex/ltxmisc/url.sty
+\Urlmuskip=\muskip10
+Package: url 2005/06/27  ver 3.2  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 2599.
+\Fld@menulength=\count92
+\Field@Width=\dimen105
+\Fld@charsize=\dimen106
+\Choice@toks=\toks18
+\Field@toks=\toks19
+Package hyperref Info: Hyper figures OFF on input line 3102.
+Package hyperref Info: Link nesting OFF on input line 3107.
+Package hyperref Info: Hyper index ON on input line 3110.
+Package hyperref Info: backreferencing OFF on input line 3117.
+Package hyperref Info: Link coloring OFF on input line 3122.
+\Hy@abspage=\count93
+\c@Item=\count94
+\c@Hfootnote=\count95
+)
+*hyperref using default driver hpdftex*
+(/usr/share/texmf-texlive/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2007/02/07 v6.75r Hyperref driver for pdfTeX
+\Fld@listcount=\count96
+)
+(/usr/share/texmf-texlive/tex/latex/psnfss/bookman.sty
+Package: bookman 2005/04/12 PSNFSS-v9.2a (SPQR) 
+)
+(/usr/share/texmf-texlive/tex/latex/listings/listings.sty
+\lst@mode=\count97
+\lst@gtempboxa=\box26
+\lst@token=\toks20
+\lst@length=\count98
+\lst@currlwidth=\dimen107
+\lst@column=\count99
+\lst@pos=\count100
+\lst@lostspace=\dimen108
+\lst@width=\dimen109
+\lst@newlines=\count101
+\lst@lineno=\count102
+\c@lstlisting=\count103
+\lst@maxwidth=\dimen110
+
+(/usr/share/texmf-texlive/tex/latex/listings/lstpatch.sty
+File: lstpatch.sty 2004/10/17 1.3b (Carsten Heinz)
+)
+(/usr/share/texmf-texlive/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2004/09/07 1.3 (Carsten Heinz)
+\c@lstnumber=\count104
+\lst@skipnumbers=\count105
+\lst@framebox=\box27
+)
+(/usr/share/texmf-texlive/tex/latex/listings/listings.cfg
+File: listings.cfg 2004/09/05 1.3 listings configuration
 ))
-\Gin@req@height=\dimen104
-\Gin@req@width=\dimen105
-)
-\epsfxsize=\dimen106
-\epsfysize=\dimen107
+Package: listings 2004/10/17 1.3b (Carsten Heinz)
+
+(/usr/share/texmf-texlive/tex/latex/tools/xspace.sty
+Package: xspace 2006/05/08 v1.12 Space after command names (DPC,MH)
 )
 (/usr/share/texmf-texlive/tex/latex/tools/verbatim.sty
 Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks18
-\verbatim@line=\toks19
+\every@verbatim=\toks21
+\verbatim@line=\toks22
 \verbatim@in@stream=\read1
 )
 (/usr/share/texmf-texlive/tex/latex/moreverb/moreverb.sty
 Package: moreverb 1997/12/07 v2.2d.2 `more' verbatim facilities
 \verbatim@out=\write3
-\tab@position=\count90
-\tab@size=\count91
-\listing@line=\count92
+\tab@position=\count106
+\tab@size=\count107
+\listing@line=\count108
 )
 (/usr/share/texmf-texlive/tex/latex/tools/multicol.sty
 Package: multicol 2006/05/18 v1.6g multicolumn formatting (FMi)
-\c@tracingmulticols=\count93
-\mult@box=\box26
-\multicol@leftmargin=\dimen108
-\c@unbalance=\count94
-\c@collectmore=\count95
-\doublecol@number=\count96
-\multicoltolerance=\count97
-\multicolpretolerance=\count98
-\full@width=\dimen109
-\page@free=\dimen110
-\premulticols=\dimen111
-\postmulticols=\dimen112
+\c@tracingmulticols=\count109
+\mult@box=\box28
+\multicol@leftmargin=\dimen111
+\c@unbalance=\count110
+\c@collectmore=\count111
+\doublecol@number=\count112
+\multicoltolerance=\count113
+\multicolpretolerance=\count114
+\full@width=\dimen112
+\page@free=\dimen113
+\premulticols=\dimen114
+\postmulticols=\dimen115
 \multicolsep=\skip43
 \multicolbaselineskip=\skip44
-\partial@page=\box27
-\last@line=\box28
-\mult@rightbox=\box29
-\mult@grightbox=\box30
-\mult@gfirstbox=\box31
-\mult@firstbox=\box32
-\@tempa=\box33
-\@tempa=\box34
+\partial@page=\box29
+\last@line=\box30
+\mult@rightbox=\box31
+\mult@grightbox=\box32
+\mult@gfirstbox=\box33
+\mult@firstbox=\box34
 \@tempa=\box35
 \@tempa=\box36
 \@tempa=\box37
@@ -372,13 +428,15 @@ Package: multicol 2006/05/18 v1.6g multicolumn formatting (FMi)
 \@tempa=\box47
 \@tempa=\box48
 \@tempa=\box49
-\c@columnbadness=\count99
-\c@finalcolumnbadness=\count100
-\last@try=\dimen113
-\multicolovershoot=\dimen114
-\multicolundershoot=\dimen115
-\mult@nat@firstbox=\box50
-\colbreak@box=\box51
+\@tempa=\box50
+\@tempa=\box51
+\c@columnbadness=\count115
+\c@finalcolumnbadness=\count116
+\last@try=\dimen116
+\multicolovershoot=\dimen117
+\multicolundershoot=\dimen118
+\mult@nat@firstbox=\box52
+\colbreak@box=\box53
 )
 (/usr/share/texmf-texlive/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2000/07/18 v2.13 AMS math features
@@ -390,70 +448,70 @@ Package: amstext 2000/06/29 v2.01
 
 (/usr/share/texmf-texlive/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
-\@emptytoks=\toks20
-\ex@=\dimen116
+\@emptytoks=\toks23
+\ex@=\dimen119
 ))
 (/usr/share/texmf-texlive/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
-\pmbraise@=\dimen117
+\pmbraise@=\dimen120
 )
 (/usr/share/texmf-texlive/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count101
+\inf@bad=\count117
 LaTeX Info: Redefining \frac on input line 211.
-\uproot@=\count102
-\leftroot@=\count103
+\uproot@=\count118
+\leftroot@=\count119
 LaTeX Info: Redefining \overline on input line 307.
-\classnum@=\count104
-\DOTSCASE@=\count105
+\classnum@=\count120
+\DOTSCASE@=\count121
 LaTeX Info: Redefining \ldots on input line 379.
 LaTeX Info: Redefining \dots on input line 382.
 LaTeX Info: Redefining \cdots on input line 467.
-\Mathstrutbox@=\box52
-\strutbox@=\box53
-\big@size=\dimen118
+\Mathstrutbox@=\box54
+\strutbox@=\box55
+\big@size=\dimen121
 LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
-\macc@depth=\count106
-\c@MaxMatrixCols=\count107
-\dotsspace@=\muskip10
-\c@parentequation=\count108
-\dspbrk@lvl=\count109
-\tag@help=\toks21
-\row@=\count110
-\column@=\count111
-\maxfields@=\count112
-\andhelp@=\toks22
-\eqnshift@=\dimen119
-\alignsep@=\dimen120
-\tagshift@=\dimen121
-\tagwidth@=\dimen122
-\totwidth@=\dimen123
-\lineht@=\dimen124
-\@envbody=\toks23
+\macc@depth=\count122
+\c@MaxMatrixCols=\count123
+\dotsspace@=\muskip11
+\c@parentequation=\count124
+\dspbrk@lvl=\count125
+\tag@help=\toks24
+\row@=\count126
+\column@=\count127
+\maxfields@=\count128
+\andhelp@=\toks25
+\eqnshift@=\dimen122
+\alignsep@=\dimen123
+\tagshift@=\dimen124
+\tagwidth@=\dimen125
+\totwidth@=\dimen126
+\lineht@=\dimen127
+\@envbody=\toks26
 \multlinegap=\skip46
 \multlinetaggap=\skip47
-\mathdisplay@stack=\toks24
+\mathdisplay@stack=\toks27
 LaTeX Info: Redefining \[ on input line 2666.
 LaTeX Info: Redefining \] on input line 2667.
 )
 (/usr/share/texmf-texlive/tex/latex/eurosym/eurosym.sty
 Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
-\@eurobox=\box54
+\@eurobox=\box56
 )
 (/usr/share/texmf-texlive/tex/latex/subfigure/subfigure.sty
 Package: subfigure 2002/03/15 v2.1.5 subfigure package
 \subfigtopskip=\skip48
 \subfigcapskip=\skip49
-\subfigcaptopadj=\dimen125
+\subfigcaptopadj=\dimen128
 \subfigbottomskip=\skip50
-\subfigcapmargin=\dimen126
+\subfigcapmargin=\dimen129
 \subfiglabelskip=\skip51
-\c@subfigure=\count113
-\c@lofdepth=\count114
-\c@subtable=\count115
-\c@lotdepth=\count116
+\c@subfigure=\count129
+\c@lofdepth=\count130
+\c@subtable=\count131
+\c@lotdepth=\count132
 
 ****************************************
 * Local config file subfigure.cfg used *
@@ -463,7 +521,7 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 \subfig@bottom=\skip53
 )
 (/usr/share/texmf-texlive/tex/latex/multirow/multirow.sty
-\bigstrutjot=\dimen127
+\bigstrutjot=\dimen130
 )
 (/usr/share/texmf-texlive/tex/latex/fancyhdr/fancyhdr.sty
 \fancy@headwidth=\skip54
@@ -482,39 +540,60 @@ Package: makeidx 2000/03/29 v1.0m Standard LaTeX package
 (/usr/share/texmf-texlive/tex/latex/rotating/rotating.sty
 Package: rotating 1997/09/26, v2.13 Rotation package
 
+(/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/graphics.sty
+Package: graphics 2006/02/20 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/etc/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 90.
+
+(/usr/share/texmf-texlive/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2007/01/08 v0.04d Graphics/color for pdfTeX
+\Gread@gobject=\count133
+))
+\Gin@req@height=\dimen131
+\Gin@req@width=\dimen132
+)
 (/usr/share/texmf-texlive/tex/latex/base/ifthen.sty
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\c@r@tfl@t=\count117
-\rot@float@box=\box55
+\c@r@tfl@t=\count134
+\rot@float@box=\box57
 )
 (/usr/share/texmf-texlive/tex/latex/supertabular/supertabular.sty
 Package: supertabular 2004/02/20 v4.1e the supertabular environment
-\c@tracingst=\count118
-\ST@wd=\dimen128
+\c@tracingst=\count135
+\ST@wd=\dimen133
 \ST@rightskip=\skip63
 \ST@leftskip=\skip64
 \ST@parfillskip=\skip65
-\ST@pageleft=\dimen129
-\ST@headht=\dimen130
-\ST@tailht=\dimen131
-\ST@pagesofar=\dimen132
-\ST@pboxht=\dimen133
-\ST@lineht=\dimen134
-\ST@stretchht=\dimen135
-\ST@prevht=\dimen136
-\ST@toadd=\dimen137
-\ST@dimen=\dimen138
-\ST@pbox=\box56
+\ST@pageleft=\dimen134
+\ST@headht=\dimen135
+\ST@tailht=\dimen136
+\ST@pagesofar=\dimen137
+\ST@pboxht=\dimen138
+\ST@lineht=\dimen139
+\ST@stretchht=\dimen140
+\ST@prevht=\dimen141
+\ST@toadd=\dimen142
+\ST@dimen=\dimen143
+\ST@pbox=\box58
 )
 (/usr/share/texmf-texlive/tex/latex/tools/hhline.sty
 Package: hhline 1994/05/23 v2.03 Table rule package (DPC)
 )
 (/usr/share/texmf-texlive/tex/latex/tools/array.sty
 Package: array 2005/08/23 v2.4b Tabular extension package (FMi)
-\col@sep=\dimen139
-\extrarowheight=\dimen140
-\NC@list=\toks25
+\col@sep=\dimen144
+\extrarowheight=\dimen145
+\NC@list=\toks28
 \extratabsurround=\skip66
 \backup@length=\skip67
 )
@@ -524,135 +603,44 @@ LaTeX Info: Redefining \nocite on input line 214.
 Package: cite 2003/11/04  v 4.01
 )
 (/usr/share/texmf-texlive/tex/latex/wrapfig/wrapfig.sty
-\wrapoverhang=\dimen141
-\WF@size=\dimen142
-\c@WF@wrappedlines=\count119
-\WF@box=\box57
-\WF@everypar=\toks26
+\wrapoverhang=\dimen146
+\WF@size=\dimen147
+\c@WF@wrappedlines=\count136
+\WF@box=\box59
+\WF@everypar=\toks29
 Package: wrapfig 2003/01/31  v 3.6
 )
-(/usr/share/texmf-texlive/tex/latex/listings/listings.sty
-\lst@mode=\count120
-\lst@gtempboxa=\box58
-\lst@token=\toks27
-\lst@length=\count121
-\lst@currlwidth=\dimen143
-\lst@column=\count122
-\lst@pos=\count123
-\lst@lostspace=\dimen144
-\lst@width=\dimen145
-\lst@newlines=\count124
-\lst@lineno=\count125
-\c@lstlisting=\count126
-\lst@maxwidth=\dimen146
-
-(/usr/share/texmf-texlive/tex/latex/listings/lstpatch.sty
-File: lstpatch.sty 2004/10/17 1.3b (Carsten Heinz)
-)
-(/usr/share/texmf-texlive/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2004/09/07 1.3 (Carsten Heinz)
-\c@lstnumber=\count127
-\lst@skipnumbers=\count128
-\lst@framebox=\box59
-)
-(/usr/share/texmf-texlive/tex/latex/listings/listings.cfg
-File: listings.cfg 2004/09/05 1.3 listings configuration
-))
-Package: listings 2004/10/17 1.3b (Carsten Heinz)
-
 (/usr/share/texmf-texlive/tex/latex/tools/longtable.sty
 Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
 \LTleft=\skip68
 \LTright=\skip69
 \LTpre=\skip70
 \LTpost=\skip71
-\LTchunksize=\count129
-\LTcapwidth=\dimen147
+\LTchunksize=\count137
+\LTcapwidth=\dimen148
 \LT@head=\box60
 \LT@firsthead=\box61
 \LT@foot=\box62
 \LT@lastfoot=\box63
-\LT@cols=\count130
-\LT@rows=\count131
-\c@LT@tables=\count132
-\c@LT@chunks=\count133
-\LT@p@ftn=\toks28
+\LT@cols=\count138
+\LT@rows=\count139
+\c@LT@tables=\count140
+\c@LT@chunks=\count141
+\LT@p@ftn=\toks30
 )
 (/usr/share/texmf-texlive/tex/latex/tools/afterpage.sty
 Package: afterpage 1995/10/27 v1.08 After-Page Package (DPC)
-\AP@output=\toks29
+\AP@output=\toks31
 \AP@partial=\box64
 \AP@footins=\box65
 )
-(/usr/share/texmf-texlive/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2007/02/07 v6.75r Hypertext links for LaTeX
-\@linkdim=\dimen148
-\Hy@linkcounter=\count134
-\Hy@pagecounter=\count135
-
-(/usr/share/texmf-texlive/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2007/02/07 v6.75r Hyperref: PDFDocEncoding definition (HO)
-Now handling font encoding PD1 ...
-... no UTF-8 mapping file for font encoding PD1
-)
-(/etc/texmf/tex/latex/config/hyperref.cfg
-File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
-)
-(/usr/share/texmf-texlive/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2006/08/22 v2.4 Connects package keyval with LaTeX options (
-HO)
-)
-Package hyperref Info: Hyper figures OFF on input line 2288.
-Package hyperref Info: Link nesting OFF on input line 2293.
-Package hyperref Info: Hyper index ON on input line 2296.
-Package hyperref Info: Plain pages OFF on input line 2303.
-Package hyperref Info: Backreferencing OFF on input line 2308.
-
-Implicit mode ON; LaTeX internals redefined
-Package hyperref Info: Bookmarks ON on input line 2444.
-(/usr/share/texmf-texlive/tex/latex/ltxmisc/url.sty
-\Urlmuskip=\muskip11
-Package: url 2005/06/27  ver 3.2  Verb mode for urls, etc.
-)
-LaTeX Info: Redefining \url on input line 2599.
-\Fld@menulength=\count136
-\Field@Width=\dimen149
-\Fld@charsize=\dimen150
-\Choice@toks=\toks30
-\Field@toks=\toks31
-Package hyperref Info: Hyper figures OFF on input line 3102.
-Package hyperref Info: Link nesting OFF on input line 3107.
-Package hyperref Info: Hyper index ON on input line 3110.
-Package hyperref Info: backreferencing OFF on input line 3117.
-Package hyperref Info: Link coloring OFF on input line 3122.
-\Hy@abspage=\count137
-\c@Item=\count138
-\c@Hfootnote=\count139
-)
-*hyperref using default driver hdvips*
-(/usr/share/texmf-texlive/tex/latex/hyperref/hdvips.def
-File: hdvips.def 2007/02/07 v6.75r Hyperref driver for dvips
-
-(/usr/share/texmf-texlive/tex/latex/hyperref/pdfmark.def
-File: pdfmark.def 2007/02/07 v6.75r Hyperref definitions for pdfmark specials
-\pdf@docset=\toks32
-\pdf@box=\box66
-\pdf@toks=\toks33
-\pdf@defaulttoks=\toks34
-\Fld@listcount=\count140
-))
 \@indexfile=\write4
 \openout4 = `final.idx'.
 
 
 Writing index file final.idx
 ) (./final.aux (./portada.aux) (./agradecimientos.aux) (./resumen.aux)
-(./memoria.aux
-
-LaTeX Warning: Label `fig:cmsmatA' multiply defined.
-
-) (./planos.aux) (./pliego.aux) (./presupuesto.aux) (./manual.aux)
-(./soporte.aux))
+(./memoria.aux) (./pliego.aux) (./manual.aux))
 \openout1 = `final.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
@@ -669,14 +657,22 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
 LaTeX Font Info:    ... okay on input line 9.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 9.
 LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Try loading font information for T1+pbk on input line 9.
+
+(/usr/share/texmf-texlive/tex/latex/psnfss/t1pbk.fd
+File: t1pbk.fd 2001/06/04 font definitions for T1/pbk.
+)
+LaTeX Font Info:    Font shape `T1/pbk/m/n' in size <10.95> not available
+(Font)              Font shape `T1/pbk/l/n' tried instead on input line 9.
 Package hyperref Info: Link coloring OFF on input line 9.
- (/usr/share/texmf-texlive/tex/latex/hyperref/nameref.sty
+
+(/usr/share/texmf-texlive/tex/latex/hyperref/nameref.sty
 Package: nameref 2006/12/27 v2.28 Cross-referencing by name of section
 
 (/usr/share/texmf-texlive/tex/latex/oberdiek/refcount.sty
 Package: refcount 2006/02/20 v3.0 Data extraction from references (HO)
 )
-\c@section@level=\count141
+\c@section@level=\count142
 )
 LaTeX Info: Redefining \ref on input line 9.
 LaTeX Info: Redefining \pageref on input line 9.
@@ -688,240 +684,356 @@ LaTeX Info: Redefining \pageref on input line 9.
 \openout2 = `portada.aux'.
 
  (./portada.tex
-File: eps/logo_uah.eps Graphic file (type eps)
- <eps/logo_uah.eps> [1
+LaTeX Font Info:    Font shape `T1/pbk/m/n' in size <12> not available
+(Font)              Font shape `T1/pbk/l/n' tried instead on input line 2.
+LaTeX Font Info:    Font shape `T1/pbk/m/n' in size <14.4> not available
+(Font)              Font shape `T1/pbk/l/n' tried instead on input line 7.
+LaTeX Font Info:    Font shape `T1/pbk/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/pbk/b/n' tried instead on input line 7.
+LaTeX Font Info:    Font shape `T1/pbk/b/n' in size <14.4> not available
+(Font)              Font shape `T1/pbk/db/n' tried instead on input line 7.
+LaTeX Font Info:    Font shape `T1/pbk/bx/n' in size <12> not available
+(Font)              Font shape `T1/pbk/b/n' tried instead on input line 11.
+LaTeX Font Info:    Font shape `T1/pbk/b/n' in size <12> not available
+(Font)              Font shape `T1/pbk/db/n' tried instead on input line 11.
+
+<img/logo_uah.png, id=403, 449.68pt x 522.95375pt>
+File: img/logo_uah.png Graphic file (type png)
+ <use img/logo_uah.png>
+LaTeX Font Info:    Font shape `T1/pbk/m/n' in size <17.28> not available
+(Font)              Font shape `T1/pbk/l/n' tried instead on input line 23.
+LaTeX Font Info:    Font shape `T1/pbk/bx/n' in size <17.28> not available
+(Font)              Font shape `T1/pbk/b/n' tried instead on input line 23.
+LaTeX Font Info:    Font shape `T1/pbk/b/n' in size <17.28> not available
+(Font)              Font shape `T1/pbk/db/n' tried instead on input line 23.
+
+[1
 
 
 
 
-] [2
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./img/logo_uah.png>]
+[2
 
-]) [3] [4
+]
+LaTeX Font Info:    Font shape `T1/pbk/bx/n' in size <8> not available
+(Font)              Font shape `T1/pbk/b/n' tried instead on input line 68.
+LaTeX Font Info:    Font shape `T1/pbk/b/n' in size <8> not available
+(Font)              Font shape `T1/pbk/db/n' tried instead on input line 68.
+
+Overfull \hbox (32.5483pt too wide) in paragraph at lines 77--81
+[][] 
+ []
+
+) [3] [4
 
 
 ]
 \openout2 = `agradecimientos.aux'.
 
-
-(./agradecimientos.tex) [5
+ (./agradecimientos.tex
+LaTeX Font Info:    Font shape `T1/pbk/m/n' in size <24.88> not available
+(Font)              Font shape `T1/pbk/l/n' tried instead on input line 1.
+LaTeX Font Info:    Font shape `T1/pbk/bx/n' in size <24.88> not available
+(Font)              Font shape `T1/pbk/b/n' tried instead on input line 1.
+LaTeX Font Info:    Font shape `T1/pbk/b/n' in size <24.88> not available
+(Font)              Font shape `T1/pbk/db/n' tried instead on input line 1.
+LaTeX Font Info:    Font shape `T1/pbk/m/it' in size <10.95> not available
+(Font)              Font shape `T1/pbk/l/it' tried instead on input line 4.
+) [5
 
 
 ] [6
 
 
-] (./final.toc [7
+] (./final.toc
+LaTeX Font Info:    Font shape `T1/pbk/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/pbk/b/n' tried instead on input line 2.
+LaTeX Font Info:    Font shape `T1/pbk/b/n' in size <10.95> not available
+(Font)              Font shape `T1/pbk/db/n' tried instead on input line 2.
 
-])
-\tf@toc=\write6
-\openout6 = `final.toc'.
+Overfull \hbox (3.50334pt too wide) detected at line 33
+\T1/pbk/l/n/10.95 2.3.2.3.10. 
+ []
 
+[7
 
+]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.37299pt.
+ Make it at least 14.18686pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[8] (./final.lof)
+[8])
+\tf@toc=\write6
+\openout6 = `final.toc'.
+
+ [9] [10
+
+] (./final.lof
+Overfull \hbox (2.18968pt too wide) detected at line 13
+\T1/pbk/l/n/10.95 2.10. 
+ []
+
+
+Overfull \hbox (2.18968pt too wide) detected at line 14
+\T1/pbk/l/n/10.95 2.11. 
+ []
+
+
+Overfull \hbox (2.18968pt too wide) detected at line 15
+\T1/pbk/l/n/10.95 2.12. 
+ []
+
+
+Overfull \hbox (2.18968pt too wide) detected at line 16
+\T1/pbk/l/n/10.95 2.13. 
+ []
+
+
+Overfull \hbox (2.18968pt too wide) detected at line 17
+\T1/pbk/l/n/10.95 2.14. 
+ []
+
+
+Overfull \hbox (2.18968pt too wide) detected at line 18
+\T1/pbk/l/n/10.95 2.15. 
+ []
+
+)
 \tf@lof=\write7
 \openout7 = `final.lof'.
 
- [9
-
-] [10
+ [11] [12
 
 ] (./final.lot)
 \tf@lot=\write8
 \openout8 = `final.lot'.
 
- [11] [12
+ [13] [14
 
 ]
 Cap\'{\i }tulo 1.
-[13
+LaTeX Font Info:    Font shape `T1/pbk/m/n' in size <20.74> not available
+(Font)              Font shape `T1/pbk/l/n' tried instead on input line 30.
+LaTeX Font Info:    Font shape `T1/pbk/bx/n' in size <20.74> not available
+(Font)              Font shape `T1/pbk/b/n' tried instead on input line 30.
+LaTeX Font Info:    Font shape `T1/pbk/b/n' in size <20.74> not available
+(Font)              Font shape `T1/pbk/db/n' tried instead on input line 30.
+[15
 
-] [14
+] [16
 
 ]
 \openout2 = `resumen.aux'.
 
- (./resumen.tex) [15
+ (./resumen.tex) [17
 
-] [16
+] [18
 
 
 ]
 Cap\'{\i }tulo 2.
-[17
+[19
 
-] [18
+] [20
 
 ]
 \openout2 = `memoria.aux'.
 
- (./memoria.tex [19
+ (./memoria.tex [21
 
-] [20]
-File: eps/tatehandheld.eps Graphic file (type eps)
- <eps/tatehandheld.eps> [21]
-File: eps/capturamoma.eps Graphic file (type eps)
+] [22]
+<img/tatehandheld.png, id=650, 147.55125pt x 227.34938pt>
+File: img/tatehandheld.png Graphic file (type png)
 
-<eps/capturamoma.eps>
-File: eps/capturamvoan.eps Graphic file (type eps)
- <eps/capturamvoan.eps> [22] [23] [24] [25] [26]
-File: eps/cmsmat1.eps Graphic file (type eps)
+<use img/tatehandheld.png>
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<eps/cmsmat1.eps> [27]
-File: eps/cmsmat2.eps Graphic file (type eps)
- <eps/cmsmat2.eps>
-File: eps/cmsmat3.eps Graphic file (type eps)
- <eps/cmsmat3.eps>
-File: eps/cmsmat4.eps Graphic file (type eps)
- <eps/cmsmat4.eps>
-[28] [29]
-File: eps/cmsmat5.eps Graphic file (type eps)
- <eps/cmsmat5.eps>
-File: eps/cmsmat6.eps Graphic file (type eps)
- <eps/cmsmat6.eps> [30]
-File: eps/cmsmat7.eps Graphic file (type eps)
- <eps/cmsmat7.eps>
-Underfull \vbox (badness 8132) has occurred while \output is active []
+ [23 <./img/tatehandheld.png (PNG copy)>]
+<img/capturamoma.png, id=657, 1662.21pt x 865.2325pt>
+File: img/capturamoma.png Graphic file (type png)
 
- [31]
-File: eps/cmsmat8.eps Graphic file (type eps)
+<use img/capturamoma.png>
+<img/capturamvoan.png, id=659, 782.925pt x 701.62125pt>
+File: img/capturamvoan.png Graphic file (type png)
 
-<eps/cmsmat8.eps>
-File: eps/cmsmat9-1.eps Graphic file (type eps)
- <eps/cmsmat9-1.eps>
-File: eps/cmsmat9-2.eps Graphic file (type eps)
- <eps/cmsmat9-2.eps>
-File: eps/cmsmatA.eps Graphic file (type eps)
- <eps/cmsmatA.eps>
-[32] [33] [34]
-File: eps/logolrp.eps Graphic file (type eps)
- <eps/logolrp.eps>
-File: eps/logodrupal.eps Graphic file (type eps)
- <eps/logodrupal.eps>
-File: eps/logom.eps Graphic file (type eps)
- <eps/logom.eps>
-File: eps/logoplone.eps Graphic file (type eps)
+<use img/capturamvoan.png>
 
-<eps/logoplone.eps>
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-Package wrapfig Warning: Collision between wrapping environments on input line 
-380.
+[24 <./img/capturamoma.png>] [25] [26] [27]
+<img/cmsmat1.png, id=680, 1044.90375pt x 354.32375pt>
+File: img/cmsmat1.png Graphic file (type png)
+ <use img/cmsmat1.png>
 
-File: eps/logolrp.eps Graphic file (type eps)
-<eps/logolrp.eps>
-Overfull \hbox (3.31949pt too wide) in paragraph at lines 382--383
- [] 
- []
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-File: eps/logodrupal.eps Graphic file (type eps)
-<eps/logodrupal.eps>
-File: eps/logolrp.eps Graphic file (type eps)
- <eps/logolrp.eps>
-Overfull \hbox (3.31949pt too wide) in paragraph at lines 395--396
- [] 
- []
+[28] <img/cmsmat2.png, id=698, 1044.90375pt x 764.8575pt>
+File: img/cmsmat2.png Graphic file (type png)
 
-File: eps/logom.eps Graphic file (type eps)
-<eps/logom.eps> [35]
-File: eps/logoplone.eps Graphic file (type eps)
- <eps/logoplone.eps> [36]
+<use img/cmsmat2.png>
 
-LaTeX Warning: Citation `refrences:alfrescocmsmat' on page 37 undefined on inpu
-t line 434.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-[37] [38]
-LaTeX Font Info:    Try loading font information for OMS+aer on input line 522.
+<img/cmsmat3.png, id=700, 1045.9075pt x 431.6125pt>
+File: img/cmsmat3.png Graphic file (type png)
+ <use img/cmsmat3.png>
 
- (/usr/share/texmf-texlive/tex/latex/ae/omsaer.fd
-File: omsaer.fd 1999/12/27
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<img/cmsmat4.png, id=702, 1045.9075pt x 654.445pt>
+File: img/cmsmat4.png Graphic file (type png)
+ <use img/cmsmat4.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<img/cmsmat5.png, id=704, 1045.9075pt x 242.9075pt>
+File: img/cmsmat5.png Graphic file (type png)
+ <use img/cmsmat5.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[29] <img/cmsmat6.png, id=710, 1044.90375pt x 556.0775pt>
+File: img/cmsmat6.png Graphic file (type png)
+
+<use img/cmsmat6.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<img/cmsmat7.png, id=712, 1044.90375pt x 242.9075pt>
+File: img/cmsmat7.png Graphic file (type png)
+ <use img/cmsmat7.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<img/cmsmat8.png, id=714, 1046.91125pt x 352.31625pt>
+File: img/cmsmat8.png Graphic file (type png)
+ <use img/cmsmat8.png>
+[30]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<img/cmsmat9-1.png, id=721, 1044.90375pt x 1033.8625pt>
+File: img/cmsmat9-1.png Graphic file (type png)
+
+<use img/cmsmat9-1.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<img/cmsmat9-2.png, id=722, 1045.9075pt x 652.4375pt>
+File: img/cmsmat9-2.png Graphic file (type png)
+ <use img/cmsmat9-2.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<img/cmsmatA.png, id=724, 1046.91125pt x 430.60875pt>
+File: img/cmsmatA.png Graphic file (type png)
+ <use img/cmsmatA.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<img/logolrp.png, id=725, 60.225pt x 60.225pt>
+File: img/logolrp.png Graphic file (type png)
+ <use img/logolrp.png>
+<img/logodrupal.png, id=726, 43.362pt x 43.362pt>
+File: img/logodrupal.png Graphic file (type png)
+ <use img/logodrupal.png>
+<img/logom.png, id=727, 60.225pt x 48.18pt>
+File: img/logom.png Graphic file (type png)
+ <use img/logom.png>
+<img/logoplone.png, id=728, 60.225pt x 60.225pt>
+File: img/logoplone.png Graphic file (type png)
+ <use img/logoplone.png>
+File: img/logolrp.png Graphic file (type png)
+
+<use img/logolrp.png> [31 <./img/logolrp.png> <./img/logodrupal.png (PNG copy)>
+ <./img/logom.png> <./img/logoplone.png>]
+File: img/logodrupal.png Graphic file (type png)
+ <use img/logodrupal.png>
+File: img/logom.png Graphic file (type png)
+
+<use img/logom.png>
+File: img/logoplone.png Graphic file (type png)
+ <use img/logoplone.png>
+LaTeX Font Info:    Font shape `T1/pbk/m/n' in size <8> not available
+(Font)              Font shape `T1/pbk/l/n' tried instead on input line 325.
+LaTeX Font Info:    Font shape `T1/pbk/m/n' in size <9> not available
+(Font)              Font shape `T1/pbk/l/n' tried instead on input line 325.
+LaTeX Font Info:    Font shape `T1/pbk/m/n' in size <6> not available
+(Font)              Font shape `T1/pbk/l/n' tried instead on input line 325.
+ [32] [33] [34] [35]
+LaTeX Font Info:    Try loading font information for OMS+pbk on input line 424.
+
+
+(/usr/share/texmf-texlive/tex/latex/psnfss/omspbk.fd
+File: omspbk.fd 
 )
-LaTeX Font Info:    Font shape `OMS/aer/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 522.
- [39] [40] [41]
-[42] [43]
-File: eps/drupalthemes1.eps Graphic file (type eps)
- <eps/drupalthemes1.eps>
-Overfull \hbox (82.76591pt too wide) in paragraph at lines 617--618
+LaTeX Font Info:    Font shape `OMS/pbk/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 424.
+ [36] [37] [38] [39]
+[40] <img/drupalthemes1.png, id=815, 538.01pt x 529.98pt>
+File: img/drupalthemes1.png Graphic file (type png)
+
+<use img/drupalthemes1.png>
+Overfull \hbox (82.7646pt too wide) in paragraph at lines 519--520
  [][] 
  []
 
-[44] [45]) [46]
+
+Overfull \hbox (0.92938pt too wide) in paragraph at lines 529--530
+ \T1/pbk/db/n/10.95 2.4.2.6.2. Re-gio-nes[][] \T1/pbk/l/n/10.95 Se tra-ta de la
+s di-vi-sio-nes del es-pa-cio grá-fi-co que de-fi-ni-rá nues-
+ []
+
+[41]) [42] [43 <./img/capturamvoan.png (PNG copy)>] [44 <./img/cmsmat1.png (PNG
+ copy)> <./img/cmsmat2.png (PNG copy)>] [45 <./img/cmsmat3.png (PNG copy)> <./i
+mg/cmsmat4.png (PNG copy)>] [46 <./img/cmsmat5.png (PNG copy)> <./img/cmsmat6.p
+ng (PNG copy)> <./img/cmsmat7.png (PNG copy)>] [47 <./img/cmsmat8.png (PNG copy
+)>] [48 <./img/cmsmat9-1.png (PNG copy)>] [49 <./img/cmsmat9-2.png (PNG copy)> 
+<./img/cmsmatA.png (PNG copy)>] [50 <./img/drupalthemes1.png (PNG copy)>]
 Cap\'{\i }tulo 3.
-[47
-
-
-
-] [48
-
-]
-\openout2 = `planos.aux'.
-
- (./planos.tex) [49
-
-] [50
-
-
-]
-Cap\'{\i }tulo 4.
 [51
+
+
 
 ] [52
 
 ]
 \openout2 = `pliego.aux'.
 
- (./pliego.tex) [53
-
-] [54
-
+ (./pliego.tex [53
 
 ]
-Cap\'{\i }tulo 5.
-[55
+Underfull \vbox (badness 4660) has occurred while \output is active []
 
-] [56
+ [54]
+(/usr/share/texmf-texlive/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2004/09/05 1.3 listings language file
+)
+(/usr/share/texmf-texlive/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2004/09/05 1.3 listings language file
+) [55] [56] [57]
+[58] [59]) [60]
+Cap\'{\i }tulo 4.
+[61
 
-]
-\openout2 = `presupuesto.aux'.
-
- (./presupuesto.tex) [57
-
-] [58
 
 
-]
-Cap\'{\i }tulo 6.
-[59
-
-] [60
+] [62
 
 ]
 \openout2 = `manual.aux'.
 
- (./manual.tex) [61
-
-] [62
-
-
-]
-Cap\'{\i }tulo 7.
-[63
+ (./manual.tex) [63
 
 ] [64
 
+
 ]
-\openout2 = `soporte.aux'.
-
- (./soporte.tex)
-Cap\'{\i }tulo 8.
+Cap\'{\i }tulo 5.
 [65
-
-
-
 
 ] [66
 
@@ -930,22 +1042,23 @@ Cap\'{\i }tulo 8.
 ]) [68]
 No file final.ind.
 (./final.aux (./portada.aux) (./agradecimientos.aux) (./resumen.aux)
-(./memoria.aux) (./planos.aux) (./pliego.aux) (./presupuesto.aux) (./manual.aux
-) (./soporte.aux))
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+(./memoria.aux) (./pliego.aux) (./manual.aux)) ) 
 Here is how much of TeX's memory you used:
- 6752 strings out of 95038
- 89440 string characters out of 1182348
- 174587 words of memory out of 1500000
- 9694 multiletter control sequences out of 10000+50000
- 36158 words of font info for 53 fonts, out of 1200000 for 2000
+ 7500 strings out of 95037
+ 98979 string characters out of 1182325
+ 163987 words of memory out of 1500000
+ 10204 multiletter control sequences out of 10000+50000
+ 34684 words of font info for 67 fonts, out of 1200000 for 2000
  54 hyphenation exceptions out of 8191
- 36i,11n,45p,1459b,555s stack positions out of 5000i,500n,6000p,200000b,5000s
+ 37i,11n,53p,1462b,1307s stack positions out of 5000i,500n,6000p,200000b,5000s
+{/usr/share/texmf-texlive/fonts
+/enc/dvips/base/8r.enc}</usr/share/texmf-texlive/fonts/type1/bluesky/cm/cmsy10.
+pfb></usr/share/texmf-texlive/fonts/type1/urw/bookman/ubkd8a.pfb></usr/share/te
+xmf-texlive/fonts/type1/urw/bookman/ubkl8a.pfb></usr/share/texmf-texlive/fonts/
+type1/urw/bookman/ubkli8a.pfb>
+Output written on final.pdf (68 pages, 1499021 bytes).
+PDF statistics:
+ 1072 PDF objects out of 1200 (max. 8388607)
+ 244 named destinations out of 1000 (max. 131072)
+ 909 words of extra memory for PDF output out of 10000 (max. 10000000)
 
-Output written on final.dvi (68 pages, 195864 bytes).

@@ -54,16 +54,30 @@ Debajo de todo esto subyace la idea de utilizar unos estándares mínimos, aunqu
 
 
 \paragraph{MoMA (New York, EEUU)}
-\par Este apartado, desgraciadamente, se refiere a las ideas y modelos observados directamente en su página web. Nos encontramos con ideas, sobre todo en cuanto a presentación visual de contenidos. Digamos que la idea de presentar los contenidos en una matriz de imágenes con pies identificativos que, al pulsar sobre ellas, nos lleven a la información específica de ese objeto podría ser cercana a lo buscado. También sería una idea a tener en cuenta la categorización de las obras por área temática, época o tipo de objeto, aunque no lo firmamos como algo seguro en nuestra plataforma. Por último, reseñar que ellos parece que hacen (o al menos tienen la posibilidad de hacer) uso de la vista ``por perspectivas". Esto sería como tener una lista desplegable en la pantalla que nos permitiera fácilmente cambiar entre los distintos puntos de vista (como si de idiomas se tratara) pudiendo adaptar la plataforma a una presentación para , por ejemplo, niños, estudiantes o expertos en el tema. El sistema finalmente escogido para implementar esa ``granularidad'' de contenidos se tomó de otro sitio web que veremos más adelante. Se puede observar una captura que muestra una idea de lo que sería una ficha de objeto en la figura~\ref{fig:capturamoma}
+\par Este apartado, desgraciadamente, se refiere a las ideas y modelos observados directamente en su página web. Nos encontramos con ideas, sobre todo en cuanto a presentación visual de contenidos. Digamos que la idea de presentar los contenidos en una matriz de imágenes con pies identificativos que, al pulsar sobre ellas, nos lleven a la información específica de ese objeto podría ser cercana a lo buscado. También sería una idea a tener en cuenta la categorización de las obras por área temática, época o tipo de objeto, aunque no lo firmamos como algo seguro en nuestra plataforma. Por último, reseñar que ellos parece que hacen (o al menos tienen la posibilidad de hacer) uso de la vista ``por perspectivas". Esto sería como tener una lista desplegable en la pantalla que nos permitiera fácilmente cambiar entre los distintos puntos de vista (como si de idiomas se tratara) pudiendo adaptar la plataforma a una presentación para , por ejemplo, niños, estudiantes o expertos en el tema. El sistema finalmente escogido para implementar esa ``granularidad'' de contenidos se tomó de otro sitio web que veremos más adelante. Se puede observar una captura que muestra una idea de lo que sería una ficha de objeto en la figura~\ref{fig:moma}
 
-\fig{capturamoma}{Captura de pantalla del sitio del MoMA}
+\begin{figure}
+\begin{narrow}{-0.1\linewidth}{-0.1\linewidth}
+\centering
+\includegraphics[width=\linewidth]{capturamoma}
+\caption{Captura de pantalla del sitio del MoMA}
+\label{fig:moma}
+\end{narrow}
+\end{figure}
 
 
 
 \paragraph{Actual museo del OAN}
-\par Existe una versión antigua del museo virtual del Observatorio Astronómico Nacional, cuya información será contenida presumiblemente cuando se complete el contenido de la plataforma objeto de este proyecto. Si entramos al sitio web que lo hospeda dentro del sitio del Instituto Geográfico Nacional (Ministerio de fomento) descubrimos una estructura de navegación con algunas deficiencias para movernos entre objetos, para dar un vistazo rápido y desde luego una descontextualización importante. Podríamos catalogarlo como uno de esos museos virtuales del caso cuarto, un catálogo de objetos, como podemos apreciar en la figura~\ref{fig:capturamvoan}. No se puede negar su utilidad pero son las funciones de las que carece las que hacen necesaria la creación del proyecto actual.
+\par Existe una versión antigua del museo virtual del Observatorio Astronómico Nacional, cuya información será contenida presumiblemente cuando se complete el contenido de la plataforma objeto de este proyecto. Si entramos al sitio web que lo hospeda dentro del sitio del Instituto Geográfico Nacional (Ministerio de fomento) descubrimos una estructura de navegación con algunas deficiencias para movernos entre objetos, para dar un vistazo rápido y desde luego una descontextualización importante. Podríamos catalogarlo como uno de esos museos virtuales del caso cuarto, un catálogo de objetos, como podemos apreciar en la figura~\ref{fig:oan}. No se puede negar su utilidad pero son las funciones de las que carece las que hacen necesaria la creación del proyecto actual.
 
-\fig{capturamvoan}{Captura de pantalla del museo virtual del OAN}
+\begin{figure}
+\begin{narrow}{-0.1\linewidth}{-0.1\linewidth}
+\centering
+\includegraphics[width=\linewidth]{capturamvoan}
+\caption{Captura de pantalla del museo virtual del OAN}
+\label{fig:oan}
+\end{narrow}
+\end{figure}
 
 \subsubsection{Enciclopedias}
 
@@ -181,7 +195,14 @@ Blog & 0 \\
 
 \par Vamos a ir analizando lo que se ve en la figura~\ref{fig:cmsmat1}:
 
-\fig{cmsmat1}{``System Requirements'' desde CMSMatrix.org}
+\begin{figure}
+\begin{narrow}{-0.12\linewidth}{-0.12\linewidth}
+\centering
+\includegraphics[width=\linewidth]{cmsmat1}
+\caption{System Requirements desde CMSMatrix.org}
+\label{fig:cmsmat1}
+\end{narrow}
+\end{figure}
 
 \par En este caso, debemos fijarnos en la parte ``License'' principalmente, comprobando que todos menos Liferay Portal ostentan una licencia libre. Posteriormente he podido comprobar que la licencia de Liferay Portal cambió de licencia MIT a LGPL a partir de la versión 6\cite{references:liferaylicense}, así que, a falta de argumentación en contra sobre los pormenores de cada licencia, todos entrarían dentro del requisito principal.
 
@@ -193,19 +214,40 @@ Blog & 0 \\
 
 \par La única opción con inconvenientes en este campo sería Joomla!, que según cmsmatrix no permite la asignación de privilegios personalizada, señalando que MODx en supervisión de contenidos y control de versiones necesitaría un añadido gratuito, al igual que Joomla! para este último caso.
 
-\fig{cmsmat2}{``Security'' desde CMSMatrix.org}
+\begin{figure}
+\begin{narrow}{-0.12\linewidth}{-0.12\linewidth}
+\centering
+\includegraphics[width=\linewidth]{cmsmat2}
+\caption{Security desde CMSMatrix.org}
+\label{fig:cmsmat2}
+\end{narrow}
+\end{figure}
 
 \paragraph{Support (Asistencia)}
 
 \par Esta es una de las partes menos importantes de la comparativa, pues es incierto el futuro en cuestión de mantenimiento de la plataforma. En este caso nos estaríamos fijando más en ``Commercial Support'' (asistencia de pago), ``Developer Community'' (comunidad de desarrolladores) y ``Public Forum'' (foros públicos). Destacar únicamente que WordPress no dispone de ese servicio, aunque el servicio gratuito sí que exista. Para analizarla más en detalle, observar la figura~\ref{fig:cmsmat3}
 
-\fig{cmsmat3}{``Support'' desde CMSMatrix.org}
+\begin{figure}
+\begin{narrow}{-0.12\linewidth}{-0.12\linewidth}
+\centering
+\includegraphics[width=\linewidth]{cmsmat3}
+\caption{Support desde CMSMatrix.org}
+\label{fig:cmsmat3}
+\end{narrow}
+\end{figure}
 
 \paragraph{Ease of Use (Facilidad de uso)}
 
 \par Este es uno de los puntos más importantes de la comparativa. Si observamos en la figura~\ref{fig:cmsmat4}:
 
-\fig{cmsmat4}{``Ease of Use'' desde CMSMatrix.org}
+\begin{figure}
+\begin{narrow}{-0.12\linewidth}{-0.12\linewidth}
+\centering
+\includegraphics[width=\linewidth]{cmsmat4}
+\caption{Ease of Use desde CMSMatrix.org}
+\label{fig:cmsmat4}
+\end{narrow}
+\end{figure}
 
 \par Encontraremos que, a destacar, podemos seleccionar como las más relevantes las opciones de ``Drag-N-Drop Content'' (arrastrar y soltar contenido), ``Image Resizing'' (redimensionado de imágenes), ``Mass Upload'' (subida de archivos masiva) y ``WYSIWYG Editor'' (editor visual).
 \par De la primera característica, tenemos Joomla! que no la soporta, MODx con una implementación limitada y ``Drupal'' con un añadido para esa función. De la segunda, tendríamos que tanto ``mojoPortal'' como ``WordPress'' presentan esta función limitada y ``Drupal'' necesita, otra vez, añadidos. En cuanto a la subida de ficheros masiva, mojoPortal sería incapaz mientras que Drupal y WordPress necesitarían un add-on. El editor visual está presente en todas, aunque se nos avisa que Drupal necesita de un añadido también. Lo que nos hace pensar que Drupal está construido de forma modular ya que muchas de sus características se consiguen a través de módulos suplementarios. Esto puede tener consecuencias positivas en cuanto a agilidad, tamaño y complejidad y negativas en cuanto que el proceso inicial de puesta en marcha puede (aún no lo sabemos) ser más complicado que otros.
@@ -216,14 +258,28 @@ Blog & 0 \\
 
 \par Este apartado (fig.~\ref{fig:cmsmat5} no contiene aspectos demasiado relevantes para el proyecto que tenemos entre manos, pues no se espera que la carga de trabajo del servidor sea elevada como para preocuparse por estos detalles, aunque llegado el momento del desempate, podría declinar la balanza entre una opción y otra. Siendo tanto ``WordPress'' como ``Joomla!'' los más perjudicados.
 
-\fig{cmsmat5}{``Performance'' desde CMSMatrix.org}
+\begin{figure}
+\begin{narrow}{-0.12\linewidth}{-0.12\linewidth}
+\centering
+\includegraphics[width=\linewidth]{cmsmat5}
+\caption{Performance desde CMSMatrix.org}
+\label{fig:cmsmat5}
+\end{narrow}
+\end{figure}
 
 
 \paragraph{Management (Administración)}
 
 \par La figura~\ref{fig:cmsmat6} presenta aspectos importantes para el administrador de la plataforma como: ``Online Administration'' (gestión en línea), ``Themes/Skins'' (temas gráficos), ``Web-based Style/Template Management'' (gestión de estilos y plantillas vía web) y ``Web-based Translation Management'' (gestión de traducciones vía web).
 
-\fig{cmsmat6}{``Management'' desde CMSMatrix.org}
+\begin{figure}
+\begin{narrow}{-0.12\linewidth}{-0.12\linewidth}
+\centering
+\includegraphics[width=\linewidth]{cmsmat6}
+\caption{Management desde CMSMatrix.org}
+\label{fig:cmsmat6}
+\end{narrow}
+\end{figure}
 
 \par Las características que he citado primera y cuarta son, a mi juicio, fundamentales, ya que permiten la gestión de la plataforma virtualmente desde cualquier dispositivo que pueda mostrar páginas web. Las fallas más significativas son las de ``MODx'' y ``mojoPortal", que gracias a la falta de gestor de traducciones vía web quedarían, por ahora, descalificadas por completo. Hay que destacar que ``WordPress'' tiene limitaciones en esto y acumularía ya unas cuantas pegas que no lo hacen muy aconsejable.
 
@@ -244,7 +300,14 @@ Blog & 0 \\
 \par XHTML Compliant (cumple con XHTML): XHTML es una especificación que trata de dar coherencia y acercar el lenguaje HTML a los estándares XML. Busca la ausencia de errores (se puede validar con facilidad) y la fiel reproducción de un contenido en distintos navegadores sin demasiadas diferencias. Es decir, busca establecer un estándar. Yo lo consideraría un mínimo exigible para cualquier plataforma web aunque en el futuro se de la posibilidad de cambiar a otros estándares como HTML5 (que aún no están implantados masivamente).
 
 
-\fig{cmsmat7}{``Interoperability desde CMSMatrix.org''}
+\begin{figure}
+\begin{narrow}{-0.12\linewidth}{-0.12\linewidth}
+\centering
+\includegraphics[width=\linewidth]{cmsmat7}
+\caption{Interoperability desde CMSMatrix.org}
+\label{fig:cmsmat7}
+\end{narrow}
+\end{figure}
 
 
 
@@ -253,7 +316,14 @@ Blog & 0 \\
 
 \par De esta sección, mostrada en la figura~\ref{fig:cmsmat8}, lo que más nos va a interesar es la ``Interface Localization'' (interfaz en el idioma deseado), la capacidad de presentar e integrar contenido en distintas lenguas, representado por ``Multilingual Content'' y ``Multilingual Content Integration". Tanto esta como las dos siguientes secciones, como se comprueba en el estilo austero, no son tan relevantes como las ya comentadas.
 
-\fig{cmsmat8}{``Flexibility'' desde CMSMatrix.org}
+\begin{figure}
+\begin{narrow}{-0.12\linewidth}{-0.12\linewidth}
+\centering
+\includegraphics[width=\linewidth]{cmsmat8}
+\caption{Flexibility desde CMSMatrix.org}
+\label{fig:cmsmat8}
+\end{narrow}
+\end{figure}
 
 
 \paragraph{Built-in Applications (Aplicaciones embebidas)}
@@ -261,18 +331,39 @@ Blog & 0 \\
 
 \par En esta sección se presentan todas esas funcionalidades extras que podrían (o no) interesarnos a la hora de diseñar nuestra plataforma (figuras~\ref{fig:cmsmat9-1} y~\ref{fig:cmsmat9-2}).
 
-\fig{cmsmat9-1}{``Built-in Applications'' (I) desde CMSMatrix.org}
+\begin{figure}
+\begin{narrow}{-0.12\linewidth}{-0.12\linewidth}
+\centering
+\includegraphics[width=\linewidth]{cmsmat9-1}
+\caption{Built-in Applications (I) desde CMSMatrix.org}
+\label{fig:cmsmat9-1}
+\end{narrow}
+\end{figure}
 
 \par Entre las presentes, me parecen reseñables las que tienen que ver con calendarios y eventos, manejo de enlaces, encuestas, manejo de documentos y galería de imágenes, entre otras, aunque, en general, no son demasiado importantes porque no sería difícil recrearlas.
 
-\fig{cmsmat9-2}{``Built-in Applications'' (II) desde CMSMatrix.org}
+\begin{figure}
+\begin{narrow}{-0.12\linewidth}{-0.12\linewidth}
+\centering
+\includegraphics[width=\linewidth]{cmsmat9-2}
+\caption{Built-in Applications (II) desde CMSMatrix.org}
+\label{fig:cmsmat9-2}
+\end{narrow}
+\end{figure}
 
 \paragraph{Commerce (Comercio electrónico)}
 
 
 \par Esta última figura (\ref{fig:cmsmatA}) se incluye casi a modo testimonial, dado que la parte comercial tanto del museo como, más generalmente, de todo el IGN, se concentra en otro departamento, fuera del alcance de este proyecto. En ella podemos ver distintas funcionalidades orientadas a la parte más comercial de la actividad: tienda, carrito, pasarela, etc.
 
-\fig{cmsmatA}{``Commerce'' desde CMSMatrix.org}
+\begin{figure}
+%\begin{narrow}{-0.12\linewidth}{-0.12\linewidth}
+\centering
+\includegraphics[width=1.20\linewidth]{cmsmatA}
+\caption{Commerce desde CMSMatrix.org}
+\label{fig:cmsmatA}
+%\end{narrow}
+\end{figure}
 
 \par Dicho todo esto, considero que Joomla! también debería ser apartado de los candidatos dada la falla en cuanto a XHTML. Los costes extra de dotCMS para algunas características me hacen pensar que la filosofía de ese proyecto no es tan cercana a nuestros objetivos como podría parecer, así que también los desaconsejaría.
 

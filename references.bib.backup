@@ -91,8 +91,8 @@
   organization 	= "Atlanta Drupal User's Group Meeting"
 };
 
-@electronic{references:tatehandheld,
-  title         = "Tate Modern|Symposia|From Audiotours to iPhones",
+@electronic{references:bussinessobjects,
+  title         = "Bussiness Objects (Company) - Wikipedia, the free encyclopedia",
   url           = "http://www.tate.org.uk/modern/eventseducation/symposia/15441.htm"
 };
 

@@ -20,8 +20,8 @@
 
 \bibitem{references:tatehandheld}
 \BIBentryALTinterwordspacing
-G.~Wilson. (2004) Multimedia tour programme at tate modern. [Online].
-  Available: \url{http://www.archimuse.com/mw2004/papers/wilson/wilson.html}
+Tate modern|symposia|from audiotours to iphones. [Online]. Available:
+  \url{http://www.tate.org.uk/modern/eventseducation/symposia/15441.htm}
 \BIBentrySTDinterwordspacing
 
 \bibitem{references:drupalthemes}
@@ -58,6 +58,12 @@ Sobre alfresco - la alternativa para la gestión de contenidos empresariales en
 \BIBentryALTinterwordspacing
 Aiim - what is ecm? what is enterprise content management. [Online]. Available:
   \url{http://www.aiim.org/What-is-ECM-Enterprise-Content-Management.aspx}
+\BIBentrySTDinterwordspacing
+
+\bibitem{references:cmsmatrix}
+\BIBentryALTinterwordspacing
+The cms matrix - cmsmatrix.org - the content management comparison tool.
+  [Online]. Available: \url{http://cmsmatrix.org/}
 \BIBentrySTDinterwordspacing
 
 \bibitem{references:alfrescocomp}
@@ -129,5 +135,67 @@ Webmin. [Online]. Available: \url{http://www.webmin.com/}
 Drupal hispano | comunidad de usuarios de drupal. [Online]. Available:
   \url{http://drupal.org.es/}
 \BIBentrySTDinterwordspacing
+
+\bibitem{references:museovirtualoan}
+\BIBentryALTinterwordspacing
+M.~de~Fomento. [museo virtual] instituto geográfico nacional - ministerio de
+  fomento. [Online]. Available:
+  \url{http://www.ign.es/ign/es/IGN/Museo_Virtual.jsp}
+\BIBentrySTDinterwordspacing
+
+\bibitem{references:drupalperf2bits}
+\BIBentryALTinterwordspacing
+Drupal performance tuning and optimization for large websites - 2bits.con,inc.
+  [Online]. Available:
+  \url{http://2bits.com/articles/drupal-performance-tuning-and-optimization-fo%
+r-large-web-sites.html}
+\BIBentrySTDinterwordspacing
+
+\bibitem{references:drupalperferikwebb}
+\BIBentryALTinterwordspacing
+E.~Webb. (2010, 09) Getting started with drupal performance | erikwebb dot net.
+  Atlanta Drupal User's Group Meeting. [Online]. Available:
+  \url{http://2bits.com/articles/drupal-performance-tuning-and-optimization-fo%
+r-large-web-sites.html}
+\BIBentrySTDinterwordspacing
+
+\bibitem{references:drupalservertuning}
+\BIBentryALTinterwordspacing
+Server tuning considerations | drupal.org. [Online]. Available:
+  \url{http://drupal.org/node/2601}
+\BIBentrySTDinterwordspacing
+
+\bibitem{references:apachedocs}
+\BIBentryALTinterwordspacing
+Documentation: Apache http server - the apache http server project. [Online].
+  Available: \url{http://httpd.apache.org/docs/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{references:drupalzend}
+\BIBentryALTinterwordspacing
+{Zend Technologies, Inc.} and {Acquia, Inc.} (2010, 02) Optimizing drupal
+  performance - benchmark results. [Online]. Available:
+  \url{http://www.zend.com/topics/Optimizing-Drupal-Performance-Zend-Acquia-Wh%
+itepaper-Feb2010v2.pdf}
+\BIBentrySTDinterwordspacing
+
+\bibitem{references:optimizingphp}
+\BIBentryALTinterwordspacing
+A howto on optimizing php with tips and methodologies. [Online]. Available:
+  \url{http://phplens.com/lens/php-book/optimizing-debugging-php.php}
+\BIBentrySTDinterwordspacing
+
+\bibitem{references:tuningmysql}
+\BIBentryALTinterwordspacing
+Tuning mysql | drupal.org. [Online]. Available:
+  \url{http://drupal.org/node/51263}
+\BIBentrySTDinterwordspacing
+
+\bibitem{references:drupalpressflow}
+\BIBentryALTinterwordspacing
+Pressflow | enhaced performance and scalability for drupal. [Online].
+  Available: \url{http://pressflow.org/}
+\BIBentrySTDinterwordspacing
+\renewcommand\BIBentryALTinterwordstretchfactor{4}
 
 \end{thebibliography}
