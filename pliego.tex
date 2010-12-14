@@ -1,4 +1,5 @@
 \section{Consideraciones previas}
+\label{cha:rendimiento}
 \par En esta sección trataré de exponer la problemática asociada a la asignación razonada de requisitos.
 Hemos dejado claro que nuestra apuesta será Drupal. En concreto, la versión de la rama 6.x, que está debidamente probada y se supone estable.
 He buscado información sobre los requerimientos asociados a ejecutar Drupal y esta investigación creo que se podría dividir en dos partes, aunque están interconectadas y no deben ser aisladas del todo a la hora de tomar en consideración: las necesidades de rendimiento y las particularidades del software elegido.
@@ -160,13 +161,13 @@ Deberá contar, eso sí, con algunas características técnicas que se detallan 
 
 \subsection{Servidor}
 
-\par El servidor, dado que sería, en lo posible, el trabajo resultado del desarrollo, debería estar bajo otro sistema LAMP. Visto lo visto, puede ser recomendable integrar un servidor con un sistema Debian Linux (por estabilidad) o Ubuntu Server (por similitud con la plataforma de desarrollo). Es cierto, eso sí, que, sea en una u otra máquina, debería llegarse a un acuerdo y, preparar, si el presupuesto lo permite, un ``servidor'' de pruebas, independiente del de desarrollo y del de producción. Se buscará que el software en ellos sea el mismo, dejando las versiones más estables para el servidor de producción, y siguiendo un ciclo clásico de Do-Check-Act desde el entorno de desarrollo, al servidor de pruebas y después, si no hay errores, al de producción.
+\par El servidor, dado que sería, en lo posible, el trabajo resultado del desarrollo, debería estar bajo otro sistema LAMP. Visto lo visto, puede ser recomendable integrar un servidor con un sistema Debian Linux (por estabilidad) o \textbf{Ubuntu Server} (por similitud con la plataforma de desarrollo). Es cierto, eso sí, que, sea en una u otra máquina, debería llegarse a un acuerdo y, preparar, si el presupuesto lo permite, un ``servidor'' de pruebas, independiente del de desarrollo y del de producción. Se buscará que el software en ellos sea el mismo, dejando las versiones más estables para el servidor de producción, y siguiendo un ciclo clásico de \textbf{Do-Check-Act}\label{cha:docheckact} desde el entorno de desarrollo, al servidor de pruebas y después, si no hay errores, al de producción.
 
 \par Así que, en principio, la estructura será la misma que para el entorno de desarrollo, aunque es previsible que la modificación inicial será al revés: una vez configurado un entorno estable para el servidor de producción, se igualarán el resto de servidores. A partir de ahí, el ciclo de actualizaciones y/o cambios seguirá el curso propuesto más arriba.
 
 \subsection{Cliente en sala}
 
-\par En este caso, los requisitos software son muy sencillos: un sistema operativo que soporte la pantalla táctil (en su caso) y un navegador moderno que sepa interpretar los estándares del W3C y reproducir contenido multimedia. Además, claro está, se deberán tomar las medidas de seguridad necesarias para que no haya brechas importantes de seguridad, ya sea a base de políticas, permisos, antivirus, etc.
+\par En este caso, los requisitos software son muy sencillos: un sistema operativo que soporte la pantalla táctil (en su caso) y un navegador moderno que sepa interpretar los estándares del \textbf{W3C} y reproducir contenido multimedia. Además, claro está, se deberán tomar las medidas de seguridad necesarias para que no haya brechas importantes de seguridad, ya sea a base de políticas, permisos, antivirus, etc.
 
 \subsection{Dispositivo móvil}
 

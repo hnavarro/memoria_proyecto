@@ -1,16 +1,39 @@
-\section{Ap�ndice}
+\section{Apéndice I: Alfresco}
+\label{cha:apendicealfresco}
+\par La propuesta es analizar brevemente el candidato ``Alfresco'' para ver si sería viable tenerlo en cuenta como candidato para nuestro desarrollo.
 
-As� se inserta c�digo C.
+\subsection{Análisis}
+\par Para proceder con este análisis, la principal fuente de información será el sitio web de la compañía dedicado a hablar de la entidad. Alfresco es una empresa fundada por John Newton (Documentum\footnote{Empresa americana dedicada a la creación de un gestor de contenidos empresariales con el mismo nombre, hoy mantenido por EMC Corporation.\cite{references:documentum}}) y John Powell (Bussiness Objects\footnote{Empresa francesa dedicada a Bussiness Intelligence y desde 2007 parte de SAP AG\cite{references:bussinessobjects}}) e integrada por ingenieros de Documentum y Oracle en 2005 con capital de diferentes empresas de inversión como SAP Ventures, Accel Partners y Mayfield Fund. Se autodenominan la ``alternativa de código abierto para la gestión de contenidos empresariales (ECM)\cite{references:alfrescoabout}.
+\par Aquí aparece un concepto desconocido hasta ahora en este documento: gestión de contenidos empresariales. Según la Asociación para la gestión de imágenes e información (AIIM en inglés), ECM se define como \cite{references:ecmaiim}: ``las estrategias, métodos y herramientas usadas para capturar, gestionar, almacenar, preservar y entregar contenido y documentos relacionados con procesos organizativos. Las estrategias y herramientas ECM permiten la administración de la información no estructurada de una organización donde quiera que ésta exista."\renewcommand{\thefootnote}{\fnsymbol{footnote}}\footnote[1]{Traducción propia.}\renewcommand{\thefootnote}{\arabic{footnote}}
 
-\lstset{language=c++}
-\lstset{commentstyle=\textit}
-\lstset{stringstyle=\ttfamily, basicstyle=\small}
-\begin{lstlisting}[frame=trbl]{}
-void funcionPrueba()
-{	
-	int prueba;
-}
-\end{lstlisting}
+\subsubsection{Sabores}
+\par Aunque quizá ya era de esperar, podemos ver que este tipo de plataforma abarca mucho más de lo que en principio necesitaríamos y está enfocado de manera diferente a lo que sería nuestro museo virtual. Si nos atenemos a la plataforma, rápidamente vemos que forma parte del modelo de negocio que algunas empresa han encontrado para explotar el código abierto: el soporte. No hay otra manera (salvo una evaluación de 30 días) de utilizar la plataforma Enterprise que la de contratar una suscripción con la empresa atendiendo a diversos paquetes de soporte integrado. Las características incluidas en todas las opciones son:
+
+\begin{itemize}
+\item Pruebas certificadas de escalabilidad
+\item Un modelo controlado del lanzamiento
+\item Mantenimiento y Actualizaciones
+\item Resolución de Problemas
+\item Consejos de Configuración, Compatibilidad y Migraciones
+\item Soporte de Actualización
+\item Consejos de Puesta a punto
+\item Tiempos de reacción garantizados
+\end{itemize}
+
+\par Como todo sitio corporativo, su lenguaje es marcadamente general por lo que conviene entrar un poco más en detalle. Para ello podemos utilizar el mismo recurso antes mencionado de CMSMatrix.org\cite{references:cmsmatrix}. En este caso, no tenemos muy clara cuál es la plataforma analizada, ya que Alfresco se presenta en distintos sabores\cite{references:alfrescocomp}: Cloud Trial (prueba online, no incluye gestión de contenidos web, Alfresco Enterprise (probada y certificada para plataformas tanto código abierto como propietarias, con soporte comercial completo) y Alfresco Community (para plataformas de código abierto, soportada por la comunidad).
+
+\par Desgraciadamente, la página de CMSMatrix.org muestra unos valores de comienzos del 2008 con lo que vamos a evitarnos el trabajo de listarla.
 
 
-	
+\subsubsection{Edición Web}
+
+\par Alfresco se presenta como una opción flexible para desarrolladores. Para ello, ofrecen algo llamado Alfresco Quick Start. Se trata de una especie de sitio dinámico prefabricado construido en Spring Surf pero con el repositorio de contenidos marca de la casa (Alfresco Share). De hecho, lo mencionan en varios documentos como algo especial. Es traído a colación a cuento de que, al parecer, llega un momento en todo desarrollo de sitios dinámicos en el que el usuario acaba por pedir más y más control, lo que carga al desarrollador de un montón de trabajo tratando de implementar funciones sencillas de administración del sitio. Esta herramienta presume de traer todas esas características de fábrica, para permitir a los constructores de sitios web seguir con tareas más importantes como la experiencia de usuario final. En teoría, lo engorroso de la gestión de contenidos queda del lado de Alfresco Share.
+
+\paragraph{Sitios colaborativos} 
+\par Esta plataforma trata de simplificar, como toda aplicación informática presume, las tareas del usuario, dejando el horizonte libre para lo que sería, directamente, crear.
+\par Entre otras características, cuenta con:
+\begin{itemize}
+ \item Edición Web en el navegador, lo que facilita mucho esta tarea al usuario final pudiendo valerse de contenidos previamente publicados.
+ \item Integración de documentos ofimáticos automáticamente en la web (Office-to-Web), lo que permitiría, basándose en Google Docs (el sistema en la nube de edición colaborativa de documentos), con muy poco esfuerzo, pasar de bocetos en MS Office a publicar en la web respetando las normas CSS de la empresa.
+ \item Unidad de red compartida, que no es más que extender el concepto que popularizó Microsoft hace muchos años pero en este caso, como si se tratase de la librería de la web.
+\end{itemize}

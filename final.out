@@ -36,18 +36,9 @@
 \BOOKMARK [4][-]{paragraph.2.3.2.4.3}{Moodle}{subsubsection.2.3.2.4}
 \BOOKMARK [4][-]{paragraph.2.3.2.4.4}{Plone}{subsubsection.2.3.2.4}
 \BOOKMARK [2][-]{subsection.2.3.3}{Anexo a comparativa}{section.2.3}
-\BOOKMARK [3][-]{subsubsection.2.3.3.1}{Breve an\341lisis de Alfresco}{subsection.2.3.3}
-\BOOKMARK [2][-]{subsection.2.3.4}{Modelo de datos}{section.2.3}
-\BOOKMARK [3][-]{subsubsection.2.3.4.1}{Cat\341logo}{subsection.2.3.4}
-\BOOKMARK [4][-]{paragraph.2.3.4.1.1}{OBJETO}{subsubsection.2.3.4.1}
-\BOOKMARK [4][-]{paragraph.2.3.4.1.2}{\301REA}{subsubsection.2.3.4.1}
-\BOOKMARK [4][-]{paragraph.2.3.4.1.3}{TIPO\137OBJETO}{subsubsection.2.3.4.1}
-\BOOKMARK [4][-]{paragraph.2.3.4.1.4}{ART\315CULOS}{subsubsection.2.3.4.1}
-\BOOKMARK [4][-]{paragraph.2.3.4.1.5}{AREA\137ART\315CULO}{subsubsection.2.3.4.1}
-\BOOKMARK [4][-]{paragraph.2.3.4.1.6}{INVENTOR}{subsubsection.2.3.4.1}
 \BOOKMARK [1][-]{section.2.4}{Drupal}{chapter.2}
 \BOOKMARK [2][-]{subsection.2.4.1}{Entorno de \(pre\)desarrollo}{section.2.4}
-\BOOKMARK [2][-]{subsection.2.4.2}{Understanding Drupal}{section.2.4}
+\BOOKMARK [2][-]{subsection.2.4.2}{Understanding Drupal \(Entender Drupal\)}{section.2.4}
 \BOOKMARK [3][-]{subsubsection.2.4.2.1}{General}{subsection.2.4.2}
 \BOOKMARK [3][-]{subsubsection.2.4.2.2}{M\363dulos}{subsection.2.4.2}
 \BOOKMARK [3][-]{subsubsection.2.4.2.3}{Usuarios}{subsection.2.4.2}
@@ -66,34 +57,72 @@
 \BOOKMARK [4][-]{paragraph.2.4.2.6.5}{Archivos de plantilla}{subsubsection.2.4.2.6}
 \BOOKMARK [4][-]{paragraph.2.4.2.6.6}{template.php}{subsubsection.2.4.2.6}
 \BOOKMARK [1][-]{section.2.5}{Conclusiones y trabajo futuro}{chapter.2}
-\BOOKMARK [0][-]{chapter.3}{Pliego de condiciones}{}
-\BOOKMARK [1][-]{section.3.1}{Consideraciones previas}{chapter.3}
-\BOOKMARK [2][-]{subsection.3.1.1}{Rendimiento necesario}{section.3.1}
-\BOOKMARK [3][-]{subsubsection.3.1.1.1}{Afluencia}{subsection.3.1.1}
-\BOOKMARK [3][-]{subsubsection.3.1.1.2}{Caudal}{subsection.3.1.1}
-\BOOKMARK [3][-]{subsubsection.3.1.1.3}{Criticidad}{subsection.3.1.1}
-\BOOKMARK [2][-]{subsection.3.1.2}{Particularidades del software elegido}{section.3.1}
-\BOOKMARK [3][-]{subsubsection.3.1.2.1}{Rendimiento de la pila LAMP}{subsection.3.1.2}
-\BOOKMARK [3][-]{subsubsection.3.1.2.2}{Cuellos de botella}{subsection.3.1.2}
-\BOOKMARK [3][-]{subsubsection.3.1.2.3}{Invitados indeseables}{subsection.3.1.2}
-\BOOKMARK [3][-]{subsubsection.3.1.2.4}{Rendimiento de Apache}{subsection.3.1.2}
-\BOOKMARK [3][-]{subsubsection.3.1.2.5}{Ajustes de PHP}{subsection.3.1.2}
-\BOOKMARK [3][-]{subsubsection.3.1.2.6}{Ajustes de rendimiento de MySQL}{subsection.3.1.2}
-\BOOKMARK [3][-]{subsubsection.3.1.2.7}{Ancho de banda}{subsection.3.1.2}
-\BOOKMARK [3][-]{subsubsection.3.1.2.8}{Consumo de recursos de Drupal}{subsection.3.1.2}
-\BOOKMARK [3][-]{subsubsection.3.1.2.9}{Configuraci\363n de Drupal hacia el rendimiento}{subsection.3.1.2}
-\BOOKMARK [2][-]{subsection.3.1.3}{Umbral de costes}{section.3.1}
-\BOOKMARK [1][-]{section.3.2}{Requisitos de Hardware}{chapter.3}
-\BOOKMARK [2][-]{subsection.3.2.1}{Desarrollo}{section.3.2}
-\BOOKMARK [2][-]{subsection.3.2.2}{Servidor}{section.3.2}
-\BOOKMARK [2][-]{subsection.3.2.3}{Infraestructura de red}{section.3.2}
-\BOOKMARK [2][-]{subsection.3.2.4}{Cliente en sala}{section.3.2}
-\BOOKMARK [2][-]{subsection.3.2.5}{Dispositivo m\363vil}{section.3.2}
-\BOOKMARK [1][-]{section.3.3}{Requisitos de Software}{chapter.3}
-\BOOKMARK [2][-]{subsection.3.3.1}{Desarrollo}{section.3.3}
-\BOOKMARK [2][-]{subsection.3.3.2}{Servidor}{section.3.3}
-\BOOKMARK [2][-]{subsection.3.3.3}{Cliente en sala}{section.3.3}
-\BOOKMARK [2][-]{subsection.3.3.4}{Dispositivo m\363vil}{section.3.3}
-\BOOKMARK [0][-]{chapter.4}{Manual de Usuario}{}
-\BOOKMARK [1][-]{section.4.1}{Manual}{chapter.4}
-\BOOKMARK [0][-]{chapter.5}{Bibliograf\355a}{}
+\BOOKMARK [2][-]{subsection.2.5.1}{Logros alcanzados}{section.2.5}
+\BOOKMARK [2][-]{subsection.2.5.2}{Conocimientos adquiridos}{section.2.5}
+\BOOKMARK [3][-]{subsubsection.2.5.2.1}{Generalidades}{subsection.2.5.2}
+\BOOKMARK [3][-]{subsubsection.2.5.2.2}{Particularidades}{subsection.2.5.2}
+\BOOKMARK [3][-]{subsubsection.2.5.2.3}{Modificaciones}{subsection.2.5.2}
+\BOOKMARK [4][-]{paragraph.2.5.2.3.1}{Web Sem\341ntica}{subsubsection.2.5.2.3}
+\BOOKMARK [4][-]{paragraph.2.5.2.3.2}{Uso de est\341ndares}{subsubsection.2.5.2.3}
+\BOOKMARK [4][-]{paragraph.2.5.2.3.3}{Wikis}{subsubsection.2.5.2.3}
+\BOOKMARK [2][-]{subsection.2.5.3}{Tiempo empleado}{section.2.5}
+\BOOKMARK [2][-]{subsection.2.5.4}{L\355neas futuras de trabajo}{section.2.5}
+\BOOKMARK [0][-]{chapter.3}{Planos}{}
+\BOOKMARK [1][-]{section.3.1}{Esquem\341ticos}{chapter.3}
+\BOOKMARK [2][-]{subsection.3.1.1}{Modelo de datos}{section.3.1}
+\BOOKMARK [3][-]{subsubsection.3.1.1.1}{Cat\341logo}{subsection.3.1.1}
+\BOOKMARK [4][-]{paragraph.3.1.1.1.1}{OBJETO}{subsubsection.3.1.1.1}
+\BOOKMARK [4][-]{paragraph.3.1.1.1.2}{\301REA}{subsubsection.3.1.1.1}
+\BOOKMARK [4][-]{paragraph.3.1.1.1.3}{TIPO\137OBJETO}{subsubsection.3.1.1.1}
+\BOOKMARK [4][-]{paragraph.3.1.1.1.4}{ART\315CULOS}{subsubsection.3.1.1.1}
+\BOOKMARK [4][-]{paragraph.3.1.1.1.5}{AREA\137ART\315CULO}{subsubsection.3.1.1.1}
+\BOOKMARK [4][-]{paragraph.3.1.1.1.6}{INVENTOR}{subsubsection.3.1.1.1}
+\BOOKMARK [3][-]{subsubsection.3.1.1.2}{Revisi\363n del cat\341logo}{subsection.3.1.1}
+\BOOKMARK [4][-]{paragraph.3.1.1.2.1}{Ficha de objeto}{subsubsection.3.1.1.2}
+\BOOKMARK [2][-]{subsection.3.1.2}{Esquema general de servicio}{section.3.1}
+\BOOKMARK [3][-]{subsubsection.3.1.2.1}{Servidor del museo}{subsection.3.1.2}
+\BOOKMARK [3][-]{subsubsection.3.1.2.2}{Clientes a trav\351s de Internet}{subsection.3.1.2}
+\BOOKMARK [3][-]{subsubsection.3.1.2.3}{Puesto en sala}{subsection.3.1.2}
+\BOOKMARK [3][-]{subsubsection.3.1.2.4}{Terminales m\363viles}{subsection.3.1.2}
+\BOOKMARK [2][-]{subsection.3.1.3}{Esquema general de creaci\363n de contenidos}{section.3.1}
+\BOOKMARK [3][-]{subsubsection.3.1.3.1}{Servidor}{subsection.3.1.3}
+\BOOKMARK [3][-]{subsubsection.3.1.3.2}{Administrador}{subsection.3.1.3}
+\BOOKMARK [3][-]{subsubsection.3.1.3.3}{Editor}{subsection.3.1.3}
+\BOOKMARK [2][-]{subsection.3.1.4}{Redactor}{section.3.1}
+\BOOKMARK [0][-]{chapter.4}{Pliego de condiciones}{}
+\BOOKMARK [1][-]{section.4.1}{Consideraciones previas}{chapter.4}
+\BOOKMARK [2][-]{subsection.4.1.1}{Rendimiento necesario}{section.4.1}
+\BOOKMARK [3][-]{subsubsection.4.1.1.1}{Afluencia}{subsection.4.1.1}
+\BOOKMARK [3][-]{subsubsection.4.1.1.2}{Caudal}{subsection.4.1.1}
+\BOOKMARK [3][-]{subsubsection.4.1.1.3}{Criticidad}{subsection.4.1.1}
+\BOOKMARK [2][-]{subsection.4.1.2}{Particularidades del software elegido}{section.4.1}
+\BOOKMARK [3][-]{subsubsection.4.1.2.1}{Rendimiento de la pila LAMP}{subsection.4.1.2}
+\BOOKMARK [3][-]{subsubsection.4.1.2.2}{Cuellos de botella}{subsection.4.1.2}
+\BOOKMARK [3][-]{subsubsection.4.1.2.3}{Invitados indeseables}{subsection.4.1.2}
+\BOOKMARK [3][-]{subsubsection.4.1.2.4}{Rendimiento de Apache}{subsection.4.1.2}
+\BOOKMARK [3][-]{subsubsection.4.1.2.5}{Ajustes de PHP}{subsection.4.1.2}
+\BOOKMARK [3][-]{subsubsection.4.1.2.6}{Ajustes de rendimiento de MySQL}{subsection.4.1.2}
+\BOOKMARK [3][-]{subsubsection.4.1.2.7}{Ancho de banda}{subsection.4.1.2}
+\BOOKMARK [3][-]{subsubsection.4.1.2.8}{Consumo de recursos de Drupal}{subsection.4.1.2}
+\BOOKMARK [3][-]{subsubsection.4.1.2.9}{Configuraci\363n de Drupal hacia el rendimiento}{subsection.4.1.2}
+\BOOKMARK [2][-]{subsection.4.1.3}{Umbral de costes}{section.4.1}
+\BOOKMARK [1][-]{section.4.2}{Requisitos de Hardware}{chapter.4}
+\BOOKMARK [2][-]{subsection.4.2.1}{Desarrollo}{section.4.2}
+\BOOKMARK [2][-]{subsection.4.2.2}{Servidor}{section.4.2}
+\BOOKMARK [2][-]{subsection.4.2.3}{Infraestructura de red}{section.4.2}
+\BOOKMARK [2][-]{subsection.4.2.4}{Cliente en sala}{section.4.2}
+\BOOKMARK [2][-]{subsection.4.2.5}{Dispositivo m\363vil}{section.4.2}
+\BOOKMARK [1][-]{section.4.3}{Requisitos de Software}{chapter.4}
+\BOOKMARK [2][-]{subsection.4.3.1}{Desarrollo}{section.4.3}
+\BOOKMARK [2][-]{subsection.4.3.2}{Servidor}{section.4.3}
+\BOOKMARK [2][-]{subsection.4.3.3}{Cliente en sala}{section.4.3}
+\BOOKMARK [2][-]{subsection.4.3.4}{Dispositivo m\363vil}{section.4.3}
+\BOOKMARK [0][-]{chapter.5}{Manual de Usuario}{}
+\BOOKMARK [1][-]{section.5.1}{Manual}{chapter.5}
+\BOOKMARK [0][-]{chapter.6}{Ap\351ndices}{}
+\BOOKMARK [1][-]{section.6.1}{Ap\351ndice I: Alfresco}{chapter.6}
+\BOOKMARK [2][-]{subsection.6.1.1}{An\341lisis}{section.6.1}
+\BOOKMARK [3][-]{subsubsection.6.1.1.1}{Sabores}{subsection.6.1.1}
+\BOOKMARK [3][-]{subsubsection.6.1.1.2}{Edici\363n Web}{subsection.6.1.1}
+\BOOKMARK [4][-]{paragraph.6.1.1.2.1}{Sitios colaborativos}{subsubsection.6.1.1.2}
+\BOOKMARK [0][-]{chapter.7}{Bibliograf\355a}{}

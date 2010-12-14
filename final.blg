@@ -4,8 +4,10 @@ A level-1 auxiliary file: portada.aux
 A level-1 auxiliary file: agradecimientos.aux
 A level-1 auxiliary file: resumen.aux
 A level-1 auxiliary file: memoria.aux
+A level-1 auxiliary file: planos.aux
 A level-1 auxiliary file: pliego.aux
 A level-1 auxiliary file: manual.aux
+A level-1 auxiliary file: apendices.aux
 The style file: ./IEEEtran.bst
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: ./references.bib
@@ -21,7 +23,7 @@ I'm skipping whatever remains of this entry
 Done.
 You've used 30 entries,
             3975 wiz_defined-function locations,
-            904 strings with 10821 characters,
+            906 strings with 10844 characters,
 and the built_in function-call counts, 8522 in all, are:
 = -- 484
 > -- 109

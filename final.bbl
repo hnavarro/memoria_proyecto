@@ -36,42 +36,6 @@ Liferay adopting the lgpl license - blog - liferay.com. [Online]. Available:
   \url{http://www.liferay.com/web/bryan.cheung/blog/-/blogs/4656695/maximized}
 \BIBentrySTDinterwordspacing
 
-\bibitem{references:documentum}
-\BIBentryALTinterwordspacing
-Documentum - wikipedia, the free encyclopedia. [Online]. Available:
-  \url{http://en.wikipedia.org/wiki/Documentum}
-\BIBentrySTDinterwordspacing
-
-\bibitem{references:bussinessobjects}
-\BIBentryALTinterwordspacing
-Bussiness objects (company) - wikipedia, the free encyclopedia. [Online].
-  Available: \url{http://en.wikipedia.org/wiki/Business_Objects_(company)}
-\BIBentrySTDinterwordspacing
-
-\bibitem{references:alfrescoabout}
-\BIBentryALTinterwordspacing
-Sobre alfresco - la alternativa para la gestión de contenidos empresariales en
-  código libre. [Online]. Available: \url{http://www.alfresco.com/es/about/}
-\BIBentrySTDinterwordspacing
-
-\bibitem{references:ecmaiim}
-\BIBentryALTinterwordspacing
-Aiim - what is ecm? what is enterprise content management. [Online]. Available:
-  \url{http://www.aiim.org/What-is-ECM-Enterprise-Content-Management.aspx}
-\BIBentrySTDinterwordspacing
-
-\bibitem{references:cmsmatrix}
-\BIBentryALTinterwordspacing
-The cms matrix - cmsmatrix.org - the content management comparison tool.
-  [Online]. Available: \url{http://cmsmatrix.org/}
-\BIBentrySTDinterwordspacing
-
-\bibitem{references:alfrescocomp}
-\BIBentryALTinterwordspacing
-Alfresco - cmsmatrix.org - the content management comparison tool. [Online].
-  Available: \url{http://cmsmatrix.org/matrix/cms-matrix/alfresco}
-\BIBentrySTDinterwordspacing
-
 \bibitem{references:drupalhome}
 \BIBentryALTinterwordspacing
 Drupal - open source cms | drupal.org. [Online]. Available:
@@ -195,6 +159,42 @@ Tuning mysql | drupal.org. [Online]. Available:
 \BIBentryALTinterwordspacing
 Pressflow | enhaced performance and scalability for drupal. [Online].
   Available: \url{http://pressflow.org/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{references:documentum}
+\BIBentryALTinterwordspacing
+Documentum - wikipedia, the free encyclopedia. [Online]. Available:
+  \url{http://en.wikipedia.org/wiki/Documentum}
+\BIBentrySTDinterwordspacing
+
+\bibitem{references:bussinessobjects}
+\BIBentryALTinterwordspacing
+Bussiness objects (company) - wikipedia, the free encyclopedia. [Online].
+  Available: \url{http://en.wikipedia.org/wiki/Business_Objects_(company)}
+\BIBentrySTDinterwordspacing
+
+\bibitem{references:alfrescoabout}
+\BIBentryALTinterwordspacing
+Sobre alfresco - la alternativa para la gestión de contenidos empresariales en
+  código libre. [Online]. Available: \url{http://www.alfresco.com/es/about/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{references:ecmaiim}
+\BIBentryALTinterwordspacing
+Aiim - what is ecm? what is enterprise content management. [Online]. Available:
+  \url{http://www.aiim.org/What-is-ECM-Enterprise-Content-Management.aspx}
+\BIBentrySTDinterwordspacing
+
+\bibitem{references:cmsmatrix}
+\BIBentryALTinterwordspacing
+The cms matrix - cmsmatrix.org - the content management comparison tool.
+  [Online]. Available: \url{http://cmsmatrix.org/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{references:alfrescocomp}
+\BIBentryALTinterwordspacing
+Alfresco - cmsmatrix.org - the content management comparison tool. [Online].
+  Available: \url{http://cmsmatrix.org/matrix/cms-matrix/alfresco}
 \BIBentrySTDinterwordspacing
 \renewcommand\BIBentryALTinterwordstretchfactor{4}
 

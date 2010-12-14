@@ -7,13 +7,13 @@ He buscado información sobre los requerimientos asociados a ejecutar Drupal y e
 \par En nuestro caso podríamos decir que tenemos, como referencia previa, la actual página dedicada a museo virtual en la página del IGN\cite{references:museovirtualoan}, pero, como ya hemos hablado anteriormente, existen numerosas diferencias entre los sitios que deberían ser consideradas, a saber: la casi nula visibilidad de la página actual, la inexistente publicidad de la misma, el acceso exclusivo desde internet y la no asociación a ningún fenómeno ``vivo''. 
 
 \subsubsection{Afluencia}
-\par En el caso del sitio que intentamos crear, tenemos un fenómeno asociado que es la apertura (por primera vez en su historia) del recinto del ROM al público general, hasta ahora, en forma de visitas guiadas que pasan de manera no exhaustiva sobre algunos de los objetos referidos en nuestro museo virtual. Al tener una gestión más cercana y ágil, la idea es que los dos fenómenos (visitas físicas y visitas virtuales) evolucionen a la vez apoyándose y refiriéndose el uno al otro. Dado este hecho, podemos suponer que la afluencia virtual será más alta que la actual (desconocida) aunque desgraciadamente es muy difícil tener una estimación decente sobre este aspecto. Si nos basamos en el cálculo de visitas físicas actual y suponemos un ``worst-case scenario'' en el que todos los grupos de visitas guiadas están llenos tendríamos 25 personas por grupo y 8 vistas por semana. Lo que nos daría 200 vistas seguras a la semana, suponiendo que todos los visitantes repitan virtualmente (cosa harto difícil dado el gran número de asistentes que pertenencen a grupos poco familiarizados con las nuevas tecnologías) y que lo hagan una vez (cosa que puede variar). Por esta métrica, tendríamos una afluencia baja, que podría variar a lo largo del tiempo pero no se estima que fuesen cambios muy bruscos o muy significativos.
+\par En el caso del sitio que intentamos crear, tenemos un fenómeno asociado que es la apertura (por primera vez en su historia) del recinto del ROM al público general, hasta ahora, en forma de visitas guiadas que pasan de manera no exhaustiva sobre algunos de los objetos referidos en nuestro museo virtual. Al tener una gestión más cercana y ágil, la idea es que los dos fenómenos (visitas físicas y visitas virtuales) evolucionen a la vez apoyándose y refiriéndose el uno al otro. Dado este hecho, podemos suponer que la afluencia virtual será más alta que la actual (desconocida) aunque desgraciadamente es muy difícil tener una estimación decente sobre este aspecto. Si nos basamos en el cálculo de visitas físicas actual y suponemos un ``worst-case scenario'' en el que todos los grupos de visitas guiadas están llenos tendríamos 25 personas por grupo y 8 vistas por semana. Lo que nos daría 200 vistas seguras a la semana, suponiendo que todos los visitantes repitan virtualmente (cosa harto difícil dado el gran número de asistentes que pertenecen a grupos poco familiarizados con las nuevas tecnologías) y que lo hagan una vez (cosa que puede variar). Por esta métrica, tendríamos una afluencia baja, que podría variar a lo largo del tiempo pero no se estima que fuesen cambios muy bruscos o muy significativos.
 
 \subsubsection{Caudal}
 \par Para nuestro museo, si bien no tendremos una afluencia muy elevada, sí es verdad que serviremos, además de texto, contenido multimedia como imágenes (fundamentalmente), vídeos y audios, lo que podría suponer un tráfico más elevado y una carga más alta al servidor. Yo anotaría como posibles recursos a proteger un ancho de banda razonable y una capacidad de almacenamiento nada restringida (aunque sin llegar a cifras especiales). La potencia de CPU no veo que vaya a estar afectada mucho por estos fenómenos dada la naturaleza de los mismos si está bien implementada.
 
 \subsubsection{Criticidad}
-\par Añadido casi de manera anecdótica, podríamos decir que la criticalidad de este sistema es muy baja, siendo, quizá, más importante la integridad y custodia de los datos que la disponibilidad total de los mismos. Es decir, si nuestro servidor se cae eventualmente o funciona más lento en picos de tráfico (cosa harto difícil) no supondrá un perjuicio apreciable para la empresa.
+\par Añadido casi de manera anecdótica, podríamos decir que la criticidad de este sistema es muy baja, siendo, quizá, más importante la integridad y custodia de los datos que la disponibilidad total de los mismos. Es decir, si nuestro servidor se cae eventualmente o funciona más lento en picos de tráfico (cosa harto difícil) no supondrá un perjuicio apreciable para la empresa.
 
 \subsection{Particularidades del software elegido}
 \par Como toda solución tecnológica, la plataforma elegida (Drupal) tiene asociados unos requisitos, que veremos más adelante, y unos desempeños más o menos perfilados por los componentes que integra y/o necesita para funcionar.
@@ -35,7 +35,7 @@ netstat -anp | sort -u
 \end{codigo}
 
 \subsubsection{Invitados indeseables}
-\par Deberemos evitar invitados indeseables que consumen los recursos de nuestra máquina como por ejemplo: ``crawlers'',``spiders'', indexadores, agregadores, emisores de smpam, ``malware'', etc.
+\par Deberemos evitar invitados indeseables que consumen los recursos de nuestra máquina como por ejemplo: ``crawlers'',``spiders'', indexadores, agregadores, emisores de spam, ``malware'', etc.
 Podemos paliar esta degradación añadiendo retrasos cuando se detecten esos agentes, vetando algunas partes del sitio web o remitiendo a las versiones almacenadas en caché.
 
 \subsubsection{Rendimiento de Apache}
@@ -99,7 +99,7 @@ Deberá contar, eso sí, con algunas características técnicas que se detallan 
     \end{itemize}
   \end{center}
   \caption{Requisitos hardware del servidor}
-  \label{ref:reqhardserv}
+  \label{tab:reqhardserv}
 \end{table}
 
 
@@ -160,67 +160,14 @@ Deberá contar, eso sí, con algunas características técnicas que se detallan 
 
 \subsection{Servidor}
 
-\par El servidor, dado que sería, en lo posible, el trabajo resultado del desarrollo, debería estar bajo otro sistema LAMP. Visto lo visto, puede ser recomendable integrar un servidor con un sistema Debian Linux (por estabilidad) o Ubuntu Server (por similitud con la plataforma de desarrollo). Es cierto, eso sí, que, sea en una u otra máquina, debería llegarse
+\par El servidor, dado que sería, en lo posible, el trabajo resultado del desarrollo, debería estar bajo otro sistema LAMP. Visto lo visto, puede ser recomendable integrar un servidor con un sistema Debian Linux (por estabilidad) o \textbf{Ubuntu Server} (por similitud con la plataforma de desarrollo). Es cierto, eso sí, que, sea en una u otra máquina, debería llegarse a un acuerdo y, preparar, si el presupuesto lo permite, un ``servidor'' de pruebas, independiente del de desarrollo y del de producción. Se buscará que el software en ellos sea el mismo, dejando las versiones más estables para el servidor de producción, y siguiendo un ciclo clásico de \textbf{Do-Check-Act}\label{cha:docheckact} desde el entorno de desarrollo, al servidor de pruebas y después, si no hay errores, al de producción.
 
-\begin{table}[h]
-  \begin{center}
-    \begin{itemize}
-     \item Arquitectura: 32 o 64 bit
-     \item Procesador: Doble núcleo @ >= 2,4GHz
-     \item Memoria RAM: > 2GB (>= 667MHz)
-     \item Disco duro: SATA >= 500GB (a ser posible, replicado en RAID)
-     \item Red: Ethernet Gigabit
-    \end{itemize}
-  \end{center}
-  \caption{Requisitos hardware del servidor}
-  \label{ref:reqhardserv}
-\end{table}
-
-
-\subsection{Infraestructura de red}
-
-\par Además, sería necesario disponer de la infraestructura adecuada de red. Si se decide que va a se este el que tenga la salida a Internet, deberá estar dotado del correspondiente \textbf{enlace} con un ``upstream'' aceptable para no verse asediado por el cuello de botella de la red general. Claro está, las medidas de seguridad pertinentes deberán ser instaladas (\textbf{firewall, segmentación, NIDS/NIPS}) y el \textbf{enrutamiento} necesario para obtener acceso tanto desde internet como desde la intranet de una supuesta wifi o una estación en sala (vía segmentación ethernet de la red).
-
-\par Para desplegar la infraestructura de red inalámbrica en el recorrido de la visita, habrá que implementar \textbf{puntos de acceso} donde no los haya y cablear los mismos hasta la red principal. La cobertura de uno de los edificios (actualmente ya desplegada) deberá ser desdoblada para permitir una red de trabajo y otra de visitantes que sólo permita el acceso a los contenidos del museo virtual.
+\par Así que, en principio, la estructura será la misma que para el entorno de desarrollo, aunque es previsible que la modificación inicial será al revés: una vez configurado un entorno estable para el servidor de producción, se igualarán el resto de servidores. A partir de ahí, el ciclo de actualizaciones y/o cambios seguirá el curso propuesto más arriba.
 
 \subsection{Cliente en sala}
 
-\par Para este cometido, valdrá cualquier equipo capaz de ejecutar un entorno gráfico, un navegador relativamente moderno y complementos de audio y vídeo no demasiado exigentes (cuadro \ref{ref:reqhardsala}). 
-
-\begin{table}[h]
-  \begin{center}
-    \begin{itemize}
-     \item Arquitectura: 32 bit
-     \item Procesador: @ >= 1GHz
-     \item Tarjeta de vídeo: >= 64MB RAM
-     \item Memoria RAM: >= 1GB
-     \item Disco duro: >= 100GB
-     \item Red: Ethernet Gigabit
-     \item Pantalla: >= 20 pulgadas, delgada, si es posible, táctil-capacitiva
-    \end{itemize}
-  \end{center}
-  \caption{Requisitos hardware del cliente en sala}
-  \label{ref:reqhardsala}
-\end{table}
-
+\par En este caso, los requisitos software son muy sencillos: un sistema operativo que soporte la pantalla táctil (en su caso) y un navegador moderno que sepa interpretar los estándares del \textbf{W3C} y reproducir contenido multimedia. Además, claro está, se deberán tomar las medidas de seguridad necesarias para que no haya brechas importantes de seguridad, ya sea a base de políticas, permisos, antivirus, etc.
 
 \subsection{Dispositivo móvil}
 
-\par Aun tratándose de un dispositivo sin confirmar en esta fase del proyecto, creo conveniente agregarlo aquí. La idea es un dispositivo ergonómico, similar, en tamaño a una PDA y compatible con tecnologías parecidas a las del cliente en sala (cuadro \ref{ref:reqhardhheld}). Se discute en diferentes foros\cite{references:tatehandheld} por dónde, después de haber visto como la mayoría de los dispositivos, a menudo bajo contrato de leasing, utilizados en exposiciones se iban quedando obsoletos rápidamente, deberían ir los tiros a partir de ahora en cuestiones de visitas ``auto-guiadas''. Las conclusiones en materia de software están más o menos claras: se ha de crear una plataforma común (que bien podría ser un cms adaptado a plataformas móviles), incluso común a otras instituciones museísticas, encima de las cuales poder correr las ``aplicaciones'' necesarias para enriquecer y extender la experiencia del usuario en la exposición. En el lado hardware es donde se presenta la disyuntiva: seguir con el modelo de dispositivos bajo préstamo/alquiler, optar porque los propios visitantes accedan con sus teléfonos inteligentes al contenido que se ofrece, o una mezcla de estas dos. Bajo esa premisa, veo precipitado aventurar unas características, aunque ahí quedan, lo que yo consideraría, un dispositivo apto para esta función.
-
-\begin{table}[h]
-  \begin{center}
-    \begin{itemize}
-     \item Procesador: @ >= 500MHz
-     \item Memoria RAM: >= 64MB
-     \item Disco duro: >= 256MB
-     \item Red: Wi-Fi 802.11g/n
-     \item Pantalla: en color >= 4 pulgadas, a poder ser, táctil-capacitiva
-     \item Batería: larga vida
-     \item Audio: salida de audio
-     \item Construcción: resistente, ligera y lo más simple posible en cuanto a piezas.
-    \end{itemize}
-  \end{center}
-  \caption{Requisitos hardware del dispositivo móvil}
-  \label{ref:reqhardhheld}
-\end{table}
+\par Para el dispositivo móvil necesitaremos prácticamente lo mismo que hemos requerido para el cliente en sala. Se trata, en realidad de una réplica que trata de ofrecer los mismos contenidos ahorrando en transferencias y procesamiento, pero al fin y al cabo, lo mismo. Un sistema operativo optimizado para plataformas móviles (Android, Windows Phone, iPhoneOS, Symbian) que tenga conectividad wifi, incluya un navegador como los anteriormente descritos y permita, conscientes de las limitaciones de hardware, la reproducción de la mayoría de contenidos multimedia ofrecidos, si no todos.

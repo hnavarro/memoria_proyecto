@@ -12,89 +12,118 @@
 \contentsline {paragraph}{\numberline {2.2.1.2.3}Actual museo del OAN}{24}{paragraph.2.2.1.2.3}
 \contentsline {subsubsection}{\numberline {2.2.1.3}Enciclopedias}{25}{subsubsection.2.2.1.3}
 \contentsline {paragraph}{\numberline {2.2.1.3.1}Wikipedia}{25}{paragraph.2.2.1.3.1}
-\contentsline {paragraph}{\numberline {2.2.1.3.2}Indianopedia, Frikipedia, *pedia}{25}{paragraph.2.2.1.3.2}
-\contentsline {subsubsection}{\numberline {2.2.1.4}Sistemas gestores de contenidos vs Wikis}{25}{subsubsection.2.2.1.4}
-\contentsline {section}{\numberline {2.3}Descripci\IeC {\'o}n del dise\IeC {\~n}o}{26}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Baremaci\IeC {\'o}n de alternativas}{26}{subsection.2.3.1}
-\contentsline {subsubsection}{\numberline {2.3.1.1}Comentarios}{26}{subsubsection.2.3.1.1}
-\contentsline {subsection}{\numberline {2.3.2}Comparativa}{27}{subsection.2.3.2}
-\contentsline {subsubsection}{\numberline {2.3.2.1}Premisas iniciales}{27}{subsubsection.2.3.2.1}
+\contentsline {paragraph}{\numberline {2.2.1.3.2}Indianopedia, Frikipedia, *pedia}{26}{paragraph.2.2.1.3.2}
+\contentsline {subsubsection}{\numberline {2.2.1.4}Sistemas gestores de contenidos vs Wikis}{26}{subsubsection.2.2.1.4}
+\contentsline {section}{\numberline {2.3}Descripci\IeC {\'o}n del dise\IeC {\~n}o}{27}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Baremaci\IeC {\'o}n de alternativas}{27}{subsection.2.3.1}
+\contentsline {subsubsection}{\numberline {2.3.1.1}Comentarios}{27}{subsubsection.2.3.1.1}
+\contentsline {subsection}{\numberline {2.3.2}Comparativa}{28}{subsection.2.3.2}
+\contentsline {subsubsection}{\numberline {2.3.2.1}Premisas iniciales}{28}{subsubsection.2.3.2.1}
 \contentsline {subsubsection}{\numberline {2.3.2.2}Candidatos pre-seleccionados}{28}{subsubsection.2.3.2.2}
-\contentsline {subsubsection}{\numberline {2.3.2.3}Comparativa con CMSMatrix}{28}{subsubsection.2.3.2.3}
-\contentsline {paragraph}{\numberline {2.3.2.3.1}System Requirements (Requisitos de sistema)}{28}{paragraph.2.3.2.3.1}
-\contentsline {paragraph}{\numberline {2.3.2.3.2}Security (Seguridad)}{29}{paragraph.2.3.2.3.2}
-\contentsline {paragraph}{\numberline {2.3.2.3.3}Support (Asistencia)}{29}{paragraph.2.3.2.3.3}
-\contentsline {paragraph}{\numberline {2.3.2.3.4}Ease of Use (Facilidad de uso)}{29}{paragraph.2.3.2.3.4}
-\contentsline {paragraph}{\numberline {2.3.2.3.5}Performance (Rendimiento)}{29}{paragraph.2.3.2.3.5}
-\contentsline {paragraph}{\numberline {2.3.2.3.6}Management (Administraci\IeC {\'o}n)}{29}{paragraph.2.3.2.3.6}
-\contentsline {paragraph}{\numberline {2.3.2.3.7}Interoperability (Interoperatividad)}{30}{paragraph.2.3.2.3.7}
-\contentsline {paragraph}{\numberline {2.3.2.3.8}Flexibility (Flexibilidad)}{30}{paragraph.2.3.2.3.8}
-\contentsline {paragraph}{\numberline {2.3.2.3.9}Built-in Applications (Aplicaciones embebidas)}{31}{paragraph.2.3.2.3.9}
-\contentsline {paragraph}{\numberline {2.3.2.3.10}Commerce (Comercio electr\IeC {\'o}nico)}{31}{paragraph.2.3.2.3.10}
-\contentsline {subsubsection}{\numberline {2.3.2.4}Propuesta preliminar}{31}{subsubsection.2.3.2.4}
-\contentsline {paragraph}{\numberline {2.3.2.4.1}Liferay Portal (Community Edition)}{31}{paragraph.2.3.2.4.1}
-\contentsline {paragraph}{\numberline {2.3.2.4.2}Drupal}{32}{paragraph.2.3.2.4.2}
-\contentsline {paragraph}{\numberline {2.3.2.4.3}Moodle}{32}{paragraph.2.3.2.4.3}
-\contentsline {paragraph}{\numberline {2.3.2.4.4}Plone}{32}{paragraph.2.3.2.4.4}
-\contentsline {subsection}{\numberline {2.3.3}Anexo a comparativa}{32}{subsection.2.3.3}
-\contentsline {subsubsection}{\numberline {2.3.3.1}Breve an\IeC {\'a}lisis de Alfresco}{33}{subsubsection.2.3.3.1}
-\contentsline {subsection}{\numberline {2.3.4}Modelo de datos}{34}{subsection.2.3.4}
-\contentsline {subsubsection}{\numberline {2.3.4.1}Cat\IeC {\'a}logo}{34}{subsubsection.2.3.4.1}
-\contentsline {paragraph}{\numberline {2.3.4.1.1}OBJETO}{34}{paragraph.2.3.4.1.1}
-\contentsline {paragraph}{\numberline {2.3.4.1.2}\IeC {\'A}REA}{35}{paragraph.2.3.4.1.2}
-\contentsline {paragraph}{\numberline {2.3.4.1.3}TIPO\_OBJETO}{35}{paragraph.2.3.4.1.3}
-\contentsline {paragraph}{\numberline {2.3.4.1.4}ART\IeC {\'I}CULOS}{35}{paragraph.2.3.4.1.4}
-\contentsline {paragraph}{\numberline {2.3.4.1.5}AREA\_ART\IeC {\'I}CULO}{35}{paragraph.2.3.4.1.5}
-\contentsline {paragraph}{\numberline {2.3.4.1.6}INVENTOR}{35}{paragraph.2.3.4.1.6}
-\contentsline {section}{\numberline {2.4}Drupal}{36}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Entorno de (pre)desarrollo}{36}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}Understanding Drupal}{37}{subsection.2.4.2}
-\contentsline {subsubsection}{\numberline {2.4.2.1}General}{37}{subsubsection.2.4.2.1}
-\contentsline {subsubsection}{\numberline {2.4.2.2}M\IeC {\'o}dulos}{37}{subsubsection.2.4.2.2}
-\contentsline {subsubsection}{\numberline {2.4.2.3}Usuarios}{38}{subsubsection.2.4.2.3}
-\contentsline {subsubsection}{\numberline {2.4.2.4}Nodos}{38}{subsubsection.2.4.2.4}
-\contentsline {subsubsection}{\numberline {2.4.2.5}Formas de organizar el contenido}{39}{subsubsection.2.4.2.5}
-\contentsline {paragraph}{\numberline {2.4.2.5.1}Bloques}{39}{paragraph.2.4.2.5.1}
-\contentsline {paragraph}{\numberline {2.4.2.5.2}Men\IeC {\'u}s}{39}{paragraph.2.4.2.5.2}
-\contentsline {paragraph}{\numberline {2.4.2.5.3}Taxonom\IeC {\'\i }as}{40}{paragraph.2.4.2.5.3}
-\contentsline {paragraph}{\numberline {2.4.2.5.4}CCK (Content Construction Kit)}{40}{paragraph.2.4.2.5.4}
-\contentsline {paragraph}{\numberline {2.4.2.5.5}Views}{40}{paragraph.2.4.2.5.5}
-\contentsline {subsubsection}{\numberline {2.4.2.6}Temas}{40}{subsubsection.2.4.2.6}
-\contentsline {paragraph}{\numberline {2.4.2.6.1}Archivos .info}{41}{paragraph.2.4.2.6.1}
-\contentsline {paragraph}{\numberline {2.4.2.6.2}Regiones}{41}{paragraph.2.4.2.6.2}
-\contentsline {paragraph}{\numberline {2.4.2.6.3}Caracter\IeC {\'\i }sticas}{41}{paragraph.2.4.2.6.3}
-\contentsline {paragraph}{\numberline {2.4.2.6.4}CSS y JavaScript}{42}{paragraph.2.4.2.6.4}
-\contentsline {paragraph}{\numberline {2.4.2.6.5}Archivos de plantilla}{42}{paragraph.2.4.2.6.5}
-\contentsline {paragraph}{\numberline {2.4.2.6.6}template.php}{42}{paragraph.2.4.2.6.6}
-\contentsline {section}{\numberline {2.5}Conclusiones y trabajo futuro}{42}{section.2.5}
-\contentsline {chapter}{\numberline {3}Pliego de condiciones}{51}{chapter.3}
-\contentsline {section}{\numberline {3.1}Consideraciones previas}{53}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Rendimiento necesario}{53}{subsection.3.1.1}
-\contentsline {subsubsection}{\numberline {3.1.1.1}Afluencia}{53}{subsubsection.3.1.1.1}
-\contentsline {subsubsection}{\numberline {3.1.1.2}Caudal}{53}{subsubsection.3.1.1.2}
-\contentsline {subsubsection}{\numberline {3.1.1.3}Criticidad}{54}{subsubsection.3.1.1.3}
-\contentsline {subsection}{\numberline {3.1.2}Particularidades del software elegido}{54}{subsection.3.1.2}
-\contentsline {subsubsection}{\numberline {3.1.2.1}Rendimiento de la pila LAMP}{54}{subsubsection.3.1.2.1}
-\contentsline {subsubsection}{\numberline {3.1.2.2}Cuellos de botella}{55}{subsubsection.3.1.2.2}
-\contentsline {subsubsection}{\numberline {3.1.2.3}Invitados indeseables}{55}{subsubsection.3.1.2.3}
-\contentsline {subsubsection}{\numberline {3.1.2.4}Rendimiento de Apache}{55}{subsubsection.3.1.2.4}
-\contentsline {subsubsection}{\numberline {3.1.2.5}Ajustes de PHP}{55}{subsubsection.3.1.2.5}
-\contentsline {subsubsection}{\numberline {3.1.2.6}Ajustes de rendimiento de MySQL}{55}{subsubsection.3.1.2.6}
-\contentsline {subsubsection}{\numberline {3.1.2.7}Ancho de banda}{56}{subsubsection.3.1.2.7}
-\contentsline {subsubsection}{\numberline {3.1.2.8}Consumo de recursos de Drupal}{56}{subsubsection.3.1.2.8}
-\contentsline {subsubsection}{\numberline {3.1.2.9}Configuraci\IeC {\'o}n de Drupal hacia el rendimiento}{56}{subsubsection.3.1.2.9}
-\contentsline {subsection}{\numberline {3.1.3}Umbral de costes}{56}{subsection.3.1.3}
-\contentsline {section}{\numberline {3.2}Requisitos de Hardware}{57}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Desarrollo}{57}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Servidor}{57}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Infraestructura de red}{58}{subsection.3.2.3}
-\contentsline {subsection}{\numberline {3.2.4}Cliente en sala}{58}{subsection.3.2.4}
-\contentsline {subsection}{\numberline {3.2.5}Dispositivo m\IeC {\'o}vil}{58}{subsection.3.2.5}
-\contentsline {section}{\numberline {3.3}Requisitos de Software}{59}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Desarrollo}{59}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Servidor}{59}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}Cliente en sala}{60}{subsection.3.3.3}
-\contentsline {subsection}{\numberline {3.3.4}Dispositivo m\IeC {\'o}vil}{60}{subsection.3.3.4}
-\contentsline {chapter}{\numberline {4}Manual de Usuario}{61}{chapter.4}
-\contentsline {section}{\numberline {4.1}Manual}{63}{section.4.1}
-\contentsline {chapter}{\numberline {5}Bibliograf\IeC {\'\i }a}{65}{chapter.5}
+\contentsline {subsubsection}{\numberline {2.3.2.3}Comparativa con CMSMatrix}{29}{subsubsection.2.3.2.3}
+\contentsline {paragraph}{\numberline {2.3.2.3.1}System Requirements (Requisitos de sistema)}{29}{paragraph.2.3.2.3.1}
+\contentsline {paragraph}{\numberline {2.3.2.3.2}Security (Seguridad)}{30}{paragraph.2.3.2.3.2}
+\contentsline {paragraph}{\numberline {2.3.2.3.3}Support (Asistencia)}{30}{paragraph.2.3.2.3.3}
+\contentsline {paragraph}{\numberline {2.3.2.3.4}Ease of Use (Facilidad de uso)}{30}{paragraph.2.3.2.3.4}
+\contentsline {paragraph}{\numberline {2.3.2.3.5}Performance (Rendimiento)}{32}{paragraph.2.3.2.3.5}
+\contentsline {paragraph}{\numberline {2.3.2.3.6}Management (Administraci\IeC {\'o}n)}{33}{paragraph.2.3.2.3.6}
+\contentsline {paragraph}{\numberline {2.3.2.3.7}Interoperability (Interoperatividad)}{33}{paragraph.2.3.2.3.7}
+\contentsline {paragraph}{\numberline {2.3.2.3.8}Flexibility (Flexibilidad)}{34}{paragraph.2.3.2.3.8}
+\contentsline {paragraph}{\numberline {2.3.2.3.9}Built-in Applications (Aplicaciones embebidas)}{34}{paragraph.2.3.2.3.9}
+\contentsline {paragraph}{\numberline {2.3.2.3.10}Commerce (Comercio electr\IeC {\'o}nico)}{35}{paragraph.2.3.2.3.10}
+\contentsline {subsubsection}{\numberline {2.3.2.4}Propuesta preliminar}{35}{subsubsection.2.3.2.4}
+\contentsline {paragraph}{\numberline {2.3.2.4.1}Liferay Portal (Community Edition)}{35}{paragraph.2.3.2.4.1}
+\contentsline {paragraph}{\numberline {2.3.2.4.2}Drupal}{37}{paragraph.2.3.2.4.2}
+\contentsline {paragraph}{\numberline {2.3.2.4.3}Moodle}{38}{paragraph.2.3.2.4.3}
+\contentsline {paragraph}{\numberline {2.3.2.4.4}Plone}{38}{paragraph.2.3.2.4.4}
+\contentsline {subsection}{\numberline {2.3.3}Anexo a comparativa}{38}{subsection.2.3.3}
+\contentsline {section}{\numberline {2.4}Drupal}{38}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Entorno de (pre)desarrollo}{39}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}\textit {Understanding Drupal} (Entender Drupal)}{39}{subsection.2.4.2}
+\contentsline {subsubsection}{\numberline {2.4.2.1}General}{40}{subsubsection.2.4.2.1}
+\contentsline {subsubsection}{\numberline {2.4.2.2}M\IeC {\'o}dulos}{40}{subsubsection.2.4.2.2}
+\contentsline {subsubsection}{\numberline {2.4.2.3}Usuarios}{41}{subsubsection.2.4.2.3}
+\contentsline {subsubsection}{\numberline {2.4.2.4}Nodos}{41}{subsubsection.2.4.2.4}
+\contentsline {subsubsection}{\numberline {2.4.2.5}Formas de organizar el contenido}{42}{subsubsection.2.4.2.5}
+\contentsline {paragraph}{\numberline {2.4.2.5.1}Bloques}{42}{paragraph.2.4.2.5.1}
+\contentsline {paragraph}{\numberline {2.4.2.5.2}Men\IeC {\'u}s}{42}{paragraph.2.4.2.5.2}
+\contentsline {paragraph}{\numberline {2.4.2.5.3}Taxonom\IeC {\'\i }as}{42}{paragraph.2.4.2.5.3}
+\contentsline {paragraph}{\numberline {2.4.2.5.4}CCK (Content Construction Kit)}{43}{paragraph.2.4.2.5.4}
+\contentsline {paragraph}{\numberline {2.4.2.5.5}Views}{43}{paragraph.2.4.2.5.5}
+\contentsline {subsubsection}{\numberline {2.4.2.6}Temas}{43}{subsubsection.2.4.2.6}
+\contentsline {paragraph}{\numberline {2.4.2.6.1}Archivos .info}{44}{paragraph.2.4.2.6.1}
+\contentsline {paragraph}{\numberline {2.4.2.6.2}Regiones}{44}{paragraph.2.4.2.6.2}
+\contentsline {paragraph}{\numberline {2.4.2.6.3}Caracter\IeC {\'\i }sticas}{45}{paragraph.2.4.2.6.3}
+\contentsline {paragraph}{\numberline {2.4.2.6.4}CSS y JavaScript}{45}{paragraph.2.4.2.6.4}
+\contentsline {paragraph}{\numberline {2.4.2.6.5}Archivos de plantilla}{45}{paragraph.2.4.2.6.5}
+\contentsline {paragraph}{\numberline {2.4.2.6.6}template.php}{45}{paragraph.2.4.2.6.6}
+\contentsline {section}{\numberline {2.5}Conclusiones y trabajo futuro}{46}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Logros alcanzados}{46}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}Conocimientos adquiridos}{46}{subsection.2.5.2}
+\contentsline {subsubsection}{\numberline {2.5.2.1}Generalidades}{46}{subsubsection.2.5.2.1}
+\contentsline {subsubsection}{\numberline {2.5.2.2}Particularidades}{47}{subsubsection.2.5.2.2}
+\contentsline {subsubsection}{\numberline {2.5.2.3}Modificaciones}{48}{subsubsection.2.5.2.3}
+\contentsline {paragraph}{\numberline {2.5.2.3.1}Web Sem\IeC {\'a}ntica}{48}{paragraph.2.5.2.3.1}
+\contentsline {paragraph}{\numberline {2.5.2.3.2}Uso de est\IeC {\'a}ndares}{49}{paragraph.2.5.2.3.2}
+\contentsline {paragraph}{\numberline {2.5.2.3.3}Wikis}{49}{paragraph.2.5.2.3.3}
+\contentsline {subsection}{\numberline {2.5.3}Tiempo empleado}{49}{subsection.2.5.3}
+\contentsline {subsection}{\numberline {2.5.4}L\IeC {\'\i }neas futuras de trabajo}{49}{subsection.2.5.4}
+\contentsline {chapter}{\numberline {3}Planos}{51}{chapter.3}
+\contentsline {section}{\numberline {3.1}Esquem\IeC {\'a}ticos}{53}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Modelo de datos}{53}{subsection.3.1.1}
+\contentsline {subsubsection}{\numberline {3.1.1.1}Cat\IeC {\'a}logo}{53}{subsubsection.3.1.1.1}
+\contentsline {paragraph}{\numberline {3.1.1.1.1}OBJETO}{53}{paragraph.3.1.1.1.1}
+\contentsline {paragraph}{\numberline {3.1.1.1.2}\IeC {\'A}REA}{54}{paragraph.3.1.1.1.2}
+\contentsline {paragraph}{\numberline {3.1.1.1.3}TIPO\_OBJETO}{54}{paragraph.3.1.1.1.3}
+\contentsline {paragraph}{\numberline {3.1.1.1.4}ART\IeC {\'I}CULOS}{54}{paragraph.3.1.1.1.4}
+\contentsline {paragraph}{\numberline {3.1.1.1.5}AREA\_ART\IeC {\'I}CULO}{54}{paragraph.3.1.1.1.5}
+\contentsline {paragraph}{\numberline {3.1.1.1.6}INVENTOR}{55}{paragraph.3.1.1.1.6}
+\contentsline {subsubsection}{\numberline {3.1.1.2}Revisi\IeC {\'o}n del cat\IeC {\'a}logo}{55}{subsubsection.3.1.1.2}
+\contentsline {paragraph}{\numberline {3.1.1.2.1}Ficha de objeto}{55}{paragraph.3.1.1.2.1}
+\contentsline {subsection}{\numberline {3.1.2}Esquema general de servicio}{56}{subsection.3.1.2}
+\contentsline {subsubsection}{\numberline {3.1.2.1}Servidor del museo}{56}{subsubsection.3.1.2.1}
+\contentsline {subsubsection}{\numberline {3.1.2.2}Clientes a trav\IeC {\'e}s de Internet}{56}{subsubsection.3.1.2.2}
+\contentsline {subsubsection}{\numberline {3.1.2.3}Puesto en sala}{56}{subsubsection.3.1.2.3}
+\contentsline {subsubsection}{\numberline {3.1.2.4}Terminales m\IeC {\'o}viles}{57}{subsubsection.3.1.2.4}
+\contentsline {subsection}{\numberline {3.1.3}Esquema general de creaci\IeC {\'o}n de contenidos}{59}{subsection.3.1.3}
+\contentsline {subsubsection}{\numberline {3.1.3.1}Servidor}{60}{subsubsection.3.1.3.1}
+\contentsline {subsubsection}{\numberline {3.1.3.2}Administrador}{60}{subsubsection.3.1.3.2}
+\contentsline {subsubsection}{\numberline {3.1.3.3}Editor}{60}{subsubsection.3.1.3.3}
+\contentsline {subsection}{\numberline {3.1.4}Redactor}{60}{subsection.3.1.4}
+\contentsline {chapter}{\numberline {4}Pliego de condiciones}{61}{chapter.4}
+\contentsline {section}{\numberline {4.1}Consideraciones previas}{63}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Rendimiento necesario}{63}{subsection.4.1.1}
+\contentsline {subsubsection}{\numberline {4.1.1.1}Afluencia}{63}{subsubsection.4.1.1.1}
+\contentsline {subsubsection}{\numberline {4.1.1.2}Caudal}{63}{subsubsection.4.1.1.2}
+\contentsline {subsubsection}{\numberline {4.1.1.3}Criticidad}{64}{subsubsection.4.1.1.3}
+\contentsline {subsection}{\numberline {4.1.2}Particularidades del software elegido}{64}{subsection.4.1.2}
+\contentsline {subsubsection}{\numberline {4.1.2.1}Rendimiento de la pila LAMP}{64}{subsubsection.4.1.2.1}
+\contentsline {subsubsection}{\numberline {4.1.2.2}Cuellos de botella}{65}{subsubsection.4.1.2.2}
+\contentsline {subsubsection}{\numberline {4.1.2.3}Invitados indeseables}{65}{subsubsection.4.1.2.3}
+\contentsline {subsubsection}{\numberline {4.1.2.4}Rendimiento de Apache}{65}{subsubsection.4.1.2.4}
+\contentsline {subsubsection}{\numberline {4.1.2.5}Ajustes de PHP}{65}{subsubsection.4.1.2.5}
+\contentsline {subsubsection}{\numberline {4.1.2.6}Ajustes de rendimiento de MySQL}{65}{subsubsection.4.1.2.6}
+\contentsline {subsubsection}{\numberline {4.1.2.7}Ancho de banda}{66}{subsubsection.4.1.2.7}
+\contentsline {subsubsection}{\numberline {4.1.2.8}Consumo de recursos de Drupal}{66}{subsubsection.4.1.2.8}
+\contentsline {subsubsection}{\numberline {4.1.2.9}Configuraci\IeC {\'o}n de Drupal hacia el rendimiento}{66}{subsubsection.4.1.2.9}
+\contentsline {subsection}{\numberline {4.1.3}Umbral de costes}{66}{subsection.4.1.3}
+\contentsline {section}{\numberline {4.2}Requisitos de Hardware}{67}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Desarrollo}{67}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Servidor}{67}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Infraestructura de red}{68}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}Cliente en sala}{68}{subsection.4.2.4}
+\contentsline {subsection}{\numberline {4.2.5}Dispositivo m\IeC {\'o}vil}{68}{subsection.4.2.5}
+\contentsline {section}{\numberline {4.3}Requisitos de Software}{69}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Desarrollo}{69}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Servidor}{69}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Cliente en sala}{70}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}Dispositivo m\IeC {\'o}vil}{70}{subsection.4.3.4}
+\contentsline {chapter}{\numberline {5}Manual de Usuario}{71}{chapter.5}
+\contentsline {section}{\numberline {5.1}Manual}{73}{section.5.1}
+\contentsline {chapter}{\numberline {6}Ap\IeC {\'e}ndices}{75}{chapter.6}
+\contentsline {section}{\numberline {6.1}Ap\IeC {\'e}ndice I: Alfresco}{77}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}An\IeC {\'a}lisis}{77}{subsection.6.1.1}
+\contentsline {subsubsection}{\numberline {6.1.1.1}Sabores}{77}{subsubsection.6.1.1.1}
+\contentsline {subsubsection}{\numberline {6.1.1.2}Edici\IeC {\'o}n Web}{78}{subsubsection.6.1.1.2}
+\contentsline {paragraph}{\numberline {6.1.1.2.1}Sitios colaborativos}{78}{paragraph.6.1.1.2.1}
+\contentsline {chapter}{\numberline {7}Bibliograf\IeC {\'\i }a}{79}{chapter.7}

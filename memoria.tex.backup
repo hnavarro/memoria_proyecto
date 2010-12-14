@@ -54,30 +54,16 @@ Debajo de todo esto subyace la idea de utilizar unos estándares mínimos, aunqu
 
 
 \paragraph{MoMA (New York, EEUU)}
-\par Este apartado, desgraciadamente, se refiere a las ideas y modelos observados directamente en su página web. Nos encontramos con ideas, sobre todo en cuanto a presentación visual de contenidos. Digamos que la idea de presentar los contenidos en una matriz de imágenes con pies identificativos que, al pulsar sobre ellas, nos lleven a la información específica de ese objeto podría ser cercana a lo buscado. También sería una idea a tener en cuenta la categorización de las obras por área temática, época o tipo de objeto, aunque no lo firmamos como algo seguro en nuestra plataforma. Por último, reseñar que ellos parece que hacen (o al menos tienen la posibilidad de hacer) uso de la vista ``por perspectivas". Esto sería como tener una lista desplegable en la pantalla que nos permitiera fácilmente cambiar entre los distintos puntos de vista (como si de idiomas se tratara) pudiendo adaptar la plataforma a una presentación para , por ejemplo, niños, estudiantes o expertos en el tema. El sistema finalmente escogido para implementar esa ``granularidad'' de contenidos se tomó de otro sitio web que veremos más adelante. Se puede observar una captura que muestra una idea de lo que sería una ficha de objeto en la figura~\ref{fig:moma}
+\par Este apartado, desgraciadamente, se refiere a las ideas y modelos observados directamente en su página web. Nos encontramos con ideas, sobre todo en cuanto a presentación visual de contenidos. Digamos que la idea de presentar los contenidos en una matriz de imágenes con pies identificativos que, al pulsar sobre ellas, nos lleven a la información específica de ese objeto podría ser cercana a lo buscado. También sería una idea a tener en cuenta la categorización de las obras por área temática, época o tipo de objeto, aunque no lo firmamos como algo seguro en nuestra plataforma. Por último, reseñar que ellos parece que hacen (o al menos tienen la posibilidad de hacer) uso de la vista ``por perspectivas". Esto sería como tener una lista desplegable en la pantalla que nos permitiera fácilmente cambiar entre los distintos puntos de vista (como si de idiomas se tratara) pudiendo adaptar la plataforma a una presentación para , por ejemplo, niños, estudiantes o expertos en el tema. El sistema finalmente escogido para implementar esa ``granularidad'' de contenidos se tomó de otro sitio web que veremos más adelante. Se puede observar una captura que muestra una idea de lo que sería una ficha de objeto en la figura~\ref{fig:capturamoma}
 
-\begin{figure}
-\begin{narrow}{-0.1\linewidth}{-0.1\linewidth}
-\centering
-\includegraphics[width=\linewidth]{capturamoma}
-\caption{Captura de pantalla del sitio del MoMA}
-\label{fig:moma}
-\end{narrow}
-\end{figure}
+\fig{capturamoma}{Captura de pantalla del sitio del MoMA}
 
 
 
 \paragraph{Actual museo del OAN}
-\par Existe una versión antigua del museo virtual del Observatorio Astronómico Nacional, cuya información será contenida presumiblemente cuando se complete el contenido de la plataforma objeto de este proyecto. Si entramos al sitio web que lo hospeda dentro del sitio del Instituto Geográfico Nacional (Ministerio de fomento) descubrimos una estructura de navegación con algunas deficiencias para movernos entre objetos, para dar un vistazo rápido y desde luego una descontextualización importante. Podríamos catalogarlo como uno de esos museos virtuales del caso cuarto, un catálogo de objetos, como podemos apreciar en la figura~\ref{fig:oan}. No se puede negar su utilidad pero son las funciones de las que carece las que hacen necesaria la creación del proyecto actual.
+\par Existe una versión antigua del museo virtual del Observatorio Astronómico Nacional, cuya información será contenida presumiblemente cuando se complete el contenido de la plataforma objeto de este proyecto. Si entramos al sitio web que lo hospeda dentro del sitio del Instituto Geográfico Nacional (Ministerio de fomento) descubrimos una estructura de navegación con algunas deficiencias para movernos entre objetos, para dar un vistazo rápido y desde luego una descontextualización importante. Podríamos catalogarlo como uno de esos museos virtuales del caso cuarto, un catálogo de objetos, como podemos apreciar en la figura~\ref{fig:capturamvoan}. No se puede negar su utilidad pero son las funciones de las que carece las que hacen necesaria la creación del proyecto actual.
 
-\begin{figure}
-\begin{narrow}{-0.1\linewidth}{-0.1\linewidth}
-\centering
-\includegraphics[width=\linewidth]{capturamvoan}
-\caption{Captura de pantalla del museo virtual del OAN}
-\label{fig:oan}
-\end{narrow}
-\end{figure}
+\fig{capturamvoan}{Captura de pantalla del museo virtual del OAN}
 
 \subsubsection{Enciclopedias}
 
@@ -195,14 +181,7 @@ Blog & 0 \\
 
 \par Vamos a ir analizando lo que se ve en la figura~\ref{fig:cmsmat1}:
 
-\begin{figure}
-\begin{narrow}{-0.12\linewidth}{-0.12\linewidth}
-\centering
-\includegraphics[width=\linewidth]{cmsmat1}
-\caption{System Requirements desde CMSMatrix.org}
-\label{fig:cmsmat1}
-\end{narrow}
-\end{figure}
+\fig{cmsmat1}{``System Requirements'' desde CMSMatrix.org}
 
 \par En este caso, debemos fijarnos en la parte ``License'' principalmente, comprobando que todos menos Liferay Portal ostentan una licencia libre. Posteriormente he podido comprobar que la licencia de Liferay Portal cambió de licencia MIT a LGPL a partir de la versión 6\cite{references:liferaylicense}, así que, a falta de argumentación en contra sobre los pormenores de cada licencia, todos entrarían dentro del requisito principal.
 
@@ -214,40 +193,19 @@ Blog & 0 \\
 
 \par La única opción con inconvenientes en este campo sería Joomla!, que según cmsmatrix no permite la asignación de privilegios personalizada, señalando que MODx en supervisión de contenidos y control de versiones necesitaría un añadido gratuito, al igual que Joomla! para este último caso.
 
-\begin{figure}
-\begin{narrow}{-0.12\linewidth}{-0.12\linewidth}
-\centering
-\includegraphics[width=\linewidth]{cmsmat2}
-\caption{Security desde CMSMatrix.org}
-\label{fig:cmsmat2}
-\end{narrow}
-\end{figure}
+\fig{cmsmat2}{``Security'' desde CMSMatrix.org}
 
 \paragraph{Support (Asistencia)}
 
 \par Esta es una de las partes menos importantes de la comparativa, pues es incierto el futuro en cuestión de mantenimiento de la plataforma. En este caso nos estaríamos fijando más en ``Commercial Support'' (asistencia de pago), ``Developer Community'' (comunidad de desarrolladores) y ``Public Forum'' (foros públicos). Destacar únicamente que WordPress no dispone de ese servicio, aunque el servicio gratuito sí que exista. Para analizarla más en detalle, observar la figura~\ref{fig:cmsmat3}
 
-\begin{figure}
-\begin{narrow}{-0.12\linewidth}{-0.12\linewidth}
-\centering
-\includegraphics[width=\linewidth]{cmsmat3}
-\caption{Support desde CMSMatrix.org}
-\label{fig:cmsmat3}
-\end{narrow}
-\end{figure}
+\fig{cmsmat3}{``Support'' desde CMSMatrix.org}
 
 \paragraph{Ease of Use (Facilidad de uso)}
 
 \par Este es uno de los puntos más importantes de la comparativa. Si observamos en la figura~\ref{fig:cmsmat4}:
 
-\begin{figure}
-\begin{narrow}{-0.12\linewidth}{-0.12\linewidth}
-\centering
-\includegraphics[width=\linewidth]{cmsmat4}
-\caption{Ease of Use desde CMSMatrix.org}
-\label{fig:cmsmat4}
-\end{narrow}
-\end{figure}
+\fig{cmsmat4}{``Ease of Use'' desde CMSMatrix.org}
 
 \par Encontraremos que, a destacar, podemos seleccionar como las más relevantes las opciones de ``Drag-N-Drop Content'' (arrastrar y soltar contenido), ``Image Resizing'' (redimensionado de imágenes), ``Mass Upload'' (subida de archivos masiva) y ``WYSIWYG Editor'' (editor visual).
 \par De la primera característica, tenemos Joomla! que no la soporta, MODx con una implementación limitada y ``Drupal'' con un añadido para esa función. De la segunda, tendríamos que tanto ``mojoPortal'' como ``WordPress'' presentan esta función limitada y ``Drupal'' necesita, otra vez, añadidos. En cuanto a la subida de ficheros masiva, mojoPortal sería incapaz mientras que Drupal y WordPress necesitarían un add-on. El editor visual está presente en todas, aunque se nos avisa que Drupal necesita de un añadido también. Lo que nos hace pensar que Drupal está construido de forma modular ya que muchas de sus características se consiguen a través de módulos suplementarios. Esto puede tener consecuencias positivas en cuanto a agilidad, tamaño y complejidad y negativas en cuanto que el proceso inicial de puesta en marcha puede (aún no lo sabemos) ser más complicado que otros.
@@ -258,28 +216,14 @@ Blog & 0 \\
 
 \par Este apartado (fig.~\ref{fig:cmsmat5} no contiene aspectos demasiado relevantes para el proyecto que tenemos entre manos, pues no se espera que la carga de trabajo del servidor sea elevada como para preocuparse por estos detalles, aunque llegado el momento del desempate, podría declinar la balanza entre una opción y otra. Siendo tanto ``WordPress'' como ``Joomla!'' los más perjudicados.
 
-\begin{figure}
-\begin{narrow}{-0.12\linewidth}{-0.12\linewidth}
-\centering
-\includegraphics[width=\linewidth]{cmsmat5}
-\caption{Performance desde CMSMatrix.org}
-\label{fig:cmsmat5}
-\end{narrow}
-\end{figure}
+\fig{cmsmat5}{``Performance'' desde CMSMatrix.org}
 
 
 \paragraph{Management (Administración)}
 
 \par La figura~\ref{fig:cmsmat6} presenta aspectos importantes para el administrador de la plataforma como: ``Online Administration'' (gestión en línea), ``Themes/Skins'' (temas gráficos), ``Web-based Style/Template Management'' (gestión de estilos y plantillas vía web) y ``Web-based Translation Management'' (gestión de traducciones vía web).
 
-\begin{figure}
-\begin{narrow}{-0.12\linewidth}{-0.12\linewidth}
-\centering
-\includegraphics[width=\linewidth]{cmsmat6}
-\caption{Management desde CMSMatrix.org}
-\label{fig:cmsmat6}
-\end{narrow}
-\end{figure}
+\fig{cmsmat6}{``Management'' desde CMSMatrix.org}
 
 \par Las características que he citado primera y cuarta son, a mi juicio, fundamentales, ya que permiten la gestión de la plataforma virtualmente desde cualquier dispositivo que pueda mostrar páginas web. Las fallas más significativas son las de ``MODx'' y ``mojoPortal", que gracias a la falta de gestor de traducciones vía web quedarían, por ahora, descalificadas por completo. Hay que destacar que ``WordPress'' tiene limitaciones en esto y acumularía ya unas cuantas pegas que no lo hacen muy aconsejable.
 
@@ -300,14 +244,7 @@ Blog & 0 \\
 \par XHTML Compliant (cumple con XHTML): XHTML es una especificación que trata de dar coherencia y acercar el lenguaje HTML a los estándares XML. Busca la ausencia de errores (se puede validar con facilidad) y la fiel reproducción de un contenido en distintos navegadores sin demasiadas diferencias. Es decir, busca establecer un estándar. Yo lo consideraría un mínimo exigible para cualquier plataforma web aunque en el futuro se de la posibilidad de cambiar a otros estándares como HTML5 (que aún no están implantados masivamente).
 
 
-\begin{figure}
-\begin{narrow}{-0.12\linewidth}{-0.12\linewidth}
-\centering
-\includegraphics[width=\linewidth]{cmsmat7}
-\caption{Interoperability desde CMSMatrix.org}
-\label{fig:cmsmat7}
-\end{narrow}
-\end{figure}
+\fig{cmsmat7}{``Interoperability'' desde CMSMatrix.org''}
 
 
 
@@ -316,14 +253,7 @@ Blog & 0 \\
 
 \par De esta sección, mostrada en la figura~\ref{fig:cmsmat8}, lo que más nos va a interesar es la ``Interface Localization'' (interfaz en el idioma deseado), la capacidad de presentar e integrar contenido en distintas lenguas, representado por ``Multilingual Content'' y ``Multilingual Content Integration". Tanto esta como las dos siguientes secciones, como se comprueba en el estilo austero, no son tan relevantes como las ya comentadas.
 
-\begin{figure}
-\begin{narrow}{-0.12\linewidth}{-0.12\linewidth}
-\centering
-\includegraphics[width=\linewidth]{cmsmat8}
-\caption{Flexibility desde CMSMatrix.org}
-\label{fig:cmsmat8}
-\end{narrow}
-\end{figure}
+\fig{cmsmat8}{``Flexibility'' desde CMSMatrix.org}
 
 
 \paragraph{Built-in Applications (Aplicaciones embebidas)}
@@ -331,39 +261,18 @@ Blog & 0 \\
 
 \par En esta sección se presentan todas esas funcionalidades extras que podrían (o no) interesarnos a la hora de diseñar nuestra plataforma (figuras~\ref{fig:cmsmat9-1} y~\ref{fig:cmsmat9-2}).
 
-\begin{figure}
-\begin{narrow}{-0.12\linewidth}{-0.12\linewidth}
-\centering
-\includegraphics[width=\linewidth]{cmsmat9-1}
-\caption{Built-in Applications (I) desde CMSMatrix.org}
-\label{fig:cmsmat9-1}
-\end{narrow}
-\end{figure}
+\fig{cmsmat9-1}{``Built-in Applications'' (I) desde CMSMatrix.org}
 
 \par Entre las presentes, me parecen reseñables las que tienen que ver con calendarios y eventos, manejo de enlaces, encuestas, manejo de documentos y galería de imágenes, entre otras, aunque, en general, no son demasiado importantes porque no sería difícil recrearlas.
 
-\begin{figure}
-\begin{narrow}{-0.12\linewidth}{-0.12\linewidth}
-\centering
-\includegraphics[width=\linewidth]{cmsmat9-2}
-\caption{Built-in Applications (II) desde CMSMatrix.org}
-\label{fig:cmsmat9-2}
-\end{narrow}
-\end{figure}
+\fig{cmsmat9-2}{``Built-in Applications'' (II) desde CMSMatrix.org}
 
 \paragraph{Commerce (Comercio electrónico)}
 
 
 \par Esta última figura (\ref{fig:cmsmatA}) se incluye casi a modo testimonial, dado que la parte comercial tanto del museo como, más generalmente, de todo el IGN, se concentra en otro departamento, fuera del alcance de este proyecto. En ella podemos ver distintas funcionalidades orientadas a la parte más comercial de la actividad: tienda, carrito, pasarela, etc.
 
-\begin{figure}
-%\begin{narrow}{-0.12\linewidth}{-0.12\linewidth}
-\centering
-\includegraphics[width=1.20\linewidth]{cmsmatA}
-\caption{Commerce desde CMSMatrix.org}
-\label{fig:cmsmatA}
-%\end{narrow}
-\end{figure}
+\fig{cmsmatA}{``Commerce'' desde CMSMatrix.org}
 
 \par Dicho todo esto, considero que Joomla! también debería ser apartado de los candidatos dada la falla en cuanto a XHTML. Los costes extra de dotCMS para algunas características me hacen pensar que la filosofía de ese proyecto no es tan cercana a nuestros objetivos como podría parecer, así que también los desaconsejaría.
 
@@ -433,70 +342,7 @@ Si hay que poner una pega (y no es trivial), es su curva de aprendizaje, dado qu
 
 \par Debido a la variabilidad de plazos y la diferencia apreciable de alcance en los proyectos del IGN y de este proyecto respectivamente, al final se decidió abandonar la línea de Alfresco sobre Liferay Portal y se optó por Drupal, que reunía los requisitos adecuados y tiene una gran comunidad de usuarios y desarrolladores detrás.
 
-Sin embargo, he creído conveniente adjuntar un anexo donde se indague un poco más sobre Alfresco y sus posibilidades.
-
-\subsection{Modelo de datos}
-\par Hemos dejado bien claro que el propósito de este trabajo no es desarrollar de cero un CMS si no escoger y adaptar uno ya existente a las necesidades que se nos han presentado. Antes de tomar una decisión (que es independiente del autor y tomará tiempo), es conveniente señalar que sí que debería existir una parte de ``diseño original'' que correspondería al modelado de algunas informaciones.
-
-
-\subsubsection{Catálogo}
-\par Respondiendo a los requisitos enunciados por miembros de la empresa, he elaborado un diseño de modelo de datos que podría utilizarse para abstraer los contenidos de un catálogo de objetos expuestos (subconjunto de ítems informativos del total del museo virtual) y no expuestos.
-Para ello, me he ayudado de un catálogo editado en papel por el propio Ministerio de Fomento titulado ``Instrumentos históricos del Instituto Geográfico Nacional". Debido a su creación artesanal cada instrumento no sigue la debida canonización que nos piden las bases de datos, y es por eso que he tratado de ordenarlo en un modelo de datos como el que se muestra:
-
-\paragraph{OBJETO}
-\begin{itemize}
-\item id/ref: número entero
-\item nombre: caracteres(30)
-\item firmado: (inventor, lugar\_origen, fecha\_origen) (se eliminaría del original)
-\item inventor: relación(n:n)
-\item lugar\_origen: relación(n:n)
-\item fecha\_origen: fecha
-\item dimensiones: caracteres(12)
-\item características técnicas: texto
-\item materiales: caracteres(20)
-\item depósito\_habitual: relación(1:n)
-\item observaciones: texto
-\item área: relación(1:1)
-\item tipo de objeto: relación(1:n)
-\item foto: caracteres(50)
-\item depósito actual: caracteres(50)
-\end{itemize}
-
-\paragraph{ÁREA}
-\begin{itemize}
-\item id: numérico
-\item nom\_area: caracteres(20)
-{Astronomía esférica, Geodesia geométrica, Topografía planisférica y Fotogrametría terrestre.
-Topografía altimétrica, Gabinete, Meteorología, Geofísica}
-\end{itemize}
-
-\paragraph{TIPO\_OBJETO}
-\begin{itemize}
-\item id: numérico
-\item nom\_tipo: caracteres(40)
-\item id\_area: relación(n:1)
-\end{itemize}
-
-\paragraph{ARTÍCULOS}
-\begin{itemize}
-\item id: numérico
-\item titulo: caracteres(25)
-\item contenido: texto
-\end{itemize}
-
-\paragraph{AREA\_ARTÍCULO}
-\begin{itemize}
-\item id\_area: relación(1:n)
-\item id\_articulo: relación(n:1)
-\end{itemize}
-
-\paragraph{INVENTOR}
-\begin{itemize}
-\item id\_inventor: numérico
-\item nom\_inventor: caracteres(25)
-\end{itemize}
-
-\par Este modelo será reutilizado (si se aprueba) para crear una interfaz sencilla de entrada de datos para el personal interno.
+Sin embargo, he creído conveniente adjuntar un anexo donde se indague un poco más sobre Alfresco y sus posibilidades (\ref{anexoalfresco}.
 
 \section{Drupal}
 
@@ -545,7 +391,7 @@ En esencia, son archivos que contienen código php que proporciona un conjunto d
 La verdadera potencia de los módulos reside en la interconexión de los mismos y el ajuste minucioso de las numerosas opciones de configuración que aporta cada uno de ellos. Nunca podrá conseguirse un sistema a pleno rendimiento si las opciones se dejan por defecto (aunque esta generalidad aplica a todo sistema informático de cierto nivel). Esta potencia que se nos ofrece en un principio, puede, dado la gran cantidad de alternativas disponibles, sin embargo, convertirse en un dolor de cabeza para dar con el módulo adecuado a nuestras necesidades (dado que hay varios que pueden aportar similares funcionalidades).
 
 \subsubsection{Usuarios}
-
+\label{cha:usuarios}
 \par Una de los cuerpos más importantes de un sistema informático es la gestión de usuarios. Su mayor baza es la de personalizar el entorno según las credenciales de la persona (o máquina) que accede. En el caso de Drupal, por defecto, encontramos un sistema de usuarios con multitud de opciones. Por defecto, se crea el ``User 1", que sería algo así como el usuario ``root'' en sistemas UNIX, es decir, un superusuario con derechos plenos sobre todo el sistema.
 Si bien la clásica organización en usuarios podría ser una solución, en el caso de Drupal, se añade el concepto de ``rol. Un rol, siguiendo con la analogía de UNIX, sería algo similar a un grupo de usuarios. De esta manera, se permite separar el espacio individual posible de cada usuario (que en nuestro caso no tendría demasiada utilidad, salvo la meramente identificativa a la hora de hacer cambios y puede que la capacidad de tener entradas como borradores) de su asignación de permisos.
 Los permisos son asignados a un rol determinado, y ese rol determinado puede ser asignado a varios usuarios, permitiendo, en todo caso, que todo usuario (incluso los anónimos) estén bajo control a la hora de decidir el acceso, creación, modificación y borrado de datos, así como los contenidos presentados en cada caso.
@@ -604,12 +450,12 @@ Todo esto aporta una fortaleza importante a la hora de indexar contenidos, proye
 \item Se le aplica el aspecto gráfico del tema utilizado en ese momento.
 \end{enumerate}
 
-\par Sin embargo, se podría ilustrar la estructura usada por Drupal a través de un pequeño esquema con el que vemos en la figura~\ref{fig:drupalthemes1}
+\par Sin embargo, se podría ilustrar la estructura usada por Drupal a través de un pequeño esquema con el que vemos en la figura~\ref{fig:drupalthemes}
 \begin{figure}
 \centering
-\includegraphics{drupalthemes1}
+\includegraphics{drupalthemes}
 \caption{Estructura básica de Temas en Drupal\cite{references:drupalthemes}}
-\label{fig:drupalthemes1}
+\label{fig:drupalthemes}
 \end{figure}
 
 
@@ -659,5 +505,49 @@ Todo esto aporta una fortaleza importante a la hora de indexar contenidos, proye
 
 
 \section{Conclusiones y trabajo futuro}
+\par Las conclusiones en este trabajo son muy variadas y pueden verse desde distintas perspectivas. 
 
+\subsection{Logros alcanzados}
+\par Básicamente, la consecución de este proyecto ha conseguido preparar la creación de una plataforma de gestión de contenidos con el objetivo de ampliar y enriquecer la experiencia de la visita a un museo. Dado que no se trata de un museo al uso si no de una exposición de instrumentos de una rama muy específica del conocimiento (muy atractiva al público general pero poco conocida entre la gente) que requiere, salvo en contadísimas excepciones, de la explicación pertinente por parte de un guía.
+\par La consecución de este museo virtual soluciona la obligatoriedad de la presencia de ese guía y de ese usuario en el mismo espacio y tiempo permitiendo ese acercamiento de manera más útil para todos.
+\par Con este proyecto, además, se pretende obtener una base de conocimiento que permita disponer del mismo y trabajar con él de manera que en un futuro esté accesible para otros proyectos como la edición de contenido en papel a partir de lo alojado en la base de datos.
+\par Además, permite una cierta interacción con el usuario, incluyéndole, aunque sea de en la esfera más privada y con pequeñas parcelas de participación en la experiencia de formación que quizá no todo el mundo pueda experimentar al visitar el museo por diversas razones.
+\par En el plano más técnico, se ha conseguido realizar una comparativa adecuada a las necesidades del cliente de los distintos CMS (y algunos wikis) disponibles en el mercado, poniendo de manifiesto que se trata de una parcela de la informática con muchísima activida e interés tanto comercial como de utilidad.
+\par Como último y evidente punto podemos concluir que se han sentado las bases para adaptar con éxito una plataforma de código abierto como es Drupal a unas necesidades concretas que eran demandadas por una nueva perspectiva en el cliente.
 
+\subsection{Conocimientos adquiridos}
+\subsubsection{Generalidades}
+Personalmente, este proyecto me ha dado la oportunidad de comprobar y entender un poco más lo compleja (aunque no imposible, como se podría creer) que resulta la ingeniería del software y, en general, la ingeniería informática. Compleja no sólo en lo imbrincado que pude llegar a ser un sistema de información, si no más bien en, como para casi todo, la parte más impredecible y más variable: el cliente. En mi caso el cliente no es tal ya que más que cliente es ``empleador'' a través de una beca. He comprobado (al igual que cualquiera que lo lea lo hará) lo que cambia un proyecto desde sus fases más tempranas hasta su ejecución. He visto la cantidad de disciplina (yo diría que más que en otros trabajos aunque menos, quizá, que en otras ingenierías) que requiere un proyecto de este tipo. En parte por la impredictibilidad de ciertos acontecimientos que modifican el rumbo y el cometido del proyecto y que alargan los plazos a través del descarte y posterior recomienzo desde cero si los términos no han sido los esperados.
+\par Son muchas partes a tener en cuenta que, ya no tan sorprendentemente (pues nos lo habían avisado con insistencia), tienen no demasiado que ver con la parte más técnica de un programa informático. Como por ejemplo, la fase de evaluación (en mi caso) de soluciones preliminares. Imagino que sería difícil para un analista no ingeniero tratar de evaluar innumerables plataformas con la intención de elegir alguna, pero, desde luego, no es la más grata de las labores que se me ocurre podría desempeñar un ingeniero.
+\par Una de esas partes, como decía al comienzo, es el cliente. Creo que la parte más importante de un proyecto (hasta donde yo he experimentado) es la comunicación con el cliente. Ya no sólo en el proceso de, más o menos pasivamente, recolectar requisitos y ayudar a traducir esas ideas a un metalenguaje no tan ambiguo como el humano. Incluso, me atrevería a decir, en los proyectos de investigación en los que la figura del cliente está más desdibujada, una buena manera de entenderse a uno mismo (o a un equipo) en sus objetivos es seguir el mismo proceso que tomaríamos para ``diagnosticar'' a un supuesto cliente.
+
+\subsubsection{Particularidades}
+\par Este proyecto, como supongo que lo harán todos, presenta un carácter y un contexto propios. Se trata de un proyecto enmarcado dentro de una beca de formación para un objetivo no crítico y en un entorno especial como es la rama de la investigación científica que va desde la ciencia de base (como la astronomía y la geofísica) a la más cercana a las ingenierías, que sería la instrumentación, que es en lo que han confluido buena parte de los esfuerzos de la institución del Real Observatorio de Madrid. Dentro del Instituto Geográfico Nacional, que, como ya he dicho en otras ocasiones, depende directamente del Ministerio de Fomento, se encuentran diversas ramas. El ROM se inscribe dentro de la Subdirección General de Astronomía, Geodesia y Geofísica, que gestiona otros observatorios astronómicos como el OAN con su sede en Yebes (Guadalajara), el de Pico Veleta (Granada) o el del Roque de los Muchachos (Canarias). Sin embargo, lo expuesto en el museo recorre todos los ámbitos más o menos diferenciados que cuelgan del IGN: Astronomía, Geodesia, Geofísica, Geomagnetismo, Sismología, Vulcanología, Cartografía y, además, una breve sección de instrumentos de una rama que ya no forma parde del IGN, que es la Meteorología. Esto lo cuento para dar una idea de la transversalidad del proyecto y de la cantidad de gente en cuanto a la creación de contenidos, además de poner de manifiesto la ausencia de personal especializado en Informática (salvo, de refilón, el caso de algunos Ingenieros de Telecomunicaciones que hábilmente han trabajado en construir los sistemas de control y telecontrol de instrumentos como radiotelescopios, gravímetros superconductores y demás tecnología punta). Lo que implica esta marcada ausencia es quizá una falta de rumbo claro a la hora de optar por unas u otras soluciones.
+\par Por otro lado, como ya hemos comentado está la asuencia de una criticidad clara del proyecto. Es decir, que no está en la agenda más inmediata de la mayoría de participantes. Todo esto, unido a la ya clásica lentitud de los procesos que dependen de las administraciones públicas (no sólo en materia de adjudicación de fondos o contratación de personal) acentúan mucho más lo que comentaba en las generalidades a propósito de la variabilidad de un proyecto y de la complejidad del trato con el factor humano en el cliente.
+
+\par Por otra parte, se trata de un proyecto que me presenta de bruces con el público dado que la consecuencia de mi trabajo estará disponible al público y deberá dar una respuesta fiable (dentro de unos márgenes temporales y de actuación) a trabajadores expertos en su campo. Sin duda es un proyecto ilusionante.
+
+\subsubsection{Modificaciones}
+\par Como en todo proyecto, como ya dije, pocas cosas permanecen invariables cuando pasa el tiempo. En mi caso, lo más invariable del mismo quizá ha sido el espíritu de iniciativa que, sin quizá una definición cristalina, ha conseguido hacerse un hueco y prosperar poco a poco. Dicho de otra manera: un proyecto que comenzó ambicioso en proyección no ha cesado en esa proyección aunque haya tenido que ajustar los resultados más a corto plazo. Esto quiere decir que, si bien no formarán parte de este trabajo de fin de carrera, surgirán unos cuantos proyectos que terminen (o no) de definir y construir las potenciales utilidades del inicial.
+\par En general, creo que la aproximación más como técnico que como ingeniero hace que incialmente podamos cometer este tipo de errores, que sin derrumbar el pragmatismo que es el objetivo, tratan de hacer ``virguerías''. Supongo que ese es un campo destinado a la investigación y no a la aplicación de tecnologías a problemas concretos.
+
+\paragraph{Web Semántica}
+\par En el plano de las convicciones más íntimas, he tenido que ``recular'' en propuestas, algunas por iniciativa propia y otras por exigencias del proyecto. Una de ellas pasaba por la inclusión intensiva de tecnologías de Web Semántica que permitieran catalogar los contenidos del museo con ``mayor'' eficacia y modularidad. Tras continuar mi formación (de varias asignaturas) con otro curso más en estos temas he observado varias cosas:
+\begin{enumerate}
+ \item Que se trata de una tecnología que por ahora está, digamos, no muy madura. Ni por la globalidad de Internet, ni por sus bases teóricas (que no acaban de cuajar en todos los agentes) y no sé sabe si seguirá adelante, pues para resolver un problema muy grande (la extracción de conocimiento útil a partir de cantidades ingentes de datos) ha implementado soluciones casi tan complicadas de resolver: principalmente las ontologías (estandarización, compartición, herencia, etc.), la utilidad de los agentes y ¿por qué no? la duda sobre si realmente un agente es un concepto útil para organizar operaciones (aunque es cierto que han corrido mejor suerte que las primeras).
+Dejo de lado la parte de más éxito como los buscadores que, de forma poco matemática, han utilizado algoritmos de ``detección'' de conocimiento en vez de esa catalogación ontológica que se proponía, echando un poco más de peso en las espaldas de los grandes defensores del ``etiquetado'' y catalogación minuciosa de la información.
+  \item Que supondría una carga de trabajo demasiado exigente para los resultados que obtendría.
+  \item Que no aportaría gran cosa que otras tecnologías sin más esfuerzos ya obtienen (no hay que reinventar la rueda).
+\end{enumerate}
+
+\paragraph{Uso de estándares}
+\par Esta en realidad no es un renuncia, si no que, en aras de la utilidad de sus componentes, se han relajados ciertos aspectos de la ``afición'' por XML. Como el lector ya habrá adivinado, esto tiene mucho que ver con la parte de Web Semántica, dado que la mayoría de tecnologías implicadas (RDF, RDFS, OWL) son estándares de la familia XML. Es en esa parte en la que más se ha renunciado, dejando la parte XML más universal (XHTML, XSLT) para la presentación final. Drupal, en general, cumple con estos estándares siendo XHTML utilizado para mostrar el contenido al cliente y espero poder utilizar XSLT para la transformación en PDF de los documentos contenidos en la plataforma.
+\par Sin embargo, y como reflexión, creo que ha cambiado mi manera de percibir la importancia del uso de estándares. Como en otras ocasiones (y de eso trata mucho de este proyecto) se trata de evaluación. Los estándares son útiles en la medida que nos ayudan a proporcionar un servicio o una ventaja a nuestros sistemas. Seguir un estándar como hecho en sí mismo a perseguir no tiene mucho sentido.
+
+\paragraph{Wikis}
+\par La otra gran modificación que ha sufrido este proyecto (que incluso está entre las palabras clave del resumen) es el descartar, al menos por ahora, la posibilidad de utilizar un wiki en exclusiva para una plataforma tan importante como ésta. Como digo, no se trata de una decisión arbitraria, si no de una decisión necesaria para asegurar la integridad y coherencia de los datos de carácter oficial.
+\par Pese a todo, y si se atiende con atención el proyecto, la apertura a nuevas modificaciones por parte de personal cualificado sigue siendo una verdad, con lo que, mínimamente, se persigue la estela de la filosofía del wiki conservando el tinte colaborativo del asunto.
+
+\subsection{Tiempo empleado}
+\par Este proyecto se ha venido realizando desde su primera reunión a principios de mayo hasta principios de diciembre con intermitencias, retrasos y demás contingencias que han hecho que el tiempo no fuese aprovechado con el máximo rendimiento. 
+\par Compartiendo el tiempo con otros proyectos englobados dentro de la beca convocada, 
