@@ -1,6 +1,0 @@
-\select@language {spanish}
-\contentsline {title}{Trabajo Fin de Carrera \unskip \ \ignorespaces Implantaci\IeC {\'o}n de un museo virtual en el Real Observatorio de Madrid}{1}
-\authcount {1}
-\contentsline {author}{H\IeC {\'e}ctor Navarro Mart\IeC {\'\i }n}{1}
-\contentsline {subsection}{\numberline {0.1}Comparativa con CMSMatrix}{5}
-\contentsline {subsubsection}{System Requeriments (Requisitos de sistema)}{5}
