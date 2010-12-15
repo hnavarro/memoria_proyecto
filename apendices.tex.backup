@@ -33,7 +33,7 @@
 \par Esta plataforma trata de simplificar, como toda aplicación informática presume, las tareas del usuario, dejando el horizonte libre para lo que sería, directamente, crear.
 \par Entre otras características, cuenta con:
 \begin{itemize}
- \item[Edición Web en el navegador], lo que facilita mucho esta tarea al usuario final pudiendo valerse de contenidos previamente publicados.
+ \item Edición Web en el navegador, lo que facilita mucho esta tarea al usuario final pudiendo valerse de contenidos previamente publicados.
  \item Integración de documentos ofimáticos automáticamente en la web (Office-to-Web), lo que permitiría, basándose en Google Docs (el sistema en la nube de edición colaborativa de documentos), con muy poco esfuerzo, pasar de bocetos en MS Office a publicar en la web respetando las normas CSS de la empresa.
  \item Unidad de red compartida, que no es más que extender el concepto que popularizó Microsoft hace muchos años pero en este caso, como si se tratase de la librería de la web.
 \end{itemize}
