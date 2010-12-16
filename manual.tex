@@ -1,3 +1,72 @@
 \section{Manual}
-En esta sección se resumirá el manual de usuario de la aplicación en cada caso.
+\par Ya hemos explicado que la implementación final de la plataforma no está terminada y no es parte de este proyecto el que lo esté. Sin embargo, he creído conveniente dar unas pinceladas de cómo sería este pequeño manual de estar acabada la misma.
+\par He considerado cuatro roles básicos: visitante, redactor, editor y administrador.
 
+\subsection{Visitante}
+\par Se trata del usuario final interesado por los contenidos presentados. Lo paradójico del tema es que en las aplicaciones web de este tipo no hay habitualmente un manual al uso, sino una sección de ayuda y una lista de preguntas frecuentes.
+
+\par La sección de ayuda describiría brevemente la aplicación junto con las acciones que se pueden llevar a cabo.
+\par Por ejemplo, tendríamos secciones como:
+\begin{center}
+ \begin{description}
+  \item Visita temática
+  \item Galería de instrumentos
+  \item Danos tu opinión
+  \item Saber más
+  \end{description}
+\end{center}
+
+\par A modo de muestra, la sección de la Galería de instrumentos podría tener estos contenidos:
+\begin{quotation}
+ En esta parte de la web encontrará la colección de instrumentos accesible por miniaturas de sus fotos en cuadrícula.
+\begin{itemize}
+ \item Para ver el nombre, localización y área científica de un instrumento, pose el ratón sobre su foto.
+\item Para acceder a la ficha del objeto haga click sobre la foto del mismo.
+\end{itemize}
+
+\par En la vista de ficha:
+\begin{itemize}
+ \item Para ver más de cerca una foto haga click sobre ella.
+  \item Para ampliar sus conocimientos sobre temas relacionados con el instrumento actual, consulte en la sección al pie de la página, donde encontrará artículos que le pueden ser de interés. Haga click en los enlaces para acceder.
+\end{itemize}
+\end{quotation}
+
+\subsection{Redactor}
+\par El manual de redactor incluye más funciones en pantalla pero el perfil es mínimamente más alto.
+\par Las secciones que podría cubrir un editor serían:
+\begin{center}
+ \begin{description}
+  \item Crear contenido
+  \item Modificar contenido
+  \item Eliminar contenido
+  \item Mensajería interna
+  \end{description}
+\end{center}
+\par Además, claro está, de las funciones heredadas de cualquier usuario visitante.
+\par A modo de ejemplo, otra vez, podríamos describir el contenido de ``Modificar contenido'' como:
+\begin{quotation}
+\par Esta opción serviría para proponer modificaciones sobre artículos propios y ajenos. La particularidad reside en que loos cambios de contenidos ya publicados deberán ser aprobados por el editor.
+\par Tras pasar el proceso de acceso (login), pulsaremos en el botón ``Contenido''. Eso nos llevará a una lista de contenidos que hemos creado (tanto publicados como no publicados). Esta vista tiene varios controles donde podremos realizar búsquedas de contenidos publicados creados por otros usuarios.
+\par En cualquier casi, tanto en ese panel como accediendo directamente a los contenidos, se nos mostrará un botón de ``Editar'' que nos llevará a la vista de edición.
+\par En esa vista podremos, a traves de un editor visual, modificar el contenido de los diferentes campos, así como añadir o eliminar fotos. Esta es la misma vista que se muestra a la hora de agregar contenidos, así que le resultará familiar.
+\par Cuando acabemos la edición, si se trata de un elemento publicado, podremos añadir una note dirigida al editor para ayudarle en la labor de revisión y publicación de cambios.
+\end{quotation}
+
+
+\subsection{Editor}
+\par El editor tendrá las mismas funciones de los anteriores y además, la capacidad para moderar los contenidos. Es decir, todo contenido accesible al visitante será supervisado antes de ser publicado (igual pasa con sus modificaciones o borrados).
+\par Esto añade a su vista de usuario (la que obtiene nada más acceder al sistema) una ``bandeja de acciones pendientes'' a la manera de las bandejas de mensajes de correo.
+\par Podría estar redactado así:
+\begin{quotation}
+ ~\paragraph{Moderación de contendios}
+  \par En la parde derecha de su panel, podrá ver la bandeja de acciones pendientes. Se muestra una línea con el título del nodo afectado, la acción a realizar y el redactor que la origina.
+Si hace click en ella, accederá a la vista de edición con los cambios propuestos resaltados (incluída la diferencia con el original).
+\begin{itemize}
+ \item Si hace click en ella, accederá a la vista de edición con los cambios propuestos resaltados (incluída la diferencia con el original). Podrá añadir o deshacer cambios y, una vez contento con el resultado, pulsar el botón de publicar contenido.
+  \item Para aprobar una acción sin acceder a ella, marque la(s) casilla(s) de verificación correspondientes a los nodos, elija la acción a realizar (aceptar, denegar, responder) y pulse finalmente en actualizar.
+\end{itemize}
+\end{quotation}
+
+
+\subsection{Administrador}
+\par El administrador estará al cargo de la gestión y el mantenimiento de la plataforma, así que su manual sería una versión reducida y modificada del manual de Drupal, donde habría que contemplar indicaciones sobre los temas gráficos implantados, la estructura interna de los flujos de datos y demás consideraciones de sistema y hardware sobre las máquinas.
